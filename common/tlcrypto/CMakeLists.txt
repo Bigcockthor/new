@@ -1,0 +1,12 @@
+cmake_minimum_required(VERSION 2.8)
+ADD_DEFINITIONS(-DHAVE_CONFIG_H -DSIGNED_RIGHT_SHIFT_IS -DARITHMETIC_RIGHT_SHIFT)
+PROJECT(tlcrypto)
+link_libraries(tlcrypto libcommon.a  libcrypto.a)
+set (CMAKE_BUILD_TYPE DEBUG)
+SET(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/../../common/lib)
+SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g -Wall -O2 -D_CONSOLE -pipe -Wno-invalid-offsetof -fcheck-new -g -D_ACE_SOCK -D_POSIX_THREADS -D_POSIX_THREAD_SAFE_FUNCTIONS -D_REENTRANT")
+link_directories(${PROJECT_SOURCE_DIR}/../../common/lib ./openssl/lib)
+include_directories(./ ../../common/include/  ./openssl/include/)
+add_library(tlcrypto STATIC tlcrypto.cpp)
+#add_executable(tlcrypto  tlcrypto.cpp)
+
