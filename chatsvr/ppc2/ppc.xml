@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<main>
+  <srvid>4306</srvid>
+  <host>0.0.0.0</host>
+  <port>4306</port>
+  <logfile>ppc</logfile>
+  <logLevel>4</logLevel>
+  <partnerid>13</partnerid>
+</main>
+
+<Config>
+  <BankerCondition>300000000</BankerCondition>
+  <!--申请上庄用户的资金条件-->
+  <AreaLimitMoney>2000000000</AreaLimitMoney>
+  <!--马的下注限制-->
+  <UserLimitMoney>30000000</UserLimitMoney>
+  <!--用户下注限制-->
+  <BankTime>5</BankTime>
+  <FreeTime>3</FreeTime>
+  <BetTime>15</BetTime>
+  <BroadMsgMoney>10000000</BroadMsgMoney>
+  <profitrate>20</profitrate>
+  <Kai40MaxCount>4</Kai40MaxCount>
+  <!--开40倍最大倍的个数-->
+  <Kai40MinCount>3</Kai40MinCount>
+  <!--开40倍最小的个数-->
+  <Kai30MaxCount>5</Kai30MaxCount>
+  <!--开30倍最大倍的个数-->
+  <Kai30MinCount>4</Kai30MinCount>
+  <!--开30倍最小倍的个数-->
+  <Kai20MaxCount>7</Kai20MaxCount>
+  <!--开20倍最大倍的个数-->
+  <Kai20MinCount>5</Kai20MinCount>
+  <!--开20倍最小倍的个数-->
+  <Kai10MaxCount>12</Kai10MaxCount>
+  <!--开10倍最大倍的个数-->
+  <Kai10MinCount>10</Kai10MinCount>
+  <!--开10倍最小倍的个数-->
+  <Taxrate>5</Taxrate>
+  <!--税收-->
+
+  <allow_g_chat>0</allow_g_chat>
+  <allow_s_chat>1</allow_s_chat>
+</Config>
+
+<cache>
+  <host>61.147.72.236</host>
+  <port>920</port>
+  <connnum>10</connnum>
+</cache>
+
+<msgswitch>
+  <host>61.147.72.236</host>
+  <port>700</port>
+</msgswitch>
+
+
+
+
+
+<dbserver>
+  <host>122.225.102.26</host>
+  <port>9100</port>
+  <passwd>123456</passwd>
+  <thread_num>10</thread_num>
+  <appkey>faddf</appkey>
+</dbserver>
+
+<dbserver>
+  <host>192.168.20.90</host>
+  <port>9090</port>
+  <passwd>123456</passwd>
+  <thread_num>10</thread_num>
+  <appkey>faddf</appkey>
+</dbserver>
