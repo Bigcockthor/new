@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<main>
+  <srvid>20600</srvid>
+  <host>0.0.0.0</host>
+  <port>20600</port>
+  <logfile>ppc</logfile>
+  <logLevel>4</logLevel>
+  <partnerid>27360</partnerid>
+</main>
+
+<Config>
+  <BankerCondition>3000000</BankerCondition>
+  <!--申请上庄用户的资金条件-->
+  <BankerLeaveMoney>400000000</BankerLeaveMoney>
+  <!--庄上低于该金币就强制下庄-->
+  <AreaLimitMoney>2000000000</AreaLimitMoney>
+  <!--马的下注限制-->
+  <UserLimitMoney>30000000</UserLimitMoney>
+  <!--用户下注限制-->
+  <BankTime>5</BankTime>
+  <FreeTime>3</FreeTime>
+  <BetTime>30</BetTime>
+  <BroadMsgMoney>100</BroadMsgMoney>
+  <profitrate>20</profitrate>
+  <Kai40MaxCount>4</Kai40MaxCount>
+  <!--开40倍最大倍的个数-->
+  <Kai40MinCount>3</Kai40MinCount>
+  <!--开40倍最小的个数-->
+  <Kai30MaxCount>5</Kai30MaxCount>
+  <!--开30倍最大倍的个数-->
+  <Kai30MinCount>4</Kai30MinCount>
+  <!--开30倍最小倍的个数-->
+  <Kai20MaxCount>7</Kai20MaxCount>
+  <!--开20倍最大倍的个数-->
+  <Kai20MinCount>5</Kai20MinCount>
+  <!--开20倍最小倍的个数-->
+  <Kai10MaxCount>12</Kai10MaxCount>
+  <!--开10倍最大倍的个数-->
+  <Kai10MinCount>10</Kai10MinCount>
+  <!--开10倍最小倍的个数-->
+  <Taxrate>5</Taxrate>
+  <!--税收-->
+  <allow_g_chat>1</allow_g_chat>
+  <allow_s_chat>1</allow_s_chat>
+  <SyncHistory>1</SyncHistory>
+  <SyncBetLimit>5</SyncBetLimit>
+  <monitorOn>1</monitorOn>
+  <ppcLink>1</ppcLink>
+  <sendDownloadUrl>1</sendDownloadUrl>
+ <bankerUserBet>253</bankerUserBet>
+ <bankerUserAward>254</bankerUserAward>
+ <bankerRoomBet>255</bankerRoomBet>
+ <!-- <betNeedTax>1</betNeedTax> -->
+  <limitType>0</limitType>
+  <bankerRoomAward>256</bankerRoomAward> 
+  <kafkalog>1</kafkalog>
+  <nolock>1</nolock>
+  
+  <!--beastalk奖励消息广播发送到哪些站配置 -->
+  <beanstaklPPCNew>10</beanstaklPPCNew>
+  <!--beastalk奖励消息通知类型 -->
+  <notifyMsgType>1</notifyMsgType>
+  <!-- 车行混淆是否开启-->
+  <confusionOpen>0</confusionOpen>
+  <!--车行混淆开启押注mac数-->
+  <confusionOpenMacLimit>1</confusionOpenMacLimit>
+  <!--车行混淆最小波动倍率-->
+  <ConfusionMinRate>70</ConfusionMinRate>
+  <!--车行混淆最大波动倍率-->
+  <ConfusionMaxRate>130</ConfusionMaxRate>
+  <!--车行混淆检查时间间隔-->
+  <ConfusionCheckTime>2</ConfusionCheckTime>
+  <!--车行连开次数设置,如5连开设置为20-->
+  <RepeatTimesRate>20</RepeatTimesRate>
+  <!--被限制用户当天最多被踢次数-->
+  <KickLimitTimes>3</KickLimitTimes>
+  <!--被限制用户连续最大局数没下注踢出-->
+  <NoBetMaxTimes>2</NoBetMaxTimes>
+  <!--最小连开-->
+  <RepeatMinTimes>2</RepeatMinTimes>
+  <!--最大连开-->
+  <RepeatMaxTimes>5</RepeatMaxTimes>
+
+</Config>
+
+<view>
+  <name>1</name>
+  <id>1</id>
+  <money>0</money>
+  <level>1</level>
+  <exp>1</exp>
+</view>
+
+
+<cache>
+  <host>123.57.70.184</host>
+  <port>920</port>
+  <connnum>10</connnum>
+</cache>
+
+<msgswitch>
+  <host>123.57.70.184</host>
+  <port>700</port>
+</msgswitch>
+
+<beanstalk>
+   <host>182.92.161.97</host>
+   <port>11300</port>
+   <conntimeout>0</conntimeout>
+</beanstalk>
+
+
+<dbserver>
+  <host>123.57.70.184</host>
+  <port>2003</port>
+  <passwd>123456</passwd>
+  <thread_num>1</thread_num>
+  <appkey>faddf</appkey>
+</dbserver>
+
