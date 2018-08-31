@@ -1,0 +1,14 @@
+﻿生成启动时间为 2011/6/13 0:11:03。
+     1>项目“D:\thirdpart\ACE_wrappers\ace\ACE_vc9.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Template\ACE_vc9.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“Template\ACE_vc9.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       FinalizeBuildStatus:
+         正在删除文件“Template\ACE_vc9.unsuccessfulbuild”。
+         正在对“Template\ACE_vc9.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\thirdpart\ACE_wrappers\ace\ACE_vc9.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.09
