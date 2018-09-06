@@ -25,7 +25,7 @@ enum
 	MSGSWITCH_CMD_IMCMSG	 = 0x0006,
 };
 
-/*���󷽷��ͽ�����Typeֵ*/
+/*请求方发送进来的Type值*/
 enum
 {
 	MSGSWITCH_TYPE_REQ = 0x0001,
@@ -34,8 +34,8 @@ enum
 
 enum
 {
-	MSGSWITCH_HDL_SUCCESS = 0x0001,					//�����ɹ�
-	MSGSWITCH_HDL_FAILED,							//����ʧ��
+	MSGSWITCH_HDL_SUCCESS = 0x0001,					//操作成功
+	MSGSWITCH_HDL_FAILED,							//操作失败
 	MSGSWITCH_HDL_WRONG_PASSWD,
 };
 
@@ -58,98 +58,98 @@ enum {
 	UDP_MAN_NEW_BCMSG			= 0x0006,
 	UDP_MAN_FLOCK_LIST			= 0x0007,
 
-	UDP_MAN_TENROOM_KICKOUT		= 0x0019,						//ʮ�˷�������
-	UDP_MAN_NEW_IMBCMSG			= 0x001A,						//IM�㲥
+	UDP_MAN_TENROOM_KICKOUT		= 0x0019,						//十人房间踢人
+	UDP_MAN_NEW_IMBCMSG			= 0x001A,						//IM广播
 
-	UDP_MAN_HDR_ADDMGR          = 0x0020,   					//���ӹ���Ա
-	UDP_MAN_HDR_DELMGR          = 0x0021,   					//ɾ������Ա
-	UDP_MAN_HDR_MODIFYINFO      = 0x0022,   					//�޸ķ�������
-	UDP_MAN_HDR_BLACKLIST       = 0x0023,   					//������
-	UDP_MAN_DESTORYROOM			= 0x0024,						//��������
+	UDP_MAN_HDR_ADDMGR          = 0x0020,   					//添加管理员
+	UDP_MAN_HDR_DELMGR          = 0x0021,   					//删除管理员
+	UDP_MAN_HDR_MODIFYINFO      = 0x0022,   					//修改房间资料
+	UDP_MAN_HDR_BLACKLIST       = 0x0023,   					//黑名单
+	UDP_MAN_DESTORYROOM			= 0x0024,						//重启房间
 
-	UDP_MAN_ADDBLACKITEM		= 0x0029,						//IM���Ӻ�����
-	UDP_MAN_DELBLACKITEM		= 0x002C,						//IMɾ��������
+	UDP_MAN_ADDBLACKITEM		= 0x0029,						//IM添加黑名单
+	UDP_MAN_DELBLACKITEM		= 0x002C,						//IM删除黑名单
 	UDP_MAN_FORCEOFFLINE		= 0x0030,
 
-	UDP_MAN_UPDMONEY			= 0x0032,						//����֪ͨ�ʽ�
-	UDP_MAN_UPDFLOCK			= 0x0033,						//���·���
+	UDP_MAN_UPDMONEY			= 0x0032,						//重新通知资金
+	UDP_MAN_UPDFLOCK			= 0x0033,						//更新房间
 
-	UDP_MAN_ADDSUPERMAN			= 0x0035,						//���ӳ���
-	UDP_MAN_DELSUPERMAN			= 0x0036,						//ɾ������
+	UDP_MAN_ADDSUPERMAN			= 0x0035,						//添加超管
+	UDP_MAN_DELSUPERMAN			= 0x0036,						//删除超管
 
-	UDP_MAN_NOTIFYNEWMONEY		= 0x003D,						//֪ͨ���µ��ʽ�
-	UDP_MAN_POPUPMSG			= 0x003E,						//֪ͨ���µĵ�����Ϣ
-	UDP_MAN_USER_CLEAR_CACHE	= 0x003F,						//֪ͨ�����û���̨����Ȩ��
+	UDP_MAN_NOTIFYNEWMONEY		= 0x003D,						//通知最新的资金
+	UDP_MAN_POPUPMSG			= 0x003E,						//通知最新的弹出消息
+	UDP_MAN_USER_CLEAR_CACHE	= 0x003F,						//通知最新用户后台管理权限
 
 
 
-	UDP_MAN_IMMESSAGE			= 0x0040,						//Im��Ϣ
-	UDP_MAN_PARTNER_UPDATE		= 0x0041,						//����������ø���
-	UDP_MAN_GLOBLE_MSG,											//ȫ������
-	UDP_MAN_GLOBLE_MSG2,										//��������
-	UDP_MAN_GLOBLE_MSG3,										//ȫ��ϵͳ�԰�
-	UDP_MAN_GENERAL_MSG,										//ȫ��ϵͳ�԰�
-	UDP_MAN_DISTRIBUTE_REDPAPER,								//�ַ������Ϣ
-	UDP_MAN_ACQUIRE_REDPAPER,									//��ú����Ϣ
-	UDP_MAN_NOTIFY_REDPAPER,									//֪ͨ�������Ϣ
-	UDP_MAN_OUTOFDATE_REDPAPER,									//���ں����Ϣ
-	UDP_MAN_NOTIFYFORCEOFFLINE,									//ǿ������֪ͨ
-	UDP_MAN_MODIFYMGRINFO,										//�޸Ĺ���
-	UDP_MAN_FORMAL_OPERATION,									//��ʽ��Ӫ֪ͨ
-	UDP_MAN_SUIBO_FORCE_END,									//�沥ǿ�ƹر�
-	UDP_MAN_SUIBO_MSG,											//�沥�ƹ���Ϣ //����
-	UDP_MAN_SUIBO_OWN_MSG,										//�沥����֪ͨ������Ϣ
-	UDP_MAN_NOTIFY_MSG,											//�ƹ���Ϣ���
-	UDP_MAN_NOTIFY_BLOCK,										//�沥����֪ͨ
-	UDP_MAN_PPC_AWARD_MSG,										//�����н���Ϣ
-	UDP_MAN_SUIBO_ROOM_BROADCAST2,                              //�沥����㲥��1������2��������web��̨
-	UDP_MAN_WEEKSTAR_CHANGE,									//���Ǳ��֪ͨ//����
-	UDP_MAN_DIAMON_UPDATE,										//��ʯ����
-	UDP_MAN_DIAMONRECV_UPDATE,									//��ʯ������
-	UDP_MAN_ANYCAST_NEW_BROADCAST,								//�沥�¹㲥��Ϣ
-	UDP_MAN_SUIBO_MSG_NEW,										//�沥�ƹ���Ϣ ����
-	UDP_MAN_SUIBO_OWN_MSG_NEW,									//�沥����֪ͨ������Ϣ
-	UDP_MAN_ANYCAST_ACTIVE_UPDATE,								//�����
-	UDP_MAN_ANYCAST_LEVEL_CHANGE,								//�ȼ�����֪ͨ
-	UDP_MAN_ANYCAST_ONFOCUS,									//ֱ�����й�ע֪ͨ
-	UDP_MAN_ANYCAST_ONFOCUS_SHARE,								//�����д����Ĺ�ע
-	UDP_MAN_ANYCAST_SHARE_VIEWER,								//���ڷ�������
-	UDP_MAN_ANYCAST_UPDATEVER,									//�޸İ汾��
-	UDP_MAN_ANYCAST_SHAREEXP,									//���������
+	UDP_MAN_IMMESSAGE			= 0x0040,						//Im消息
+	UDP_MAN_PARTNER_UPDATE		= 0x0041,						//合作伙伴设置更新
+	UDP_MAN_GLOBLE_MSG,											//全局喇叭
+	UDP_MAN_GLOBLE_MSG2,										//大礼喇叭
+	UDP_MAN_GLOBLE_MSG3,										//全局系统嗽叭
+	UDP_MAN_GENERAL_MSG,										//全局系统嗽叭
+	UDP_MAN_DISTRIBUTE_REDPAPER,								//分发红包消息
+	UDP_MAN_ACQUIRE_REDPAPER,									//获得红包消息
+	UDP_MAN_NOTIFY_REDPAPER,									//通知抢红包消息
+	UDP_MAN_OUTOFDATE_REDPAPER,									//过期红包消息
+	UDP_MAN_NOTIFYFORCEOFFLINE,									//强制下线通知
+	UDP_MAN_MODIFYMGRINFO,										//修改管理
+	UDP_MAN_FORMAL_OPERATION,									//正式运营通知
+	UDP_MAN_SUIBO_FORCE_END,									//强制关闭
+	UDP_MAN_SUIBO_MSG,											//推广消息 //废弃
+	UDP_MAN_SUIBO_OWN_MSG,										//分享通知主播消息
+	UDP_MAN_NOTIFY_MSG,											//推广消息入口
+	UDP_MAN_NOTIFY_BLOCK,										//封锁通知
+	UDP_MAN_PPC_AWARD_MSG,										//车行中奖消息
+	UDP_MAN_SUIBO_ROOM_BROADCAST2,                              //房间广播，1条或者2条，来自web后台
+	UDP_MAN_WEEKSTAR_CHANGE,									//周星变更通知//废弃
+	UDP_MAN_DIAMON_UPDATE,										//钻石更新
+	UDP_MAN_DIAMONRECV_UPDATE,									//钻石劵更新
+	UDP_MAN_ANYCAST_NEW_BROADCAST,								//新广播消息
+	UDP_MAN_SUIBO_MSG_NEW,										//推广消息 废弃
+	UDP_MAN_SUIBO_OWN_MSG_NEW,									//分享通知主播消息
+	UDP_MAN_ANYCAST_ACTIVE_UPDATE,								//活动更新
+	UDP_MAN_ANYCAST_LEVEL_CHANGE,								//等级更新通知
+	UDP_MAN_ANYCAST_ONFOCUS,									//直播间中关注通知
+	UDP_MAN_ANYCAST_ONFOCUS_SHARE,								//分享中带来的关注
+	UDP_MAN_ANYCAST_SHARE_VIEWER,								//观众分享推送
+	UDP_MAN_ANYCAST_UPDATEVER,									//修改版本号
+	UDP_MAN_ANYCAST_SHAREEXP,									//带经验分享
 	
 
 
-	UDP_MAN_MEDIA_CREATEROOM	= 0x0100,						//GTS��������
-	UDP_MAN_MEDIA_DESTROYROOM	= 0x0101,						//GTS���ٷ���
-	UDP_MAN_MEDIA_MICLIST		= 0x0102,						//GTS����б�
-	UDP_MAN_MEDIA_CHECKROOM		= 0x0103,						//GTS��鷿��
-	UDP_MAN_MEDIA_LOGOUTUSER	= 0x0104,						//Gts�û��˳�
-	UDP_MAN_MEDIA_CHECKROOM2	= 0x0105,						//GTS��鷿��
+	UDP_MAN_MEDIA_CREATEROOM	= 0x0100,						//GTS创建房间
+	UDP_MAN_MEDIA_DESTROYROOM	= 0x0101,						//GTS销毁房间
+	UDP_MAN_MEDIA_MICLIST		= 0x0102,						//GTS麦克列表
+	UDP_MAN_MEDIA_CHECKROOM		= 0x0103,						//GTS检查房间
+	UDP_MAN_MEDIA_LOGOUTUSER	= 0x0104,						//Gts用户退出
+	UDP_MAN_MEDIA_CHECKROOM2	= 0x0105,						//GTS检查房间
 
-	UDP_MAN_WEB_USER			= 0x0200,						//web�û���������Ϣ
-	UDP_MAN_WEB_CHATTEXT,										//web������Ϣ
-	UDP_MAN_WEB_VIEWSTATE,										//ֱ��״̬
+	UDP_MAN_WEB_USER			= 0x0200,						//web用户上下线消息
+	UDP_MAN_WEB_CHATTEXT,										//web聊天消息
+	UDP_MAN_WEB_VIEWSTATE,										//直播状态
 
 
-	//cocר�÷��䲻���ظ�
-	UDP_MAN_COC_SYS_MSG = 200,									//��Ϸϵͳ��Ϣ
-	UDP_MAN_COC_MAIL_MSG,										//��Ϸ�ʼ���Ϣ
-	UDP_MAN_COC_CHALLENG_NOTIFY,								//��ս��֪ͨ
-	UDP_MAN_COC_DISCOUNT,										//����֪ͨ
-	UDP_MAN_COC_BUY_GEMSTONE,									//����ʯ֪ͨ
+	//coc专用房间不可重复
+	UDP_MAN_COC_SYS_MSG = 200,									//游戏系统消息
+	UDP_MAN_COC_MAIL_MSG,										//游戏邮件消息
+	UDP_MAN_COC_CHALLENG_NOTIFY,								//挑战赛通知
+	UDP_MAN_COC_DISCOUNT,										//打折通知
+	UDP_MAN_COC_BUY_GEMSTONE,									//购买宝石通知
 
-	UDP_MAN_BIGROOM_UPDATE_ACT		= 0x300,					//Ȩ�ޱ��
-	UDP_MAN_BIGROOM_UPDATE_PARTNER,								//��������Ϣ���
-	UDP_MAN_BIGROOM_UPDATE_GIFT,								//������Ϣ�䶯
-	UDP_MAN_BIGROOM_UPDATE_DIAMON,								//��ʯ��������
-	UDP_MAN_BIGROOM_UPDATE_BOX,									//����������
-	UDP_MAN_BIGROOM_UPDATE_REDCONF,								//�������
-	UDP_MAN_BIGROOM_UPDATE_REDSTATE,							//���������
-	UDP_MAN_BIGROOM_UPDATE_SIEGEGIFT,							//���¹���������Ϣ
-	UDP_MAN_BIGROOM_WEEKSTAR_CHANGE,							//���Ǳ䶯֪ͨ
-	UDP_MAN_BIGROOM_DAYRANK_UPDATE,								//�����е�һ���䶯֪ͨ
+	UDP_MAN_BIGROOM_UPDATE_ACT		= 0x300,					//权限变更
+	UDP_MAN_BIGROOM_UPDATE_PARTNER,								//服务商信息变更
+	UDP_MAN_BIGROOM_UPDATE_GIFT,								//礼物信息变动
+	UDP_MAN_BIGROOM_UPDATE_DIAMON,								//钻石礼物配置
+	UDP_MAN_BIGROOM_UPDATE_BOX,									//开宝箱配置
+	UDP_MAN_BIGROOM_UPDATE_REDCONF,								//红包配置
+	UDP_MAN_BIGROOM_UPDATE_REDSTATE,							//红包已抢完
+	UDP_MAN_BIGROOM_UPDATE_SIEGEGIFT,							//更新攻城礼物信息
+	UDP_MAN_BIGROOM_WEEKSTAR_CHANGE,							//周星变动通知
+	UDP_MAN_BIGROOM_DAYRANK_UPDATE,								//日排行第一名变动通知
 
-	UDP_MAN_YIYUAN_DUOBAO			= 0x400,					//һԪ�ᱦȫվ�н���Ϣ
+	UDP_MAN_YIYUAN_DUOBAO			= 0x400,					//一元夺宝全站中奖消息
 };
 
 struct MsgSwitchInfo
