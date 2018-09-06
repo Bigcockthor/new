@@ -1265,11 +1265,11 @@ typedef enum RoomCmdType
 	IM_CHAT_VOD,												//点歌
 	IM_CHAT_VID_GIFTORDER,										//直播榜单
 	IM_CHAT_MONTH_GIFTORDER,									//月榜单
-	IM_CHAT_SUIBO_REDUCEMONEY,									//随播扣钱消费通用接口
-	IM_CHAT_ANYCAST_INFO,										//随播进入房间数据获取接口
+	IM_CHAT_SUIBO_REDUCEMONEY,									//扣钱消费通用接口
+	IM_CHAT_ANYCAST_INFO,										//进入房间数据获取接口
 	IM_CHAT_REQ_MGRLIST,										//请求房间管理列表
-	IM_CHAT_ANYCAST_BLOCK,										//随播拉黑
-	IM_CHAT_ANYCAST_REDLIST,									//随播红包列表
+	IM_CHAT_ANYCAST_BLOCK,										//拉黑
+	IM_CHAT_ANYCAST_REDLIST,									//红包列表
 
 
 	IM_CHAT_ZZ_BET					= 0x350,					//转转下注
@@ -1305,7 +1305,7 @@ typedef enum RoomCmdType
 	IM_CHAT_SRV_LAUDCOUNT,										//更新点赞
 	IM_CHAT_SRV_SHARE,											//分享
 	IM_CHAT_SVR_FIREWORKS,										//礼花通知
-	IM_CHAT_SVR_TOTALRECV,										//随播主播总收益广播
+	IM_CHAT_SVR_TOTALRECV,										//主播总收益广播
 
 
 
