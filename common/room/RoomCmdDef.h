@@ -14,39 +14,39 @@ enum
 	IM_CHAT_VER9		=   9,
 	IM_CHAT_VER10		=   10,
 	IM_CHAT_VER11		=   11,
-	IM_CHAT_VER12		=   12,						//Ð­ÒéÔö¼ÓÁË¾ôÎ»µÈ,
-	IM_CHAT_VER13		=	13,						//ÂóÐòµ÷ÕûÔö¼ÓÁË²Ù×÷ÈË,¸Ä½øÖÐ½±ÌáÊ¾
-	IM_CHAT_VER14		=	14,						//»»³ÉÐÂÃ½Ìå·þÎñÆ÷£¬Ö»ÏÂ·¢Ã½Ìå·ÖÎöÍø¹Ø
-	IM_CHAT_VER15		=	15,						//½ø·¿¼äÏÂ·¢ÔÚÂóÐÅÏ¢Ê±´øÉÏÂóÊ±,ÓÃ»§ÁÐ±í²»ÔÙ´øÓÃ»§ÂóÐÅÏ¢
-	IM_CHAT_VER16		=	16,						//½ø·¿¼äµã¸èÀñÎï
-	IM_CHAT_VER17		=   17,						//Ôö¼ÓÓ¡ÕÂ¹¦ÄÜ
-	IM_CHAT_VER18		=   18,						//Ôö¼ÓÃâ·Ñ¿ªÏä´ÎÊý
-	IM_CHAT_VER19		=	19,						//Ôö¼Ó×êÊ¯»áÔ±µÈÐÂµÄÉí·Ý  2013-09-28
-	IM_CHAT_VER20		=   20,						//Ôö¼ÓÁÄÌìÓÎÏ·
-	IM_CHAT_VER21		=   21,						//Ôö¼ÓµÇÂ¼ÃÜÂëdesÐ£Ñé
-	IM_CHAT_VER22		=   22,						//µ÷ÕûÉÏÂó½±Àø
-	IM_CHAT_VER23		=   23,						//ÓÃ»§ÁÐ±íÔö¼ÓÉè±¸ÀàÐÍ×Ö¶Î£¬½ûÑÔÊ£ÓàÊ±¼ä×Ö¶Î
-	IM_CHAT_VER24		=   24,						//ÁÄÌìÔö¼ÓÊÕ·Ñ±íÇé
-	IM_CHAT_VER25		=	25,                     //ÏÂ·¢ÐÂÀñÎï°æ±¾ºÅ£ºÓëÀÏµÄÇø·Ö
-	IM_CHAT_VER26		=   26,						//ÐÞ¸ÄÈ«Á¿ÂóÐòÐ­ÒéÒÔ¼æÈÝ ÐÂÀÏµã¸èÀñÎïÂóÐòÖÐµÄÏÔÊ¾
-	IM_CHAT_VER27		=	27,						//ÂóÉÏÐÅÏ¢Ôö¼Ónick
-	IM_CHAT_VER28		=	28,						//·¿¼äÐÅÏ¢Ôö¼Ó×î´óÂóÊ±
-	IM_CHAT_VER30		=	30,						//µÇÂ¼·µ»ØÔö¼ÓmicÏÞÖÆ×Ö¶Î
-	IM_CHAT_VER31		=	31,						//µÇÂ¼·µ»ØÔö¼ÓË½Âó¿ª¹Ø
-	IM_CHAT_VER32		=	32,						//ÀñÎïÏà¹Ø½Ó¿Úµ÷ÕûÎªuint64
+	IM_CHAT_VER12		=   12,						//åè®®å¢žåŠ äº†çˆµä½ç­‰,
+	IM_CHAT_VER13		=	13,						//éº¦åºè°ƒæ•´å¢žåŠ äº†æ“ä½œäºº,æ”¹è¿›ä¸­å¥–æç¤º
+	IM_CHAT_VER14		=	14,						//æ¢æˆæ–°åª’ä½“æœåŠ¡å™¨ï¼Œåªä¸‹å‘åª’ä½“åˆ†æžç½‘å…³
+	IM_CHAT_VER15		=	15,						//è¿›æˆ¿é—´ä¸‹å‘åœ¨éº¦ä¿¡æ¯æ—¶å¸¦ä¸Šéº¦æ—¶,ç”¨æˆ·åˆ—è¡¨ä¸å†å¸¦ç”¨æˆ·éº¦ä¿¡æ¯
+	IM_CHAT_VER16		=	16,						//è¿›æˆ¿é—´ç‚¹æ­Œç¤¼ç‰©
+	IM_CHAT_VER17		=   17,						//å¢žåŠ å°ç« åŠŸèƒ½
+	IM_CHAT_VER18		=   18,						//å¢žåŠ å…è´¹å¼€ç®±æ¬¡æ•°
+	IM_CHAT_VER19		=	19,						//å¢žåŠ é’»çŸ³ä¼šå‘˜ç­‰æ–°çš„èº«ä»½  2013-09-28
+	IM_CHAT_VER20		=   20,						//å¢žåŠ èŠå¤©æ¸¸æˆ
+	IM_CHAT_VER21		=   21,						//å¢žåŠ ç™»å½•å¯†ç desæ ¡éªŒ
+	IM_CHAT_VER22		=   22,						//è°ƒæ•´ä¸Šéº¦å¥–åŠ±
+	IM_CHAT_VER23		=   23,						//ç”¨æˆ·åˆ—è¡¨å¢žåŠ è®¾å¤‡ç±»åž‹å­—æ®µï¼Œç¦è¨€å‰©ä½™æ—¶é—´å­—æ®µ
+	IM_CHAT_VER24		=   24,						//èŠå¤©å¢žåŠ æ”¶è´¹è¡¨æƒ…
+	IM_CHAT_VER25		=	25,                     //ä¸‹å‘æ–°ç¤¼ç‰©ç‰ˆæœ¬å·ï¼šä¸Žè€çš„åŒºåˆ†
+	IM_CHAT_VER26		=   26,						//ä¿®æ”¹å…¨é‡éº¦åºåè®®ä»¥å…¼å®¹ æ–°è€ç‚¹æ­Œç¤¼ç‰©éº¦åºä¸­çš„æ˜¾ç¤º
+	IM_CHAT_VER27		=	27,						//éº¦ä¸Šä¿¡æ¯å¢žåŠ nick
+	IM_CHAT_VER28		=	28,						//æˆ¿é—´ä¿¡æ¯å¢žåŠ æœ€å¤§éº¦æ—¶
+	IM_CHAT_VER30		=	30,						//ç™»å½•è¿”å›žå¢žåŠ micé™åˆ¶å­—æ®µ
+	IM_CHAT_VER31		=	31,						//ç™»å½•è¿”å›žå¢žåŠ ç§éº¦å¼€å…³
+	IM_CHAT_VER32		=	32,						//ç¤¼ç‰©ç›¸å…³æŽ¥å£è°ƒæ•´ä¸ºuint64
 	IM_CHAT_VER33		=	33,
-	IM_CHAT_VER34		=	34,						//Ôö¼Ó»î¶¯Éí·Ý
-	IM_CHAT_VER35		=	35,						//ÐÞ¸´rankÎªuint16×Ö¶Î
-	IM_CHAT_VER36		=	36,						//Éí·Ý¼æÈÝ
-	IM_CHAT_VER37		=   37,						//ºì°üÁÐ±í¼æÈÝ
+	IM_CHAT_VER34		=	34,						//å¢žåŠ æ´»åŠ¨èº«ä»½
+	IM_CHAT_VER35		=	35,						//ä¿®å¤rankä¸ºuint16å­—æ®µ
+	IM_CHAT_VER36		=	36,						//èº«ä»½å…¼å®¹
+	IM_CHAT_VER37		=   37,						//çº¢åŒ…åˆ—è¡¨å…¼å®¹
 	IM_CHAT_VER38		=   38,						//rank uint32
-	IM_CHAT_VER40		=	40,						//Æ¤·ôÐÅÏ¢ ¿Í»§¶Ë°æ±¾
-	IM_CHAT_VER41		=	41,						//ËÍÀñÉÏË½Âó´øÀñÎïID£¬ºì°ü¸ÄÎªuint64£¬Ôö¼Ó×øÆï£¬ÏÂ·¢¶à¸öÅä³µµÄÊý×é
+	IM_CHAT_VER40		=	40,						//çš®è‚¤ä¿¡æ¯ å®¢æˆ·ç«¯ç‰ˆæœ¬
+	IM_CHAT_VER41		=	41,						//é€ç¤¼ä¸Šç§éº¦å¸¦ç¤¼ç‰©IDï¼Œçº¢åŒ…æ”¹ä¸ºuint64ï¼Œå¢žåŠ åéª‘ï¼Œä¸‹å‘å¤šä¸ªé…è½¦çš„æ•°ç»„
 	IM_CHAT_VER_CURR	=	IM_CHAT_VER38,			
 	
 	IM_CHAT_VERPROT		=	100,
 	//IM_CHAT_VER_CURR	=	IM_CHAT_VER16, 
-	IM_PPC_PROTO		=	200,					//ppcÊ¹ÓÃproto°æ±¾ºÅ
+	IM_PPC_PROTO		=	200,					//ppcä½¿ç”¨protoç‰ˆæœ¬å·
 };
 
 class CChatMsgType
@@ -69,7 +69,7 @@ public:
 		ShowReceviedGift,
 		ShowColorTip,
 		ColorTip,
-		Msg_Auto_Reply,//×Ô¶¯»Ø¸´µÄÏûÏ¢
+		Msg_Auto_Reply,//è‡ªåŠ¨å›žå¤çš„æ¶ˆæ¯
 		ShowHtmlMsg,
 		GneralMsg, //
 		SystemWarmPromptMsg,
@@ -78,13 +78,13 @@ public:
 };
 
 
-//ÁÄÌìÓÎÏ·
+//èŠå¤©æ¸¸æˆ
 class CChatGameType
 {
 public:
 	enum ChatMsgType
 	{
-		ChatDicing,		//ÖÀ÷»×Ó
+		ChatDicing,		//æŽ·éª°å­
 	};
 };
 
@@ -92,122 +92,122 @@ public:
 class RoomInfoItemStr
 {
 public:
-	static std::string CHAT_PRIVATE_ACCESS;							//Ë½ÁÄÊôÐÔÐÞ¸Ä
-	static std::string CHAT_PUBLIC_ACCESS;							//¹«ÁÄÊôÐÔÐÞ¸Ä
+	static std::string CHAT_PRIVATE_ACCESS;							//ç§èŠå±žæ€§ä¿®æ”¹
+	static std::string CHAT_PUBLIC_ACCESS;							//å…¬èŠå±žæ€§ä¿®æ”¹
 };
 
 
 
 typedef enum RoomType
 {
-	IMROOM_TYPE_SMALL			= 1,							//£Ð£²£ÐÖÐ×ªÐ¡·¿¼ä
-	IMROOM_TYPE_BIG				= 2,							//ÒôÊÓÆµÖÐ×ª´ó·¿¼ä
-	IMROOM_TYPE_GAME_STAR		= 3,							//×ª×ª
+	IMROOM_TYPE_SMALL			= 1,							//ï¼°ï¼’ï¼°ä¸­è½¬å°æˆ¿é—´
+	IMROOM_TYPE_BIG				= 2,							//éŸ³è§†é¢‘ä¸­è½¬å¤§æˆ¿é—´
+	IMROOM_TYPE_GAME_STAR		= 3,							//è½¬è½¬
 	IMROOM_TYPE_GAME_POKER		= 4,							//
 	IMROOM_TYPE_GAME_POKER_100	= 5,
-	IMROOM_TYPE_BIG_3			= 6,                            //1´ó2Ð¡ÊÓÆµ
-	IMROOM_TYPE_BIG_3_SH		= 7,                            //3Ð¡ºáÊÓÆµ
-	IMROOM_TYPE_BIG_3_SV		= 8,							//3Ð¡ÊúÊÓÆµ
-	IMROOM_TYPE_BIG_3_F			= 9,							//2´óÒ»¸¡¶¯ÊÓÆµ
-	IMROOM_TYPE_BIG_3_NEW		= 10,                           //ÐÂ¿ªÊÓÆµ·¿¼ä
-	IMROOM_TYPE_GAME_BOX		= 11,							//¿ª±¦ÏäÓÎÏ·
-	IMROOM_TYPE_GAME_RICHMAN	= 12,							//´ó¸»ÎÌ
+	IMROOM_TYPE_BIG_3			= 6,                            //1å¤§2å°è§†é¢‘
+	IMROOM_TYPE_BIG_3_SH		= 7,                            //3å°æ¨ªè§†é¢‘
+	IMROOM_TYPE_BIG_3_SV		= 8,							//3å°ç«–è§†é¢‘
+	IMROOM_TYPE_BIG_3_F			= 9,							//2å¤§ä¸€æµ®åŠ¨è§†é¢‘
+	IMROOM_TYPE_BIG_3_NEW		= 10,                           //æ–°å¼€è§†é¢‘æˆ¿é—´
+	IMROOM_TYPE_GAME_BOX		= 11,							//å¼€å®ç®±æ¸¸æˆ
+	IMROOM_TYPE_GAME_RICHMAN	= 12,							//å¤§å¯Œç¿
 	IMROOM_TYPE_BIG_UC			= 13,
-	IMROOM_TYPE_BIG_BIGONE		= 21,							//µ¥ÊÓÆÁ
-	IMROOM_TYPE_ANCHOR			= 22,							//Ö÷²¥·¿¼ä
-	IMROOM_TYPE_GUAGUA			= 23,							//ßÉßÉ·¿¼äÀàÐÍ
-	IMROOM_TYPE_GAME_COC        = 26,                           // COCÓÎÏ·
-	IMROOM_TYPE_GAME_NEW_POKER  = 27,                           // ÐÂ°æ³µÐÐ
-	IMROOM_TYPE_GAME_REDPACKETS = 28,							//ºì°üÓÎÏ·
-	IMROOM_TYPE_DIAMOND			= 29,							//×êÊ¯ÊØ»¤Ö÷²¥·¿¼ä
+	IMROOM_TYPE_BIG_BIGONE		= 21,							//å•è§†å±
+	IMROOM_TYPE_ANCHOR			= 22,							//ä¸»æ’­æˆ¿é—´
+	IMROOM_TYPE_GUAGUA			= 23,							//å‘±å‘±æˆ¿é—´ç±»åž‹
+	IMROOM_TYPE_GAME_COC        = 26,                           // COCæ¸¸æˆ
+	IMROOM_TYPE_GAME_NEW_POKER  = 27,                           // æ–°ç‰ˆè½¦è¡Œ
+	IMROOM_TYPE_GAME_REDPACKETS = 28,							//çº¢åŒ…æ¸¸æˆ
+	IMROOM_TYPE_DIAMOND			= 29,							//é’»çŸ³å®ˆæŠ¤ä¸»æ’­æˆ¿é—´
 
-	//ÐÂ¼ÓÓÎÏ·roomtype·¶Î§¶¨ÒåÎª100-200
+	//æ–°åŠ æ¸¸æˆroomtypeèŒƒå›´å®šä¹‰ä¸º100-200
 	IMROOM_TYPE_GAME_BASE       = 100,
 	IMROOM_TYPE_GAME_MAX        = 200,
 }RoomType;
 
-//ÈÕÖ¾²É¼¯
+//æ—¥å¿—é‡‡é›†
 typedef enum EventID 
 {
-	//·¿¼äÄÚ²¿ÊÂ¼þ
-	EV_LOGIN_ROOM = 0x100, //µÇÂ¼·¿¼ä
-	EV_LOGOUT_ROOM,      //ÍË³ö·¿¼ä
-	EV_BIND_MIC,		 //ÉÏÂó
-	EV_UNBIND_MIC,       //ÏÂÂó
-	EV_BIND_PRIVATE_MIC,//ÉÏË½Âô
-	EV_UNBIND_PRIVATE_MIC,//ÏÂË½Âô
-	EV_MIC_PRSENTR,       //·¢ÉÏÂó½±Àø
-	EV_SENDGIT,          // Ë¢»¨ËÍÀñ
-	EV_DIG_GEM,          //ÍÚ±¦
-	EV_PRINT_GIFT_PRIZE_POOL,//Ë¢»¨½±³Ø
-	EV_PRINT_GEM_POOL,//ÍÚ±¦½±³Ø
-	//DB·µ»ØÊÂ¼þ
+	//æˆ¿é—´å†…éƒ¨äº‹ä»¶
+	EV_LOGIN_ROOM = 0x100, //ç™»å½•æˆ¿é—´
+	EV_LOGOUT_ROOM,      //é€€å‡ºæˆ¿é—´
+	EV_BIND_MIC,		 //ä¸Šéº¦
+	EV_UNBIND_MIC,       //ä¸‹éº¦
+	EV_BIND_PRIVATE_MIC,//ä¸Šç§å–
+	EV_UNBIND_PRIVATE_MIC,//ä¸‹ç§å–
+	EV_MIC_PRSENTR,       //å‘ä¸Šéº¦å¥–åŠ±
+	EV_SENDGIT,          // åˆ·èŠ±é€ç¤¼
+	EV_DIG_GEM,          //æŒ–å®
+	EV_PRINT_GIFT_PRIZE_POOL,//åˆ·èŠ±å¥–æ± 
+	EV_PRINT_GEM_POOL,//æŒ–å®å¥–æ± 
+	//DBè¿”å›žäº‹ä»¶
 	EV_LOGIN_ROOM_DB_RES = 0x200,
 }EventID;
 typedef enum KickOutType
 {
-	ROOM_KICKTYPE_KICKOUT		= 0,							//Ìß³öÈ¥
-	ROOM_KICKTYPE_PUSHOUT,										//¼·³öÈ¥µÄ
-	ROOM_KICKTYPE_SVR_RELOGIN,									//·¿¼äÐÅÏ¢·¢Éú±ä»¯£¬¿Í»§¶ËÐèÒªÍË³öÖØ½ø¡£
-	ROOM_KICKTYPE_ONLY_ALLOW_VIP,								//ÊÔÓÃÆÚÒÑ¹ý£¬Ö»ÔÊÐíVIPÓÃ»§¼ÌÐøÊ¹ÓÃ
-	ROOM_KICKTYPE_ADDPID_BLACK,									//¼ÓÈëÕ¾µãºÚÃûµ¥	
-	ROOM_KICKTYPE_FORCE_VIEWEND,								//Ç¿ÖÆ½áÊøÖ±²¥
-	ROOM_KICKTYPE_KICKOUT_TABLE,								//Ìß³öµ±Ç°×À
-	ROOM_KICKTYPE_NOENOUGH_MONEY,								//Óà¶î²»×ã
-	ROOM_KICKTYPE_UPPER_TODAYLIMIT,								//´ïµ½³µÐÐµ±Ìì±»Ìß³öÉÏÏÞ
-	ROOM_KICKTYPE_NOBET_TIMES,									//¸ÃÓÃ»§±»ÏÞÖÆ£¬´ïµ½Á¬ÐøÃ»ÏÂ×¢´ÎÊý
+	ROOM_KICKTYPE_KICKOUT		= 0,							//è¸¢å‡ºåŽ»
+	ROOM_KICKTYPE_PUSHOUT,										//æŒ¤å‡ºåŽ»çš„
+	ROOM_KICKTYPE_SVR_RELOGIN,									//æˆ¿é—´ä¿¡æ¯å‘ç”Ÿå˜åŒ–ï¼Œå®¢æˆ·ç«¯éœ€è¦é€€å‡ºé‡è¿›ã€‚
+	ROOM_KICKTYPE_ONLY_ALLOW_VIP,								//è¯•ç”¨æœŸå·²è¿‡ï¼Œåªå…è®¸VIPç”¨æˆ·ç»§ç»­ä½¿ç”¨
+	ROOM_KICKTYPE_ADDPID_BLACK,									//åŠ å…¥ç«™ç‚¹é»‘åå•	
+	ROOM_KICKTYPE_FORCE_VIEWEND,								//å¼ºåˆ¶ç»“æŸç›´æ’­
+	ROOM_KICKTYPE_KICKOUT_TABLE,								//è¸¢å‡ºå½“å‰æ¡Œ
+	ROOM_KICKTYPE_NOENOUGH_MONEY,								//ä½™é¢ä¸è¶³
+	ROOM_KICKTYPE_UPPER_TODAYLIMIT,								//è¾¾åˆ°è½¦è¡Œå½“å¤©è¢«è¸¢å‡ºä¸Šé™
+	ROOM_KICKTYPE_NOBET_TIMES,									//è¯¥ç”¨æˆ·è¢«é™åˆ¶ï¼Œè¾¾åˆ°è¿žç»­æ²¡ä¸‹æ³¨æ¬¡æ•°
 
 }KickOutType;
 
 typedef enum RoomAuth
 {
-	ROOM_AUTH_ALLOW_ALL = 0,									//ÔÊÐíËùÓÐÈË½øÈë
-	ROOM_AUTH_ALLOW_AUTH,										//ÃÜÂë·ÃÎÊ
+	ROOM_AUTH_ALLOW_ALL = 0,									//å…è®¸æ‰€æœ‰äººè¿›å…¥
+	ROOM_AUTH_ALLOW_AUTH,										//å¯†ç è®¿é—®
 }RoomAuth;
 
 enum
 {
 	AWARD_STATUS_STOP,
-	AWARD_STATUS_BETTING,										//ÏÂ×¢Ê±¼ä
-	AWARD_STATUS_WAITING,										//È·ÈÏÏÂ×¢£¬
-	AWARD_STATUS_AWARDING,										//µÈ´ý¿ª½±Ê±¼ä
-	AWARD_STATUS_AWARDED,										//¿ª½±
-	AWARD_STATUS_AWARD_WAIT,									//³Ù»º·¢½±
+	AWARD_STATUS_BETTING,										//ä¸‹æ³¨æ—¶é—´
+	AWARD_STATUS_WAITING,										//ç¡®è®¤ä¸‹æ³¨ï¼Œ
+	AWARD_STATUS_AWARDING,										//ç­‰å¾…å¼€å¥–æ—¶é—´
+	AWARD_STATUS_AWARDED,										//å¼€å¥–
+	AWARD_STATUS_AWARD_WAIT,									//è¿Ÿç¼“å‘å¥–
 };
 
 
 
 enum
 {
-	REDPACKETS_STOP,		//Í£Ö¹×´Ì¬
-	REDPACKETS_WAIT,		//µÈ´ý×´Ì¬
-	REDPACKETS_RUN,			//ÓÎÏ·×´Ì¬
-	REDPACKETS_END,			//±¾ÂÖ½áÊøÏÂÂÖ¿ªÊ¼×´Ì¬
+	REDPACKETS_STOP,		//åœæ­¢çŠ¶æ€
+	REDPACKETS_WAIT,		//ç­‰å¾…çŠ¶æ€
+	REDPACKETS_RUN,			//æ¸¸æˆçŠ¶æ€
+	REDPACKETS_END,			//æœ¬è½®ç»“æŸä¸‹è½®å¼€å§‹çŠ¶æ€
 };
 
 enum
 {
-	REDPACKETS_SUCCESS,			//ÇÀ£¬·¢ºì°ü³É¹¦
-	ROB_REDPACKETS_REPEAT,		//ÒÑ¾­ÇÀ¹ýºì°ü
-	ROB_REDPACKETS_NOTENOUGH,	//ºì°üÒÑ¾­ÇÀÍê
-	ROB_REDPACKETS_EXPIRE,		//ºì°üÒÑ¾­¹ýÆÚ
-	ROB_REDPACKETS_FAILED,		//ÇÀºì°üÊ§°Ü
-	SEND_REDPACKETS_FILED,		//·¢ËÍºì°üÊ§°Ü
-	SEND_NOTENOUGH_UIN,			//Ã»ÓÐ×ã¹»µÄÈË
-	SEND_STATE_ERR,				//Ã»ÓÐµ½·¢ËÍºì°üµÄ×´Ì¬
-	SEND_UIN_ERR,				//´ËÂÖ²»ÊôÓÚµ±Ç°ÓÃ»§·¢ËÍºì°ü
-	MONEY_LOCKED,				//½ð±Ò±»ÓÎÏ·Ëø¶¨
-	RED_CLOSED,					//ÓÎÏ·¹Ø±Õ
+	REDPACKETS_SUCCESS,			//æŠ¢ï¼Œå‘çº¢åŒ…æˆåŠŸ
+	ROB_REDPACKETS_REPEAT,		//å·²ç»æŠ¢è¿‡çº¢åŒ…
+	ROB_REDPACKETS_NOTENOUGH,	//çº¢åŒ…å·²ç»æŠ¢å®Œ
+	ROB_REDPACKETS_EXPIRE,		//çº¢åŒ…å·²ç»è¿‡æœŸ
+	ROB_REDPACKETS_FAILED,		//æŠ¢çº¢åŒ…å¤±è´¥
+	SEND_REDPACKETS_FILED,		//å‘é€çº¢åŒ…å¤±è´¥
+	SEND_NOTENOUGH_UIN,			//æ²¡æœ‰è¶³å¤Ÿçš„äºº
+	SEND_STATE_ERR,				//æ²¡æœ‰åˆ°å‘é€çº¢åŒ…çš„çŠ¶æ€
+	SEND_UIN_ERR,				//æ­¤è½®ä¸å±žäºŽå½“å‰ç”¨æˆ·å‘é€çº¢åŒ…
+	MONEY_LOCKED,				//é‡‘å¸è¢«æ¸¸æˆé”å®š
+	RED_CLOSED,					//æ¸¸æˆå…³é—­
 };
 
 enum
 {
-	PPC_STOP,												//Í£Ö¹×´Ì¬
-	PPC_FREE,												//¿ÕÏÐÊ±¼ä
-	PPC_BETTING,											//ÅöÅö³µÏÂ×¢Ê±¼ä
-	PPC_WAIT,												//µÈ´ýÊ±¼ä
-	PPC_CARRUN,												//ÅöÅö³µ¿ª×ª
-	PPC_END,												//´Ë¾Ö½áÊø
+	PPC_STOP,												//åœæ­¢çŠ¶æ€
+	PPC_FREE,												//ç©ºé—²æ—¶é—´
+	PPC_BETTING,											//ç¢°ç¢°è½¦ä¸‹æ³¨æ—¶é—´
+	PPC_WAIT,												//ç­‰å¾…æ—¶é—´
+	PPC_CARRUN,												//ç¢°ç¢°è½¦å¼€è½¬
+	PPC_END,												//æ­¤å±€ç»“æŸ
 
 };
 class LimitEnterRoom
@@ -215,32 +215,32 @@ class LimitEnterRoom
 public:
 	enum LimitList
 	{
-		LIMIT_ROOM_VISISTOR,									//ÆÕÍ¨ÓÎ¿Í
-		LIMIT_ROOM_JUNION_VIP,									//³õ»á
-		LIMIT_ROOM_MIDDLE_VIP,									//ÖÐ»á
-		LIMIT_ROOM_HIGHER_VIP,									//¸ß»á
-		LIMIT_ROOM_GOLD_VIP,									//°×½ð»áÔ±
-		LIMIT_ROOM_LORD,										//¾ôÎ»
-		LIMIT_ROOM_RICHER,										//´ó¿î
-		LIMIT_ROOM_SINGER,										//ÒÕÈË
-		LIMIT_ROOM_AGENT,										//´úÀí
-		LIMIT_ROOM_SALES,										//ÉÌÎñ
-		LIMTI_ROOM_STAFF,										//¿Í·þ
-		LIMIT_ROOM_PRIVILEGES,									//ÌØÈ¨
-		LIMIT_ROOM_COO,											//Õ¾³¤
-		LIMIT_ROOM_COO_ASSISTANT,								//¸±Õ¾³¤
-		LIMIT_ROOM_MUSIC_SOCIETY,								//ÀÖÍÅ
-		LIMIT_ROOM_DANCER,										//ÎèÐÇ
-		LIMIT_ROOM_FUHAO,										//¸»ºÀ
-		LIMIT_ROOM_STAR,										//Ã÷ÐÇ
-		LIMIT_ROOM_DIAMOND_BLACK_VIP,							//ºÚ×êVIP
-		LIMIT_ROOM_DIAMOND_RED_VIP,								//ºì×êVIP
-		LIMIT_ROOM_DIAMOND_YELLOW_VIP,							//»Æ×êVIP
-		LIMIT_ROOM_DIAMOND_GREEN_VIP,							//ÂÌ×êVIP
-		LIMIT_ROOM_DIAMOND_BLUE_VIP,							//À¶×êVIP
-		LIMIT_ROOM_DIAMOND_PINK_VIP,							//·Û×êVIP
-		LIMIT_ROOM_DIAMOND_PURPLE_VIP,							//×Ï×êVIP 
-		LIMIT_ROOM_DIAMOND_COLOUR_VIP,							//²Ê×êVIP
+		LIMIT_ROOM_VISISTOR,									//æ™®é€šæ¸¸å®¢
+		LIMIT_ROOM_JUNION_VIP,									//åˆä¼š
+		LIMIT_ROOM_MIDDLE_VIP,									//ä¸­ä¼š
+		LIMIT_ROOM_HIGHER_VIP,									//é«˜ä¼š
+		LIMIT_ROOM_GOLD_VIP,									//ç™½é‡‘ä¼šå‘˜
+		LIMIT_ROOM_LORD,										//çˆµä½
+		LIMIT_ROOM_RICHER,										//å¤§æ¬¾
+		LIMIT_ROOM_SINGER,										//è‰ºäºº
+		LIMIT_ROOM_AGENT,										//ä»£ç†
+		LIMIT_ROOM_SALES,										//å•†åŠ¡
+		LIMTI_ROOM_STAFF,										//å®¢æœ
+		LIMIT_ROOM_PRIVILEGES,									//ç‰¹æƒ
+		LIMIT_ROOM_COO,											//ç«™é•¿
+		LIMIT_ROOM_COO_ASSISTANT,								//å‰¯ç«™é•¿
+		LIMIT_ROOM_MUSIC_SOCIETY,								//ä¹å›¢
+		LIMIT_ROOM_DANCER,										//èˆžæ˜Ÿ
+		LIMIT_ROOM_FUHAO,										//å¯Œè±ª
+		LIMIT_ROOM_STAR,										//æ˜Žæ˜Ÿ
+		LIMIT_ROOM_DIAMOND_BLACK_VIP,							//é»‘é’»VIP
+		LIMIT_ROOM_DIAMOND_RED_VIP,								//çº¢é’»VIP
+		LIMIT_ROOM_DIAMOND_YELLOW_VIP,							//é»„é’»VIP
+		LIMIT_ROOM_DIAMOND_GREEN_VIP,							//ç»¿é’»VIP
+		LIMIT_ROOM_DIAMOND_BLUE_VIP,							//è“é’»VIP
+		LIMIT_ROOM_DIAMOND_PINK_VIP,							//ç²‰é’»VIP
+		LIMIT_ROOM_DIAMOND_PURPLE_VIP,							//ç´«é’»VIP 
+		LIMIT_ROOM_DIAMOND_COLOUR_VIP,							//å½©é’»VIP
 		LIMIT_ROOM_LIMIT,
 	};
 };
@@ -253,54 +253,54 @@ class CChatRankList
 public:
 	enum RankList
 	{
-		RANK_GENERAL,											//ÆÕÍ¨ÓÃ»§
-		RANK_ROOM_JUNION_VIP,									//µÍ»á	
-		RANK_ROOM_MIDDLE_VIP,									//ÖÐ»á
-		RANK_ROOM_HIGHER_VIP,									//¸ß»á
-		RANK_ROOM_GOLD_VIP,										//×ê»á
-		RANK_ROOM_LORD_BARON,									//ÄÐ¾ô
-		RANK_ROOM_LORD_VISCOUNT,								//×Ó¾ô
-		RANK_ROOM_LORD_EARL,									//²®¾ô
-		RANK_ROOM_LORD_MARQUESS,								//ºî¾ô
-		RANK_ROOM_LORD_DUKE,									//¹«¾ô
-		RANK_ROOM_LORD_KING,									//¹úÍõ
-		RANK_ROOM_MANAGER,										//·¿¼ä¹ÜÀí
-		RANK_ROOM_ASSISTANT,									//¸±ÊÒ
-		RANK_ROOM_OWNER,										//ÊÒÖ÷
-		RANK_ROOM_SUPPER,										//³¬¹Ü
-		RANK_ROOM_SINGER,										//ÒÕÈË
-		RANK_ROOM_AGENT,										//´úÀí
-		RANK_ROOM_CONTACT_STAFF,								//¿Í·þ
-		RANK_ROOM_SALES,										//ÉÌÎñ
-		RANK_ROOM_PRIVILEGES,									//ÌØÈ¨
-		RANK_ROOM_COO,											//Õ¾³¤
-		RANK_ROOM_RICHER1,										//Ïû·ÑÖ®ÐÇµÚ1Ãû
-		RANK_ROOM_RICHER2,										//Ïû·ÑÖ®ÐÇµÚ2Ãû
-		RANK_ROOM_RICHER3,										//Ïû·ÑÖ®ÐÇµÚ3Ãû
-		RANK_ROOM_RICHER4,										//Ïû·ÑÖ®ÐÇµÚ4Ãû
-		RANK_ROOM_RICHER5,										//Ïû·ÑÖ®ÐÇµÚ5Ãû
-		RANK_ROOM_RICHER6,										//Ïû·ÑÖ®ÐÇµÚ6Ãû
-		RANK_ROOM_RICHER7,										//Ïû·ÑÖ®ÐÇµÚ7Ãû
-		RANK_ROOM_RICHER8,										//Ïû·ÑÖ®ÐÇµÚ8Ãû
-		RANK_ROOM_RICHER9,										//Ïû·ÑÖ®ÐÇµÚ9Ãû
-		RANK_ROOM_RICHER10,										//Ïû·ÑÖ®ÐÇµÚ10Ãû
-		RANK_ROOM_AREA_MASTER,									//Çø³¤
-		RANK_ROOM_AREA_ASSISTANT,								//Çø³¤ÖúÀí£¬¸±Çø
-		RANK_ROOM_COO_ASSISTANT,								//ÖúÀíÕ¾³¤
-		RANK_ROOM_MUSIC_SOCIETY,								//ÀÖÍÅ
-		RANK_ROOM_DANCER,										//Îèµ¸ÑÝÔ±
-		RANK_ROOM_FUHAO,										//ºÀ×Ö±êÖ¾
-		RANK_ROOM_STAR,											//ÐÇ¼¶ÒÕÈË
-		RANK_ROOM_DIAMOND_BLACK_VIP,							//ºÚ×êVIP
-		RANK_ROOM_DIAMOND_RED_VIP,								//ºì×êVIP
-		RANK_ROOM_DIAMOND_YELLOW_VIP,							//»Æ×êVIP
-		RANK_ROOM_DIAMOND_GREEN_VIP,							//ÂÌ×êVIP
-		RANK_ROOM_DIAMOND_BLUE_VIP,								//À¶×êVIP
-		RANK_ROOM_DIAMOND_PINK_VIP,								//·Û×êVIP
-		RANK_ROOM_DIAMOND_PURPLE_VIP,							//×Ï×êVIP
-		RANK_ROOM_DIAMOND_COLOUR_VIP,							//²Ê×êVIP
-		RANK_ROOM_GUARD,										//ÊØ»¤
-		RANK_ROOM_CARETAKER,									//ÁÙ¹Ü
+		RANK_GENERAL,											//æ™®é€šç”¨æˆ·
+		RANK_ROOM_JUNION_VIP,									//ä½Žä¼š	
+		RANK_ROOM_MIDDLE_VIP,									//ä¸­ä¼š
+		RANK_ROOM_HIGHER_VIP,									//é«˜ä¼š
+		RANK_ROOM_GOLD_VIP,										//é’»ä¼š
+		RANK_ROOM_LORD_BARON,									//ç”·çˆµ
+		RANK_ROOM_LORD_VISCOUNT,								//å­çˆµ
+		RANK_ROOM_LORD_EARL,									//ä¼¯çˆµ
+		RANK_ROOM_LORD_MARQUESS,								//ä¾¯çˆµ
+		RANK_ROOM_LORD_DUKE,									//å…¬çˆµ
+		RANK_ROOM_LORD_KING,									//å›½çŽ‹
+		RANK_ROOM_MANAGER,										//æˆ¿é—´ç®¡ç†
+		RANK_ROOM_ASSISTANT,									//å‰¯å®¤
+		RANK_ROOM_OWNER,										//å®¤ä¸»
+		RANK_ROOM_SUPPER,										//è¶…ç®¡
+		RANK_ROOM_SINGER,										//è‰ºäºº
+		RANK_ROOM_AGENT,										//ä»£ç†
+		RANK_ROOM_CONTACT_STAFF,								//å®¢æœ
+		RANK_ROOM_SALES,										//å•†åŠ¡
+		RANK_ROOM_PRIVILEGES,									//ç‰¹æƒ
+		RANK_ROOM_COO,											//ç«™é•¿
+		RANK_ROOM_RICHER1,										//æ¶ˆè´¹ä¹‹æ˜Ÿç¬¬1å
+		RANK_ROOM_RICHER2,										//æ¶ˆè´¹ä¹‹æ˜Ÿç¬¬2å
+		RANK_ROOM_RICHER3,										//æ¶ˆè´¹ä¹‹æ˜Ÿç¬¬3å
+		RANK_ROOM_RICHER4,										//æ¶ˆè´¹ä¹‹æ˜Ÿç¬¬4å
+		RANK_ROOM_RICHER5,										//æ¶ˆè´¹ä¹‹æ˜Ÿç¬¬5å
+		RANK_ROOM_RICHER6,										//æ¶ˆè´¹ä¹‹æ˜Ÿç¬¬6å
+		RANK_ROOM_RICHER7,										//æ¶ˆè´¹ä¹‹æ˜Ÿç¬¬7å
+		RANK_ROOM_RICHER8,										//æ¶ˆè´¹ä¹‹æ˜Ÿç¬¬8å
+		RANK_ROOM_RICHER9,										//æ¶ˆè´¹ä¹‹æ˜Ÿç¬¬9å
+		RANK_ROOM_RICHER10,										//æ¶ˆè´¹ä¹‹æ˜Ÿç¬¬10å
+		RANK_ROOM_AREA_MASTER,									//åŒºé•¿
+		RANK_ROOM_AREA_ASSISTANT,								//åŒºé•¿åŠ©ç†ï¼Œå‰¯åŒº
+		RANK_ROOM_COO_ASSISTANT,								//åŠ©ç†ç«™é•¿
+		RANK_ROOM_MUSIC_SOCIETY,								//ä¹å›¢
+		RANK_ROOM_DANCER,										//èˆžè¹ˆæ¼”å‘˜
+		RANK_ROOM_FUHAO,										//è±ªå­—æ ‡å¿—
+		RANK_ROOM_STAR,											//æ˜Ÿçº§è‰ºäºº
+		RANK_ROOM_DIAMOND_BLACK_VIP,							//é»‘é’»VIP
+		RANK_ROOM_DIAMOND_RED_VIP,								//çº¢é’»VIP
+		RANK_ROOM_DIAMOND_YELLOW_VIP,							//é»„é’»VIP
+		RANK_ROOM_DIAMOND_GREEN_VIP,							//ç»¿é’»VIP
+		RANK_ROOM_DIAMOND_BLUE_VIP,								//è“é’»VIP
+		RANK_ROOM_DIAMOND_PINK_VIP,								//ç²‰é’»VIP
+		RANK_ROOM_DIAMOND_PURPLE_VIP,							//ç´«é’»VIP
+		RANK_ROOM_DIAMOND_COLOUR_VIP,							//å½©é’»VIP
+		RANK_ROOM_GUARD,										//å®ˆæŠ¤
+		RANK_ROOM_CARETAKER,									//ä¸´ç®¡
 		RANK_ROOM_LIMIT,
 	};
 
@@ -310,149 +310,149 @@ public:
 		switch (usertype)
 		{
 		case CChatRankList::RANK_GENERAL:		
-			rankStr="ÆÕÍ¨ÓÃ»§";
+			rankStr="æ™®é€šç”¨æˆ·";
 			break;
-		case CChatRankList::RANK_ROOM_JUNION_VIP:				//µÍ»á	
-			rankStr="³õ¼¶»áÔ±";
+		case CChatRankList::RANK_ROOM_JUNION_VIP:				//ä½Žä¼š	
+			rankStr="åˆçº§ä¼šå‘˜";
 			break;
-		case CChatRankList::RANK_ROOM_MIDDLE_VIP:				//ÖÐ»á
-			rankStr="ÖÐ¼¶»áÔ±";
+		case CChatRankList::RANK_ROOM_MIDDLE_VIP:				//ä¸­ä¼š
+			rankStr="ä¸­çº§ä¼šå‘˜";
 			break;
-		case CChatRankList::RANK_ROOM_HIGHER_VIP:				//¸ß»á
-			rankStr="¸ß¼¶»áÔ±";
+		case CChatRankList::RANK_ROOM_HIGHER_VIP:				//é«˜ä¼š
+			rankStr="é«˜çº§ä¼šå‘˜";
 			break;
-		case CChatRankList::RANK_ROOM_GOLD_VIP:					//×ê»á
-			rankStr="°×½ð»áÔ±";
+		case CChatRankList::RANK_ROOM_GOLD_VIP:					//é’»ä¼š
+			rankStr="ç™½é‡‘ä¼šå‘˜";
 			break;
-		case CChatRankList::RANK_ROOM_LORD_BARON:				//ÄÐ¾ô
-			rankStr="ÄÐ¾ô";
+		case CChatRankList::RANK_ROOM_LORD_BARON:				//ç”·çˆµ
+			rankStr="ç”·çˆµ";
 			break;
-		case CChatRankList::RANK_ROOM_LORD_VISCOUNT:			//×Ó¾ô
-			rankStr="×Ó¾ô";
+		case CChatRankList::RANK_ROOM_LORD_VISCOUNT:			//å­çˆµ
+			rankStr="å­çˆµ";
 			break;
-		case CChatRankList::RANK_ROOM_LORD_EARL:				//²®¾ô
-			rankStr="²®¾ô";
+		case CChatRankList::RANK_ROOM_LORD_EARL:				//ä¼¯çˆµ
+			rankStr="ä¼¯çˆµ";
 			break;
-		case CChatRankList::RANK_ROOM_LORD_MARQUESS:			//ºî¾ô
-			rankStr="ºî¾ô";
+		case CChatRankList::RANK_ROOM_LORD_MARQUESS:			//ä¾¯çˆµ
+			rankStr="ä¾¯çˆµ";
 			break;
-		case CChatRankList::RANK_ROOM_LORD_DUKE:				//¹«¾ô
-			rankStr="¹«¾ô";
+		case CChatRankList::RANK_ROOM_LORD_DUKE:				//å…¬çˆµ
+			rankStr="å…¬çˆµ";
 			break;
-		case CChatRankList::RANK_ROOM_LORD_KING:				//¹úÍõ
-			rankStr="¹úÍõ";
+		case CChatRankList::RANK_ROOM_LORD_KING:				//å›½çŽ‹
+			rankStr="å›½çŽ‹";
 			break;
-		case CChatRankList::RANK_ROOM_MANAGER:					//·¿¼ä¹ÜÀí
-			rankStr="·¿¼ä¹ÜÀí";
+		case CChatRankList::RANK_ROOM_MANAGER:					//æˆ¿é—´ç®¡ç†
+			rankStr="æˆ¿é—´ç®¡ç†";
 			break;
-		case CChatRankList::RANK_ROOM_ASSISTANT:				//¸±ÊÒ
-			rankStr="¸±ÊÒ";
+		case CChatRankList::RANK_ROOM_ASSISTANT:				//å‰¯å®¤
+			rankStr="å‰¯å®¤";
 			break;
-		case CChatRankList::RANK_ROOM_OWNER:					//ÊÒÖ÷
-			rankStr="ÊÒÖ÷";
+		case CChatRankList::RANK_ROOM_OWNER:					//å®¤ä¸»
+			rankStr="å®¤ä¸»";
 			break;
-		case CChatRankList::RANK_ROOM_SUPPER:					//³¬¹Ü
-			rankStr="³¬¹Ü";
+		case CChatRankList::RANK_ROOM_SUPPER:					//è¶…ç®¡
+			rankStr="è¶…ç®¡";
 			break;
-		case CChatRankList::RANK_ROOM_SINGER:					//ÒÕÈË
-			rankStr="ÒÕÈË";
+		case CChatRankList::RANK_ROOM_SINGER:					//è‰ºäºº
+			rankStr="è‰ºäºº";
 			break;
-		case CChatRankList::RANK_ROOM_AGENT:					//´úÀí
-			rankStr="´úÀí";
+		case CChatRankList::RANK_ROOM_AGENT:					//ä»£ç†
+			rankStr="ä»£ç†";
 			break;
-		case CChatRankList::RANK_ROOM_CONTACT_STAFF:			//¿Í·þ
-			rankStr="¿Í·þ";
+		case CChatRankList::RANK_ROOM_CONTACT_STAFF:			//å®¢æœ
+			rankStr="å®¢æœ";
 			break;
-		case CChatRankList::RANK_ROOM_SALES:					//ÉÌÎñ
-			rankStr="ÉÌÎñ´ú±í";
+		case CChatRankList::RANK_ROOM_SALES:					//å•†åŠ¡
+			rankStr="å•†åŠ¡ä»£è¡¨";
 			break;
-		case CChatRankList::RANK_ROOM_PRIVILEGES:				//ÌØÈ¨
-			rankStr="ÌØÈ¨";
+		case CChatRankList::RANK_ROOM_PRIVILEGES:				//ç‰¹æƒ
+			rankStr="ç‰¹æƒ";
 			break;
-		case CChatRankList::RANK_ROOM_COO:						//Õ¾³¤
-			rankStr="Õ¾³¤";
+		case CChatRankList::RANK_ROOM_COO:						//ç«™é•¿
+			rankStr="ç«™é•¿";
 			break;
-		case CChatRankList::RANK_ROOM_RICHER1:					//Ïû·ÑÖ®ÐÇµÚ1Ãû
-			rankStr="Ïû·ÑÖ®ÐÇ";
+		case CChatRankList::RANK_ROOM_RICHER1:					//æ¶ˆè´¹ä¹‹æ˜Ÿç¬¬1å
+			rankStr="æ¶ˆè´¹ä¹‹æ˜Ÿ";
 			break;
-		case CChatRankList::RANK_ROOM_RICHER2:					//Ïû·ÑÖ®ÐÇµÚ2Ãû
-			rankStr="Ïû·ÑÖ®ÐÇ";
+		case CChatRankList::RANK_ROOM_RICHER2:					//æ¶ˆè´¹ä¹‹æ˜Ÿç¬¬2å
+			rankStr="æ¶ˆè´¹ä¹‹æ˜Ÿ";
 			break;
-		case CChatRankList::RANK_ROOM_RICHER3:					//Ïû·ÑÖ®ÐÇµÚ3Ãû
-			rankStr="Ïû·ÑÖ®ÐÇ";
+		case CChatRankList::RANK_ROOM_RICHER3:					//æ¶ˆè´¹ä¹‹æ˜Ÿç¬¬3å
+			rankStr="æ¶ˆè´¹ä¹‹æ˜Ÿ";
 			break;
-		case CChatRankList::RANK_ROOM_RICHER4:					//Ïû·ÑÖ®ÐÇµÚ4Ãû
-			rankStr="Ïû·ÑÖ®ÐÇ";
+		case CChatRankList::RANK_ROOM_RICHER4:					//æ¶ˆè´¹ä¹‹æ˜Ÿç¬¬4å
+			rankStr="æ¶ˆè´¹ä¹‹æ˜Ÿ";
 			break;
-		case CChatRankList::RANK_ROOM_RICHER5:					//Ïû·ÑÖ®ÐÇµÚ5Ãû
-			rankStr="Ïû·ÑÖ®ÐÇ";
+		case CChatRankList::RANK_ROOM_RICHER5:					//æ¶ˆè´¹ä¹‹æ˜Ÿç¬¬5å
+			rankStr="æ¶ˆè´¹ä¹‹æ˜Ÿ";
 			break;
-		case CChatRankList::RANK_ROOM_RICHER6:					//Ïû·ÑÖ®ÐÇµÚ6Ãû
-			rankStr="Ïû·ÑÖ®ÐÇ";
+		case CChatRankList::RANK_ROOM_RICHER6:					//æ¶ˆè´¹ä¹‹æ˜Ÿç¬¬6å
+			rankStr="æ¶ˆè´¹ä¹‹æ˜Ÿ";
 			break;
-		case CChatRankList::RANK_ROOM_RICHER7:					//Ïû·ÑÖ®ÐÇµÚ7Ãû
-			rankStr="Ïû·ÑÖ®ÐÇ";
+		case CChatRankList::RANK_ROOM_RICHER7:					//æ¶ˆè´¹ä¹‹æ˜Ÿç¬¬7å
+			rankStr="æ¶ˆè´¹ä¹‹æ˜Ÿ";
 			break;
-		case CChatRankList::RANK_ROOM_RICHER8:					//Ïû·ÑÖ®ÐÇµÚ8Ãû
-			rankStr="Ïû·ÑÖ®ÐÇ";
+		case CChatRankList::RANK_ROOM_RICHER8:					//æ¶ˆè´¹ä¹‹æ˜Ÿç¬¬8å
+			rankStr="æ¶ˆè´¹ä¹‹æ˜Ÿ";
 			break;
-		case CChatRankList::RANK_ROOM_RICHER9:					//Ïû·ÑÖ®ÐÇµÚ9Ãû
-			rankStr="Ïû·ÑÖ®ÐÇ";
+		case CChatRankList::RANK_ROOM_RICHER9:					//æ¶ˆè´¹ä¹‹æ˜Ÿç¬¬9å
+			rankStr="æ¶ˆè´¹ä¹‹æ˜Ÿ";
 			break;
-		case CChatRankList::RANK_ROOM_RICHER10:					//Ïû·ÑÖ®ÐÇµÚ10Ãû
-			rankStr="Ïû·ÑÖ®ÐÇ";
+		case CChatRankList::RANK_ROOM_RICHER10:					//æ¶ˆè´¹ä¹‹æ˜Ÿç¬¬10å
+			rankStr="æ¶ˆè´¹ä¹‹æ˜Ÿ";
 			break;
-		case CChatRankList::RANK_ROOM_AREA_MASTER:				//Çø³¤
-			rankStr="Çø³¤";
+		case CChatRankList::RANK_ROOM_AREA_MASTER:				//åŒºé•¿
+			rankStr="åŒºé•¿";
 			break;
-		case CChatRankList::RANK_ROOM_AREA_ASSISTANT:			//Çø³¤ÖúÀí£¬¸±Çø
-			rankStr="¸±Çø³¤";
+		case CChatRankList::RANK_ROOM_AREA_ASSISTANT:			//åŒºé•¿åŠ©ç†ï¼Œå‰¯åŒº
+			rankStr="å‰¯åŒºé•¿";
 			break;
-		case CChatRankList::RANK_ROOM_DIAMOND_BLACK_VIP:		//ºÚ×êVIP
-			rankStr="ºÚ×êVIP";
+		case CChatRankList::RANK_ROOM_DIAMOND_BLACK_VIP:		//é»‘é’»VIP
+			rankStr="é»‘é’»VIP";
 			break;
-		case CChatRankList::RANK_ROOM_DIAMOND_RED_VIP:			//ºì×êVIP
-			rankStr="ºì×êVIP";
+		case CChatRankList::RANK_ROOM_DIAMOND_RED_VIP:			//çº¢é’»VIP
+			rankStr="çº¢é’»VIP";
 			break;
-		case CChatRankList::RANK_ROOM_DIAMOND_YELLOW_VIP:		//»Æ×êVIP
-			rankStr="»Æ×ê»áÔ±";
+		case CChatRankList::RANK_ROOM_DIAMOND_YELLOW_VIP:		//é»„é’»VIP
+			rankStr="é»„é’»ä¼šå‘˜";
 			break;
-		case CChatRankList::RANK_ROOM_DIAMOND_GREEN_VIP:		//ÂÌ×êVIP
-			rankStr="ÂÌ×êVIP";
+		case CChatRankList::RANK_ROOM_DIAMOND_GREEN_VIP:		//ç»¿é’»VIP
+			rankStr="ç»¿é’»VIP";
 			break;
-		case CChatRankList::RANK_ROOM_DIAMOND_BLUE_VIP:			//À¶×êVIP
-			rankStr="À¶×êVIP";
+		case CChatRankList::RANK_ROOM_DIAMOND_BLUE_VIP:			//è“é’»VIP
+			rankStr="è“é’»VIP";
 			break;
-		case CChatRankList::RANK_ROOM_DIAMOND_PINK_VIP:			//·Û×êVIP
-			rankStr="·Û×êVIP";
+		case CChatRankList::RANK_ROOM_DIAMOND_PINK_VIP:			//ç²‰é’»VIP
+			rankStr="ç²‰é’»VIP";
 			break;
-		case CChatRankList::RANK_ROOM_DIAMOND_PURPLE_VIP:		//×Ï×êVIP
-			rankStr="×Ï×êVIP";
+		case CChatRankList::RANK_ROOM_DIAMOND_PURPLE_VIP:		//ç´«é’»VIP
+			rankStr="ç´«é’»VIP";
 			break;
-		case CChatRankList::RANK_ROOM_DIAMOND_COLOUR_VIP:		//×Ï×êVIP
-			rankStr="²Ê×êVIP";
+		case CChatRankList::RANK_ROOM_DIAMOND_COLOUR_VIP:		//ç´«é’»VIP
+			rankStr="å½©é’»VIP";
 			break;
-		case CChatRankList::RANK_ROOM_COO_ASSISTANT:			//ÖúÀíÕ¾³¤
-			rankStr="¸±Õ¾³¤";
+		case CChatRankList::RANK_ROOM_COO_ASSISTANT:			//åŠ©ç†ç«™é•¿
+			rankStr="å‰¯ç«™é•¿";
 			break;
-		case CChatRankList::RANK_ROOM_MUSIC_SOCIETY:			//ÀÖÍÅ
-			rankStr="ÀÖÊÖ";
+		case CChatRankList::RANK_ROOM_MUSIC_SOCIETY:			//ä¹å›¢
+			rankStr="ä¹æ‰‹";
 			break;
-		case CChatRankList::RANK_ROOM_DANCER:					//Îèµ¸ÑÝÔ±
-			rankStr="ÎèÐÇ";
+		case CChatRankList::RANK_ROOM_DANCER:					//èˆžè¹ˆæ¼”å‘˜
+			rankStr="èˆžæ˜Ÿ";
 			break;
-		case CChatRankList::RANK_ROOM_FUHAO:					//ºÀ×Ö±êÖ¾
-			rankStr="¸»ºÀ";
+		case CChatRankList::RANK_ROOM_FUHAO:					//è±ªå­—æ ‡å¿—
+			rankStr="å¯Œè±ª";
 			break;
-		case CChatRankList::RANK_ROOM_STAR:						//ÐÇ¼¶ÒÕÈË
-			rankStr = "Ã÷ÐÇ";
+		case CChatRankList::RANK_ROOM_STAR:						//æ˜Ÿçº§è‰ºäºº
+			rankStr = "æ˜Žæ˜Ÿ";
 			break;
 
-		case CChatRankList::RANK_ROOM_GUARD:					//ÊØ»¤
-			rankStr = "ÊØ»¤";
+		case CChatRankList::RANK_ROOM_GUARD:					//å®ˆæŠ¤
+			rankStr = "å®ˆæŠ¤";
 			break;
-		case CChatRankList::RANK_ROOM_CARETAKER:					//ÁÙ¹Ü
-			rankStr = "ÁÙ¹Ü";
+		case CChatRankList::RANK_ROOM_CARETAKER:					//ä¸´ç®¡
+			rankStr = "ä¸´ç®¡";
 			break;
 		}
 		return rankStr;
@@ -468,46 +468,46 @@ class CChatRankListVip
 public:
 	enum RankListVip
 	{
-		RANK_GENERAL,											//ÆÕÍ¨ÓÃ»§
-		RANK_ROOM_JUNION_VIP,									//µÍ»á	
-		RANK_ROOM_MIDDLE_VIP,									//ÖÐ»á
-		RANK_ROOM_HIGHER_VIP,									//¸ß»á
-		RANK_ROOM_GOLD_VIP,										//°×½ð»á
-		RANK_ROOM_LORD_BARON,									//ÄÐ¾ô
-		RANK_ROOM_LORD_VISCOUNT,								//×Ó¾ô
-		RANK_ROOM_LORD_EARL,									//²®¾ô
-		RANK_ROOM_LORD_MARQUESS,								//ºî¾ô
-		RANK_ROOM_LORD_DUKE,									//¹«¾ô
-		RANK_ROOM_LORD_KING,									//¹úÍõ
-		RANK_ROOM_MANAGER,										//·¿¼ä¹ÜÀí
-		RANK_ROOM_ASSISTANT,									//¸±ÊÒ
-		RANK_ROOM_OWNER,										//ÊÒÖ÷
-		RANK_ROOM_SUPPER,										//³¬¹Ü
-		RANK_ROOM_CONTACT_STAFF,								//¿Í·þ
-		RANK_ROOM_PRIVILEGES,									//ÌØÈ¨
-		RANK_ROOM_COO,											//Õ¾³¤
-		RANK_ROOM_COO_ASSISTANT,								//¸±Õ¾³¤
-		RANK_ROOM_CASTEALLAN,									//³ÇÖ÷
-		RANK_ROOM_CASTEALLAN_MRS,								//³ÇÖ÷·òÈË
-		RANK_ROOM_COMPERE,										//³¬¼¶Ö÷³Ö
-		RANK_ROOM_COMPEREMAN,									//MCÄÐÖ÷³Ö
-		RANK_ROOM_BABY1,										//±¦±´1
-		RANK_ROOM_BABY2,										//±¦±´2
-		RANK_ROOM_BABY3,										//±¦±´3
-		RANK_ROOM_BABY4,										//±¦±´4
-		RANK_ROOM_BABY5,										//±¦±´5
-		RANK_ROOM_BABY6,										//±¦±´6
-		RANK_ROOM_PATROL,										//Ñ²²é
-		RANK_ROOM_OPERATION,									//ÔËÓª
-		RANK_ROOM_DIAMOND_BLACK_VIP,							//ºÚ×êVIP
-		RANK_ROOM_DIAMOND_RED_VIP,								//ºì×êVIP
-		RANK_ROOM_DIAMOND_YELLOW_VIP,							//»Æ×êVIP
-		RANK_ROOM_DIAMOND_GREEN_VIP,							//ÂÌ×êVIP
-		RANK_ROOM_DIAMOND_BLUE_VIP,								//À¶×êVIP
-		RANK_ROOM_DIAMOND_PINK_VIP,								//·Û×êVIP
-		RANK_ROOM_DIAMOND_PURPLE_VIP,							//×Ï×êVIP
-		RANK_ROOM_DIAMOND_COLOUR_VIP,							//²Ê×êVIP
-		RANK_ROOM_CARETAKER,									//ÁÙ¹Ü
+		RANK_GENERAL,											//æ™®é€šç”¨æˆ·
+		RANK_ROOM_JUNION_VIP,									//ä½Žä¼š	
+		RANK_ROOM_MIDDLE_VIP,									//ä¸­ä¼š
+		RANK_ROOM_HIGHER_VIP,									//é«˜ä¼š
+		RANK_ROOM_GOLD_VIP,										//ç™½é‡‘ä¼š
+		RANK_ROOM_LORD_BARON,									//ç”·çˆµ
+		RANK_ROOM_LORD_VISCOUNT,								//å­çˆµ
+		RANK_ROOM_LORD_EARL,									//ä¼¯çˆµ
+		RANK_ROOM_LORD_MARQUESS,								//ä¾¯çˆµ
+		RANK_ROOM_LORD_DUKE,									//å…¬çˆµ
+		RANK_ROOM_LORD_KING,									//å›½çŽ‹
+		RANK_ROOM_MANAGER,										//æˆ¿é—´ç®¡ç†
+		RANK_ROOM_ASSISTANT,									//å‰¯å®¤
+		RANK_ROOM_OWNER,										//å®¤ä¸»
+		RANK_ROOM_SUPPER,										//è¶…ç®¡
+		RANK_ROOM_CONTACT_STAFF,								//å®¢æœ
+		RANK_ROOM_PRIVILEGES,									//ç‰¹æƒ
+		RANK_ROOM_COO,											//ç«™é•¿
+		RANK_ROOM_COO_ASSISTANT,								//å‰¯ç«™é•¿
+		RANK_ROOM_CASTEALLAN,									//åŸŽä¸»
+		RANK_ROOM_CASTEALLAN_MRS,								//åŸŽä¸»å¤«äºº
+		RANK_ROOM_COMPERE,										//è¶…çº§ä¸»æŒ
+		RANK_ROOM_COMPEREMAN,									//MCç”·ä¸»æŒ
+		RANK_ROOM_BABY1,										//å®è´1
+		RANK_ROOM_BABY2,										//å®è´2
+		RANK_ROOM_BABY3,										//å®è´3
+		RANK_ROOM_BABY4,										//å®è´4
+		RANK_ROOM_BABY5,										//å®è´5
+		RANK_ROOM_BABY6,										//å®è´6
+		RANK_ROOM_PATROL,										//å·¡æŸ¥
+		RANK_ROOM_OPERATION,									//è¿è¥
+		RANK_ROOM_DIAMOND_BLACK_VIP,							//é»‘é’»VIP
+		RANK_ROOM_DIAMOND_RED_VIP,								//çº¢é’»VIP
+		RANK_ROOM_DIAMOND_YELLOW_VIP,							//é»„é’»VIP
+		RANK_ROOM_DIAMOND_GREEN_VIP,							//ç»¿é’»VIP
+		RANK_ROOM_DIAMOND_BLUE_VIP,								//è“é’»VIP
+		RANK_ROOM_DIAMOND_PINK_VIP,								//ç²‰é’»VIP
+		RANK_ROOM_DIAMOND_PURPLE_VIP,							//ç´«é’»VIP
+		RANK_ROOM_DIAMOND_COLOUR_VIP,							//å½©é’»VIP
+		RANK_ROOM_CARETAKER,									//ä¸´ç®¡
 		RANK_ROOM_LIMIT,
 	};
 
@@ -517,125 +517,125 @@ public:
 		switch (usertype)
 		{
 		case CChatRankListVip::RANK_GENERAL:		
-			rankStr="ÆÕÍ¨ÓÃ»§";
+			rankStr="æ™®é€šç”¨æˆ·";
 			break;
-		case CChatRankListVip::RANK_ROOM_JUNION_VIP:				//µÍ»á	
-			rankStr="³õ¼¶»áÔ±";
+		case CChatRankListVip::RANK_ROOM_JUNION_VIP:				//ä½Žä¼š	
+			rankStr="åˆçº§ä¼šå‘˜";
 			break;
-		case CChatRankListVip::RANK_ROOM_MIDDLE_VIP:				//ÖÐ»á
-			rankStr="ÖÐ¼¶»áÔ±";
+		case CChatRankListVip::RANK_ROOM_MIDDLE_VIP:				//ä¸­ä¼š
+			rankStr="ä¸­çº§ä¼šå‘˜";
 			break;
-		case CChatRankListVip::RANK_ROOM_HIGHER_VIP:				//¸ß»á
-			rankStr="¸ß¼¶»áÔ±";
+		case CChatRankListVip::RANK_ROOM_HIGHER_VIP:				//é«˜ä¼š
+			rankStr="é«˜çº§ä¼šå‘˜";
 			break;
-		case CChatRankListVip::RANK_ROOM_GOLD_VIP:					//×ê»á
-			rankStr="°×½ð»áÔ±";
+		case CChatRankListVip::RANK_ROOM_GOLD_VIP:					//é’»ä¼š
+			rankStr="ç™½é‡‘ä¼šå‘˜";
 			break;
-		case CChatRankListVip::RANK_ROOM_LORD_BARON:				//ÄÐ¾ô
-			rankStr="µØÖ÷";
+		case CChatRankListVip::RANK_ROOM_LORD_BARON:				//ç”·çˆµ
+			rankStr="åœ°ä¸»";
 			break;
-		case CChatRankListVip::RANK_ROOM_LORD_VISCOUNT:			//×Ó¾ô
-			rankStr="³¬¼¶ÍÁºÀ";
+		case CChatRankListVip::RANK_ROOM_LORD_VISCOUNT:			//å­çˆµ
+			rankStr="è¶…çº§åœŸè±ª";
 			break;
-		case CChatRankListVip::RANK_ROOM_LORD_EARL:				//²®¾ô
-			rankStr="¸»ºÀ";
+		case CChatRankListVip::RANK_ROOM_LORD_EARL:				//ä¼¯çˆµ
+			rankStr="å¯Œè±ª";
 			break;
-		case CChatRankListVip::RANK_ROOM_LORD_MARQUESS:			//ºî¾ô
-			rankStr="»ÊµÛ";
+		case CChatRankListVip::RANK_ROOM_LORD_MARQUESS:			//ä¾¯çˆµ
+			rankStr="çš‡å¸";
 			break;
-		case CChatRankListVip::RANK_ROOM_LORD_DUKE:				//¹«¾ô
-			rankStr="ÌìÍõ";
+		case CChatRankListVip::RANK_ROOM_LORD_DUKE:				//å…¬çˆµ
+			rankStr="å¤©çŽ‹";
 			break;
-		case CChatRankListVip::RANK_ROOM_LORD_KING:				//¹úÍõ
-			rankStr="´óµÛ";
+		case CChatRankListVip::RANK_ROOM_LORD_KING:				//å›½çŽ‹
+			rankStr="å¤§å¸";
 			break;
-		case CChatRankListVip::RANK_ROOM_MANAGER:					//·¿¼ä¹ÜÀí
-			rankStr="·¿¼ä¹ÜÀí";
+		case CChatRankListVip::RANK_ROOM_MANAGER:					//æˆ¿é—´ç®¡ç†
+			rankStr="æˆ¿é—´ç®¡ç†";
 			break;
-		case CChatRankListVip::RANK_ROOM_ASSISTANT:				//¸±ÊÒ
-			rankStr="¸±ÊÒ";
+		case CChatRankListVip::RANK_ROOM_ASSISTANT:				//å‰¯å®¤
+			rankStr="å‰¯å®¤";
 			break;
-		case CChatRankListVip::RANK_ROOM_OWNER:					//ÊÒÖ÷
-			rankStr="ÊÒÖ÷";
+		case CChatRankListVip::RANK_ROOM_OWNER:					//å®¤ä¸»
+			rankStr="å®¤ä¸»";
 			break;
-		case CChatRankListVip::RANK_ROOM_SUPPER:					//³¬¹Ü
-			rankStr="³¬¹Ü";
+		case CChatRankListVip::RANK_ROOM_SUPPER:					//è¶…ç®¡
+			rankStr="è¶…ç®¡";
 			break;
-		case CChatRankListVip::RANK_ROOM_CONTACT_STAFF:			//¿Í·þ
-			rankStr="¿Í·þ";
+		case CChatRankListVip::RANK_ROOM_CONTACT_STAFF:			//å®¢æœ
+			rankStr="å®¢æœ";
 			break;
-		case CChatRankListVip::RANK_ROOM_PRIVILEGES:				//ÌØÈ¨
-			rankStr="ÌØÈ¨";
+		case CChatRankListVip::RANK_ROOM_PRIVILEGES:				//ç‰¹æƒ
+			rankStr="ç‰¹æƒ";
 			break;
-		case CChatRankListVip::RANK_ROOM_COO:						//Õ¾³¤
-			rankStr="Õ¾³¤";
+		case CChatRankListVip::RANK_ROOM_COO:						//ç«™é•¿
+			rankStr="ç«™é•¿";
 			break;
-		case CChatRankListVip::RANK_ROOM_DIAMOND_BLACK_VIP:		//ºÚ×êVIP
-			rankStr="ºÚ×êVIP";
+		case CChatRankListVip::RANK_ROOM_DIAMOND_BLACK_VIP:		//é»‘é’»VIP
+			rankStr="é»‘é’»VIP";
 			break;
-		case CChatRankListVip::RANK_ROOM_DIAMOND_RED_VIP:			//ºì×êVIP
-			rankStr="ºì×êVIP";
+		case CChatRankListVip::RANK_ROOM_DIAMOND_RED_VIP:			//çº¢é’»VIP
+			rankStr="çº¢é’»VIP";
 			break;
-		case CChatRankListVip::RANK_ROOM_DIAMOND_YELLOW_VIP:		//»Æ×êVIP
-			rankStr="»Æ×ê»áÔ±";
+		case CChatRankListVip::RANK_ROOM_DIAMOND_YELLOW_VIP:		//é»„é’»VIP
+			rankStr="é»„é’»ä¼šå‘˜";
 			break;
-		case CChatRankListVip::RANK_ROOM_DIAMOND_GREEN_VIP:		//ÂÌ×êVIP
-			rankStr="ÂÌ×êVIP";
+		case CChatRankListVip::RANK_ROOM_DIAMOND_GREEN_VIP:		//ç»¿é’»VIP
+			rankStr="ç»¿é’»VIP";
 			break;
-		case CChatRankListVip::RANK_ROOM_DIAMOND_BLUE_VIP:			//À¶×êVIP
-			rankStr="À¶×êVIP";
+		case CChatRankListVip::RANK_ROOM_DIAMOND_BLUE_VIP:			//è“é’»VIP
+			rankStr="è“é’»VIP";
 			break;
-		case CChatRankListVip::RANK_ROOM_DIAMOND_PINK_VIP:			//·Û×êVIP
-			rankStr="·Û×êVIP";
+		case CChatRankListVip::RANK_ROOM_DIAMOND_PINK_VIP:			//ç²‰é’»VIP
+			rankStr="ç²‰é’»VIP";
 			break;
-		case CChatRankListVip::RANK_ROOM_DIAMOND_PURPLE_VIP:		//×Ï×êVIP
-			rankStr="×Ï×êVIP";
+		case CChatRankListVip::RANK_ROOM_DIAMOND_PURPLE_VIP:		//ç´«é’»VIP
+			rankStr="ç´«é’»VIP";
 			break;
-		case CChatRankListVip::RANK_ROOM_DIAMOND_COLOUR_VIP:		//×Ï×êVIP
-			rankStr="²Ê×êVIP";
+		case CChatRankListVip::RANK_ROOM_DIAMOND_COLOUR_VIP:		//ç´«é’»VIP
+			rankStr="å½©é’»VIP";
 			break;
-		case CChatRankListVip::RANK_ROOM_COO_ASSISTANT:			//ÖúÀíÕ¾³¤
-			rankStr="¸±Õ¾³¤";
+		case CChatRankListVip::RANK_ROOM_COO_ASSISTANT:			//åŠ©ç†ç«™é•¿
+			rankStr="å‰¯ç«™é•¿";
 			break;
-		case CChatRankListVip::RANK_ROOM_CASTEALLAN:				//³ÇÖ÷
-			rankStr="³ÇÖ÷";
+		case CChatRankListVip::RANK_ROOM_CASTEALLAN:				//åŸŽä¸»
+			rankStr="åŸŽä¸»";
 			break;
-		case CChatRankListVip::RANK_ROOM_CASTEALLAN_MRS:			//³ÇÖ÷·òÈË
-			rankStr="³ÇÖ÷·òÈË";
+		case CChatRankListVip::RANK_ROOM_CASTEALLAN_MRS:			//åŸŽä¸»å¤«äºº
+			rankStr="åŸŽä¸»å¤«äºº";
 			break;
 
-		case CChatRankListVip::RANK_ROOM_COMPEREMAN:			////MCÄÐÖ÷³Ö
-			rankStr="MCÄÐÖ÷³Ö";
+		case CChatRankListVip::RANK_ROOM_COMPEREMAN:			////MCç”·ä¸»æŒ
+			rankStr="MCç”·ä¸»æŒ";
 			break;
-		case CChatRankListVip::RANK_ROOM_COMPERE:			//³¬¼¶Ö÷³Ö
-			rankStr="³¬¼¶Ö÷³Ö";
+		case CChatRankListVip::RANK_ROOM_COMPERE:			//è¶…çº§ä¸»æŒ
+			rankStr="è¶…çº§ä¸»æŒ";
 			break;
-		case CChatRankListVip::RANK_ROOM_BABY1:			//±¦±´1
-			rankStr="±¦±´1";
+		case CChatRankListVip::RANK_ROOM_BABY1:			//å®è´1
+			rankStr="å®è´1";
 			break;
-		case CChatRankListVip::RANK_ROOM_BABY2:			//±¦±´2
-			rankStr="±¦±´2";
+		case CChatRankListVip::RANK_ROOM_BABY2:			//å®è´2
+			rankStr="å®è´2";
 			break;
-		case CChatRankListVip::RANK_ROOM_BABY3:			//±¦±´3
-			rankStr="±¦±´3";
+		case CChatRankListVip::RANK_ROOM_BABY3:			//å®è´3
+			rankStr="å®è´3";
 			break;
-		case CChatRankListVip::RANK_ROOM_BABY4:			//±¦±´4
-			rankStr="±¦±´4";
+		case CChatRankListVip::RANK_ROOM_BABY4:			//å®è´4
+			rankStr="å®è´4";
 			break;
-		case CChatRankListVip::RANK_ROOM_BABY5:			//±¦±´5
-			rankStr="±¦±´5";
+		case CChatRankListVip::RANK_ROOM_BABY5:			//å®è´5
+			rankStr="å®è´5";
 			break;
-		case CChatRankListVip::RANK_ROOM_BABY6:			//±¦±´6
-			rankStr="±¦±´6";
+		case CChatRankListVip::RANK_ROOM_BABY6:			//å®è´6
+			rankStr="å®è´6";
 			break;
-		case CChatRankListVip::RANK_ROOM_PATROL:			//Ñ²²é
-			rankStr="Ñ²²é";
+		case CChatRankListVip::RANK_ROOM_PATROL:			//å·¡æŸ¥
+			rankStr="å·¡æŸ¥";
 			break;
-		case CChatRankListVip::RANK_ROOM_OPERATION:			//ÔËÓª
-			rankStr="ÔËÓª";
+		case CChatRankListVip::RANK_ROOM_OPERATION:			//è¿è¥
+			rankStr="è¿è¥";
 			break;
-		case CChatRankListVip::RANK_ROOM_CARETAKER:			//ÁÙ¹Ü
-			rankStr="ÁÙ¹Ü";
+		case CChatRankListVip::RANK_ROOM_CARETAKER:			//ä¸´ç®¡
+			rankStr="ä¸´ç®¡";
 			break;
 			
 		}
@@ -652,164 +652,164 @@ class ChatAct
 public:
 	enum Act
 	{
-		ActKickOut = 1,											//ÌßÈË
-		ActBlock,												//À­ºÚ¹¦ÄÜ
-		ActMic,													//±§Âó
-		ActForbidChat,											//½ûÑÔËûÈË¹¦ÄÜ
-		ActModifyRoomInfo,										//ÐÞ¸Ä·¿¼äÐÅÏ¢
-		ActGetUserIP,											//²é¿´ÓÃ»§IPÈ¨ÏÞ
-		ActShake,												//ÕðÆÁ¹¦ÄÜ
-		ActPublicChat,											//ÔÚ¹Ø±Õºó,ÊÇ·ñ»¹ÓÐ¹«ÁÄ¹¦ÄÜ
-		ActPrivateChat,											//ÔÚ¹Ø±Õºó,ÊÇ·ñ»¹ÓÐË½ÁÄ¹¦ÄÜ,
-		ActRoomBroadcast,										//·¿¼ä¹ã²¥¹¦ÄÜ
-		ActRoomGlobalMsg,										//È«Õ¾À®°È
-		ActVipRoom,												//½øÈëvip·¿¼äÈ¨ÏÞ
-		ActVipRoomFull,											//½øÈëvipÂúÔ±·¿¼äÈ¨ÏÞ
-		ActRoomBlock,											//¼ÓÈë·¿¼äºÚÃûµ¥È¨ÏÞ
-		ActPidBlock,											//¼ÓÈëÕ¾µãºÚÃûµ¥È¨ÏÞ
-		ActModifyMgr,											//ÉèÖÃ¹ÜÀíÔ±È¨ÏÞ
-		ActModifyOwner,											//ÉèÖÃ¸±ÊÒÖ÷È¨ÏÞ
-		ActChatLenLimit,										//ÁÄÌì×ÖÊýÏÞÖÆ
-		ActChatDiy,												//ÔÊÐí×Ô¶¨Òå×ÖÌå
-		ActChatFace,											//±íÇéÈ¨ÏÞ
-		ActChatPicture,											//Í¼Æ¬È¨ÏÞ
-		ActChatColor,											//²ÊÌõÈ¨ÏÞ
-		ActModifyCaretaker,										//ÐÞ¸ÄÁÙ¹Ü	
-		ActTakeMic,												//¶áÂó
-		ActGreeter,												//Ó­±ö´Ê
-		ActOtherPrivateChat,									//µÚÈý·½ÇÄÇÄ»°È¨ÏÞ
-		ActTransfer,											//×ªÕË
-		ActPrivateMic,											//ÉÏË½ÂóÈ¨ÏÞ
-		ActPrivateWatch,										//¿´Ë½ÂóÖ¸¶¨È¨ÏÞ
-		ActSpecialWatch,										//²»ÊÜÏÞÖÆµÄË½Âó¹Û¿´È¨ÏÞ
-		ActGetRed,												//ÇÀºì°ü
-		ActSendRed,												//·¢ºì°ü
+		ActKickOut = 1,											//è¸¢äºº
+		ActBlock,												//æ‹‰é»‘åŠŸèƒ½
+		ActMic,													//æŠ±éº¦
+		ActForbidChat,											//ç¦è¨€ä»–äººåŠŸèƒ½
+		ActModifyRoomInfo,										//ä¿®æ”¹æˆ¿é—´ä¿¡æ¯
+		ActGetUserIP,											//æŸ¥çœ‹ç”¨æˆ·IPæƒé™
+		ActShake,												//éœ‡å±åŠŸèƒ½
+		ActPublicChat,											//åœ¨å…³é—­åŽ,æ˜¯å¦è¿˜æœ‰å…¬èŠåŠŸèƒ½
+		ActPrivateChat,											//åœ¨å…³é—­åŽ,æ˜¯å¦è¿˜æœ‰ç§èŠåŠŸèƒ½,
+		ActRoomBroadcast,										//æˆ¿é—´å¹¿æ’­åŠŸèƒ½
+		ActRoomGlobalMsg,										//å…¨ç«™å–‡å­
+		ActVipRoom,												//è¿›å…¥vipæˆ¿é—´æƒé™
+		ActVipRoomFull,											//è¿›å…¥vipæ»¡å‘˜æˆ¿é—´æƒé™
+		ActRoomBlock,											//åŠ å…¥æˆ¿é—´é»‘åå•æƒé™
+		ActPidBlock,											//åŠ å…¥ç«™ç‚¹é»‘åå•æƒé™
+		ActModifyMgr,											//è®¾ç½®ç®¡ç†å‘˜æƒé™
+		ActModifyOwner,											//è®¾ç½®å‰¯å®¤ä¸»æƒé™
+		ActChatLenLimit,										//èŠå¤©å­—æ•°é™åˆ¶
+		ActChatDiy,												//å…è®¸è‡ªå®šä¹‰å­—ä½“
+		ActChatFace,											//è¡¨æƒ…æƒé™
+		ActChatPicture,											//å›¾ç‰‡æƒé™
+		ActChatColor,											//å½©æ¡æƒé™
+		ActModifyCaretaker,										//ä¿®æ”¹ä¸´ç®¡	
+		ActTakeMic,												//å¤ºéº¦
+		ActGreeter,												//è¿Žå®¾è¯
+		ActOtherPrivateChat,									//ç¬¬ä¸‰æ–¹æ‚„æ‚„è¯æƒé™
+		ActTransfer,											//è½¬è´¦
+		ActPrivateMic,											//ä¸Šç§éº¦æƒé™
+		ActPrivateWatch,										//çœ‹ç§éº¦æŒ‡å®šæƒé™
+		ActSpecialWatch,										//ä¸å—é™åˆ¶çš„ç§éº¦è§‚çœ‹æƒé™
+		ActGetRed,												//æŠ¢çº¢åŒ…
+		ActSendRed,												//å‘çº¢åŒ…
 
 		ActLimit,
 
 		ActGameStart = 100,
-		ActChat,												//ÓÎÏ·ÁÄÌì
-		ActKick,												//³µÐÐÌßÈË
-		ActGameLimit,											//Ìí¼ÓÏÞÖÆÈ¨ÏÞ(·À¹Ò»ú)
+		ActChat,												//æ¸¸æˆèŠå¤©
+		ActKick,												//è½¦è¡Œè¸¢äºº
+		ActGameLimit,											//æ·»åŠ é™åˆ¶æƒé™(é˜²æŒ‚æœº)
 	};
 	static std::string GetActionName(uint8 actid)
 	{
 		std::string actNameStr = "";
 		switch (actid)
 		{
-		case ActKickOut:										//ÌßÈË
+		case ActKickOut:										//è¸¢äºº
 			actNameStr = "kickout";
 			break;
-		case ActBlock:											//À­ºÚ¹¦ÄÜ
+		case ActBlock:											//æ‹‰é»‘åŠŸèƒ½
 			actNameStr = "block";
 			break;
-		case ActMic:											//±§Âó
+		case ActMic:											//æŠ±éº¦
 			actNameStr = "mic";
 			break;
-		case ActForbidChat: 									//½ûÑÔËûÈË¹¦ÄÜ
+		case ActForbidChat: 									//ç¦è¨€ä»–äººåŠŸèƒ½
 			actNameStr = "forbidchat";
 			break;
-		case ActModifyRoomInfo: 								//ÐÞ¸Ä·¿¼äÐÅÏ¢
+		case ActModifyRoomInfo: 								//ä¿®æ”¹æˆ¿é—´ä¿¡æ¯
 			actNameStr = "modifyinfo";
 			break;
-		case ActGetUserIP: 										//²é¿´ÓÃ»§IPÈ¨ÏÞ
+		case ActGetUserIP: 										//æŸ¥çœ‹ç”¨æˆ·IPæƒé™
 			actNameStr = "getuserip";
 			break;
-		case ActShake:											//ÕðÆÁ¹¦ÄÜ
+		case ActShake:											//éœ‡å±åŠŸèƒ½
 			actNameStr = "shark";
 			break;
-		case ActPublicChat: 									//ÔÚ¹Ø±Õºó:ÊÇ·ñ»¹ÓÐ¹«ÁÄ¹¦ÄÜ
+		case ActPublicChat: 									//åœ¨å…³é—­åŽ:æ˜¯å¦è¿˜æœ‰å…¬èŠåŠŸèƒ½
 			actNameStr = "publicchat";
 			break;
-		case ActPrivateChat:									//ÔÚ¹Ø±Õºó:ÊÇ·ñ»¹ÓÐË½ÁÄ¹¦ÄÜ:
+		case ActPrivateChat:									//åœ¨å…³é—­åŽ:æ˜¯å¦è¿˜æœ‰ç§èŠåŠŸèƒ½:
 			actNameStr = "privatechat";
 			break;
-		case ActRoomBroadcast: 									//·¿¼ä¹ã²¥¹¦ÄÜ
+		case ActRoomBroadcast: 									//æˆ¿é—´å¹¿æ’­åŠŸèƒ½
 			actNameStr = "broadcast";
 			break;
-		case ActRoomGlobalMsg: 									//È«Õ¾À®°È
+		case ActRoomGlobalMsg: 									//å…¨ç«™å–‡å­
 			actNameStr = "ActRoomGlobalMsg";
 			break;
 
-		case ActVipRoom:										//½øÈëvip·¿¼äÈ¨ÏÞ
+		case ActVipRoom:										//è¿›å…¥vipæˆ¿é—´æƒé™
 			actNameStr = "ActVipRoom";
 			break;
 
-		case ActVipRoomFull:									//½øÈëvipÂúÔ±·¿¼äÈ¨ÏÞ
+		case ActVipRoomFull:									//è¿›å…¥vipæ»¡å‘˜æˆ¿é—´æƒé™
 			actNameStr = "ActVipRoomFull";
 			break;
 
-		case ActRoomBlock:										//¼ÓÈë·¿¼äºÚÃûµ¥È¨ÏÞ
+		case ActRoomBlock:										//åŠ å…¥æˆ¿é—´é»‘åå•æƒé™
 			actNameStr = "ActRoomBlock";
 			break;
 
-		case ActPidBlock:										//¼ÓÈëÕ¾µãºÚÃûµ¥È¨ÏÞ
+		case ActPidBlock:										//åŠ å…¥ç«™ç‚¹é»‘åå•æƒé™
 			actNameStr = "ActPidBlock";						
 			break;
 			
-		case ActModifyMgr:										//ÉèÖÃ¹ÜÀíÔ±È¨ÏÞ
+		case ActModifyMgr:										//è®¾ç½®ç®¡ç†å‘˜æƒé™
 			actNameStr = "ActModifyMgr";						
 			break;
 		
-		case ActModifyOwner:									//ÉèÖÃ¸±ÊÒÖ÷È¨ÏÞ
+		case ActModifyOwner:									//è®¾ç½®å‰¯å®¤ä¸»æƒé™
 			actNameStr = "ActModifyOwner";						
 			break;
 		
-		case ActChatLenLimit:									//ÁÄÌì×ÖÊýÏÞÖÆ
+		case ActChatLenLimit:									//èŠå¤©å­—æ•°é™åˆ¶
 			actNameStr = "ActChatLenLimit";						
 			break;
 
-		case ActChatDiy:										//ÔÊÐí×Ô¶¨Òå×ÖÌå
+		case ActChatDiy:										//å…è®¸è‡ªå®šä¹‰å­—ä½“
 			actNameStr = "ActChatDiy";						
 			break;
 		
-		case ActChatFace:										//±íÇéÈ¨ÏÞ
+		case ActChatFace:										//è¡¨æƒ…æƒé™
 			actNameStr = "ActChatFace";						
 			break;
 				
-		case ActChatPicture:									//Í¼Æ¬È¨ÏÞ
+		case ActChatPicture:									//å›¾ç‰‡æƒé™
 			actNameStr = "ActChatPicture";						
 			break;	
 
-		case ActChatColor:										//²ÊÌõÈ¨ÏÞ
+		case ActChatColor:										//å½©æ¡æƒé™
 			actNameStr = "ActChatColor";						
 			break;	
 				
-		case ActModifyCaretaker:								//ÐÞ¸ÄÁÙ¹Ü
+		case ActModifyCaretaker:								//ä¿®æ”¹ä¸´ç®¡
 			actNameStr = "ActModifyCaretaker";						
 			break;	
 
-		case ActTakeMic:										//¶áÂó
+		case ActTakeMic:										//å¤ºéº¦
 			actNameStr = "ActTakeMic";						
 			break;	
 
-		case ActGreeter:										//Ó­±ö´Ê
+		case ActGreeter:										//è¿Žå®¾è¯
 			actNameStr = "ActGreeter";						
 			break;	
-		case ActOtherPrivateChat:								//µÚÈý·½ÇÄÇÄ»°È¨ÏÞ
+		case ActOtherPrivateChat:								//ç¬¬ä¸‰æ–¹æ‚„æ‚„è¯æƒé™
 			actNameStr = "ActOtherPrivateChat";						
 			break;	
-		case ActTransfer:										//×ªÕË
+		case ActTransfer:										//è½¬è´¦
 			actNameStr = "ActTransfer";						
 			break;	
-		case ActPrivateMic:										//ÉÏË½ÂóÈ¨ÏÞ
+		case ActPrivateMic:										//ä¸Šç§éº¦æƒé™
 			actNameStr = "ActPrivateMic";						
 			break;	
-		case ActPrivateWatch:										//¿´Ë½ÂóÖ¸¶¨È¨ÏÞ
+		case ActPrivateWatch:										//çœ‹ç§éº¦æŒ‡å®šæƒé™
 			actNameStr = "ActPrivateWatch";						
 			break;	
-		case ActSpecialWatch:										//²»ÊÜÏÞÖÆµÄË½Âó¹Û¿´È¨ÏÞ
+		case ActSpecialWatch:										//ä¸å—é™åˆ¶çš„ç§éº¦è§‚çœ‹æƒé™
 			actNameStr = "ActSpecialWatch";						
 			break;	
-		case ActGetRed:												//ÇÀºì°ü
+		case ActGetRed:												//æŠ¢çº¢åŒ…
 			actNameStr = "ActGetRed";
 			break;
-		case ActSendRed:											//·¢ºì°ü
+		case ActSendRed:											//å‘çº¢åŒ…
 			actNameStr = "ActSendRed";
 			break;
 
 
-		//ÓÎÏ·100ÒÔºóµÄ
+		//æ¸¸æˆ100ä»¥åŽçš„
 		case ActChat:
 			actNameStr = "ActGameChat";						
 			break;
@@ -836,16 +836,16 @@ public:
 		actKickOut = actMic = actForbidChat = actModifyRoomInfo \
 			= actGetUserIP = actShake = actPublicChat = actPrivateChat = actRoomBroadcast = 0;
 		actRoomGlobalMsg = 0;
-		actVipRoom		 = 0;											//½øÈëvip·¿¼äÈ¨ÏÞ										
-		actVipRoomFull	 = 0;;										//½øÈëvipÂúÔ±·¿¼äÈ¨ÏÞ
-		actRoomBlock	 = 0;										//¼ÓÈë·¿¼äºÚÃûµ¥È¨ÏÞ
-		actPidBlock      = 0;											//¼ÓÈëÕ¾µãºÚÃûµ¥È¨ÏÞ
-		actModifyMgr     = 0;										//ÉèÖÃ¹ÜÀíÔ±È¨ÏÞ(»ÆÂí)
-		actModifyOwner   = 0;										//ÉèÖÃ¸±ÊÒÖ÷È¨ÏÞ(ÂÌÂí)
-		actChatLenLimit  = 0;										//ÁÄÌì×ÖÊýÏÞÖÆ
-		actChatDiy       = 0;										//ÔÊÐí×Ô¶¨Òå×ÖÌå
-		actChatFace		 = 0;											//±íÇéÈ¨ÏÞ
-		actChatPicture	 = 0;										//Í¼Æ¬È¨ÏÞ
+		actVipRoom		 = 0;											//è¿›å…¥vipæˆ¿é—´æƒé™										
+		actVipRoomFull	 = 0;;										//è¿›å…¥vipæ»¡å‘˜æˆ¿é—´æƒé™
+		actRoomBlock	 = 0;										//åŠ å…¥æˆ¿é—´é»‘åå•æƒé™
+		actPidBlock      = 0;											//åŠ å…¥ç«™ç‚¹é»‘åå•æƒé™
+		actModifyMgr     = 0;										//è®¾ç½®ç®¡ç†å‘˜æƒé™(é»„é©¬)
+		actModifyOwner   = 0;										//è®¾ç½®å‰¯å®¤ä¸»æƒé™(ç»¿é©¬)
+		actChatLenLimit  = 0;										//èŠå¤©å­—æ•°é™åˆ¶
+		actChatDiy       = 0;										//å…è®¸è‡ªå®šä¹‰å­—ä½“
+		actChatFace		 = 0;											//è¡¨æƒ…æƒé™
+		actChatPicture	 = 0;										//å›¾ç‰‡æƒé™
 		actChatColor	 = 0;								
 		actModifyCaretaker= 0;
 		actTakeMic		 = 0;											
@@ -858,37 +858,37 @@ public:
 		actGetRed = 0;
 		actSendRed = 0;
 	}
-	uint8 actKickOut:1;											//ÌßÈË
-	uint8 actMic:1;												//±§Âó
-	uint8 actForbidChat:1;										//½ûÑÔ
-	uint8 actModifyRoomInfo:1;									//ÐÞ¸Ä·¿¼äÐÅÏ¢
-	uint8 actGetUserIP:1;										//²é¿´ÓÃ»§IPÈ¨ÏÞ
-	uint8 actShake:1;											//ÕðÆÁ¹¦ÄÜ
-	uint8 actPublicChat:1;										//¹«ÁÄ¹¦ÄÜ
-	uint8 actPrivateChat:1;										//Ë½ÁÄ¹¦ÄÜ
-	uint8 actRoomBroadcast:1;									//·¿¼ä¹ã²¥¹¦ÄÜ
-	uint8 actRoomGlobalMsg:1;									//È«Õ¾À®°È
-	uint8 actVipRoom:1;											//½øÈëvip·¿¼äÈ¨ÏÞ										
-	uint8 actVipRoomFull:1;										//½øÈëvipÂúÔ±·¿¼äÈ¨ÏÞ
-	uint8 actRoomBlock:1;										//¼ÓÈë·¿¼äºÚÃûµ¥È¨ÏÞ
-	uint8 actPidBlock:1;										//¼ÓÈëÕ¾µãºÚÃûµ¥È¨ÏÞ
-	uint8 actModifyMgr:1;										//ÉèÖÃ¹ÜÀíÔ±È¨ÏÞ(»ÆÂí)
-	uint8 actModifyOwner:1;										//ÉèÖÃ¸±ÊÒÖ÷È¨ÏÞ(ÂÌÂí)
-	uint8 actChatLenLimit:1;									//ÁÄÌì×ÖÊýÏÞÖÆ
-	uint8 actChatDiy:1;											//ÔÊÐí×Ô¶¨Òå×ÖÌå
-	uint8 actChatFace:1;										//±íÇéÈ¨ÏÞ
-	uint8 actChatPicture:1;										//Í¼Æ¬È¨ÏÞ
-	uint8 actChatColor:1;										//²ÊÌõÈ¨ÏÞ
-	uint8 actModifyCaretaker:1;									//ÐÞ¸ÄÁÙ¹Ü
-	uint8 actTakeMic:1;											//¶áÂóÈ¨ÏÞ
-	uint8 actGreeter:1;											//Ó­±ö´ÊÈ¨ÏÞ
-	uint8 actOtherPrivateChat:1;								//ÆäËûÈËÇÄÇÄ»°
-	uint8 actTransfer:1;										//×ªÕË
-	uint8 actPrivateMic:1;										//ÉÏË½Âó
-	uint8 actPrivateWatch:1;									//Ë½Âó½öÖ¸¶¨È¨ÏÞ¹Û¿´
-	uint8 actSpecialWatch:1;									//²»ÊÜÈÎºÎÏÞÖÆ¹Û¿´Ë½ÂóÈ¨ÏÞ
-	uint8 actGetRed:1;											//ÇÀºì°üÈ¨ÏÞ
-	uint8 actSendRed:1;											//·¢ºì°üÈ¨ÏÞ
+	uint8 actKickOut:1;											//è¸¢äºº
+	uint8 actMic:1;												//æŠ±éº¦
+	uint8 actForbidChat:1;										//ç¦è¨€
+	uint8 actModifyRoomInfo:1;									//ä¿®æ”¹æˆ¿é—´ä¿¡æ¯
+	uint8 actGetUserIP:1;										//æŸ¥çœ‹ç”¨æˆ·IPæƒé™
+	uint8 actShake:1;											//éœ‡å±åŠŸèƒ½
+	uint8 actPublicChat:1;										//å…¬èŠåŠŸèƒ½
+	uint8 actPrivateChat:1;										//ç§èŠåŠŸèƒ½
+	uint8 actRoomBroadcast:1;									//æˆ¿é—´å¹¿æ’­åŠŸèƒ½
+	uint8 actRoomGlobalMsg:1;									//å…¨ç«™å–‡å­
+	uint8 actVipRoom:1;											//è¿›å…¥vipæˆ¿é—´æƒé™										
+	uint8 actVipRoomFull:1;										//è¿›å…¥vipæ»¡å‘˜æˆ¿é—´æƒé™
+	uint8 actRoomBlock:1;										//åŠ å…¥æˆ¿é—´é»‘åå•æƒé™
+	uint8 actPidBlock:1;										//åŠ å…¥ç«™ç‚¹é»‘åå•æƒé™
+	uint8 actModifyMgr:1;										//è®¾ç½®ç®¡ç†å‘˜æƒé™(é»„é©¬)
+	uint8 actModifyOwner:1;										//è®¾ç½®å‰¯å®¤ä¸»æƒé™(ç»¿é©¬)
+	uint8 actChatLenLimit:1;									//èŠå¤©å­—æ•°é™åˆ¶
+	uint8 actChatDiy:1;											//å…è®¸è‡ªå®šä¹‰å­—ä½“
+	uint8 actChatFace:1;										//è¡¨æƒ…æƒé™
+	uint8 actChatPicture:1;										//å›¾ç‰‡æƒé™
+	uint8 actChatColor:1;										//å½©æ¡æƒé™
+	uint8 actModifyCaretaker:1;									//ä¿®æ”¹ä¸´ç®¡
+	uint8 actTakeMic:1;											//å¤ºéº¦æƒé™
+	uint8 actGreeter:1;											//è¿Žå®¾è¯æƒé™
+	uint8 actOtherPrivateChat:1;								//å…¶ä»–äººæ‚„æ‚„è¯
+	uint8 actTransfer:1;										//è½¬è´¦
+	uint8 actPrivateMic:1;										//ä¸Šç§éº¦
+	uint8 actPrivateWatch:1;									//ç§éº¦ä»…æŒ‡å®šæƒé™è§‚çœ‹
+	uint8 actSpecialWatch:1;									//ä¸å—ä»»ä½•é™åˆ¶è§‚çœ‹ç§éº¦æƒé™
+	uint8 actGetRed:1;											//æŠ¢çº¢åŒ…æƒé™
+	uint8 actSendRed:1;											//å‘çº¢åŒ…æƒé™
 
 	
 	std::string GetAclStr()
@@ -1066,29 +1066,29 @@ class CGiftKind
 public:
 	enum
 	{
-		MAX_SINGER_GIFT_NUM = 2,								//×î¶àÁ½¸öÓÐÐ§µã¸èÀñÎï
+		MAX_SINGER_GIFT_NUM = 2,								//æœ€å¤šä¸¤ä¸ªæœ‰æ•ˆç‚¹æ­Œç¤¼ç‰©
 	};
 
 	enum
 	{
-		SINGER_GIFT_FOR_SINGER = 0,								//µã¸èÀñÎïÖ»¶Ô¸èÊÖÓÐÐ§
-		SINGER_GIFT_FOR_ALL,									//µã¸èÀñÎï¶ÔËùÓÐÈËÓÐÐ§
+		SINGER_GIFT_FOR_SINGER = 0,								//ç‚¹æ­Œç¤¼ç‰©åªå¯¹æ­Œæ‰‹æœ‰æ•ˆ
+		SINGER_GIFT_FOR_ALL,									//ç‚¹æ­Œç¤¼ç‰©å¯¹æ‰€æœ‰äººæœ‰æ•ˆ
 	};
 
 	enum Giftkind
 	{
-		GENERAL_GIFT = 0,										//ÆÕÍ¨ÀñÎï
-		LUCKY_GIFT,												//ÐÒÔËÀñÎï
-		SINGER_GIFT,											//¸èÊÖÀñÎï
-		WELFARE_GIFT,											//ÈºË¢ÀñÎï£¬·¿¼ä·¢¸£Àû
-        TRANSFER_GIFT = 5,                                      //×ªÕËÀñÎï [JWJ]
-		VOD_GIFT,												//µã¸è
-		SMALL_FIREWORKS,										//Ð¡ÑÌ»¨
-		BIG_FIREWORKS,											//´óÑÌ»¨
-		DIAMOND_GIFT,											//×êÊ¯ÀñÎï
-		WEEKSTAR_GFIT,											//ÖÜÐÇ×êÊ¯ÀñÎï
-		SIEGE_GIFT_KIND,										//¹¥³ÇÀñÎï	
-		DIAMOND_TRANSFER,										//×êÊ¯×ªÕËÀñÎï		
+		GENERAL_GIFT = 0,										//æ™®é€šç¤¼ç‰©
+		LUCKY_GIFT,												//å¹¸è¿ç¤¼ç‰©
+		SINGER_GIFT,											//æ­Œæ‰‹ç¤¼ç‰©
+		WELFARE_GIFT,											//ç¾¤åˆ·ç¤¼ç‰©ï¼Œæˆ¿é—´å‘ç¦åˆ©
+        TRANSFER_GIFT = 5,                                      //è½¬è´¦ç¤¼ç‰© [JWJ]
+		VOD_GIFT,												//ç‚¹æ­Œ
+		SMALL_FIREWORKS,										//å°çƒŸèŠ±
+		BIG_FIREWORKS,											//å¤§çƒŸèŠ±
+		DIAMOND_GIFT,											//é’»çŸ³ç¤¼ç‰©
+		WEEKSTAR_GFIT,											//å‘¨æ˜Ÿé’»çŸ³ç¤¼ç‰©
+		SIEGE_GIFT_KIND,										//æ”»åŸŽç¤¼ç‰©	
+		DIAMOND_TRANSFER,										//é’»çŸ³è½¬è´¦ç¤¼ç‰©		
 	};
 };
 
@@ -1097,8 +1097,8 @@ class CRebateKind
 public:
 	enum
 	{
-		NORMAL_USER = 1,	//ÆÕÍ¨ÓÃ»§
-		SINGER_USER,		//ÒÕÈË
+		NORMAL_USER = 1,	//æ™®é€šç”¨æˆ·
+		SINGER_USER,		//è‰ºäºº
 	};
 };
 
@@ -1107,66 +1107,66 @@ class CRoomMicMode
 public:
 	enum MicMode
 	{
-		GENERAL_MODE = 0,										//ÆÕÍ¨Ä£Ê½
-		SINGER_MODE,											//¸èÊÖÄ£Ê½
+		GENERAL_MODE = 0,										//æ™®é€šæ¨¡å¼
+		SINGER_MODE,											//æ­Œæ‰‹æ¨¡å¼
 	};
 };
 
 enum PrivateMicType
 {
-	NONEED_AUTH,				//²»ÐèÒªÑéÖ¤£¬»òÕßÑéÖ¤Í¨¹ý
-	ONLY_VIP_AUTH,				//»áÔ±ÓÃ»§¿É¹Û¿´
-	USER_AGREE_AUTH,			//ÐèÒªÓÃ»§È·¶¨¿ÉÁ¬½Ó
-	GIFT_AUTH,					//ËÍÀñ¿ÉÁ¬½Ó
+	NONEED_AUTH,				//ä¸éœ€è¦éªŒè¯ï¼Œæˆ–è€…éªŒè¯é€šè¿‡
+	ONLY_VIP_AUTH,				//ä¼šå‘˜ç”¨æˆ·å¯è§‚çœ‹
+	USER_AGREE_AUTH,			//éœ€è¦ç”¨æˆ·ç¡®å®šå¯è¿žæŽ¥
+	GIFT_AUTH,					//é€ç¤¼å¯è¿žæŽ¥
 
-	AUTH_LIMIT,					//Ë½ÂôÀàÐÍÉÏÏß
+	AUTH_LIMIT,					//ç§å–ç±»åž‹ä¸Šçº¿
 };
 
 enum PrivateMicConfirmAction
 {
-	CONFIRM_ANSWER_AGREE,			//Ë½ÂóÓÃ»§Í¬ÒâÁ¬½Ó
-	CONFIRM_ANSWER_REFUSE,			//Ë½ÂóÓÃ»§¾Ü¾øÁ¬½Ó
+	CONFIRM_ANSWER_AGREE,			//ç§éº¦ç”¨æˆ·åŒæ„è¿žæŽ¥
+	CONFIRM_ANSWER_REFUSE,			//ç§éº¦ç”¨æˆ·æ‹’ç»è¿žæŽ¥
 };
 
 
 enum ChatUserType
 {
-	chat_user_general,									//ÆÕÍ¨ÓÃ»§
-	chat_user_virtual,									//ÐéÄâÓÃ»§£¬ºóÆÚÏ£ÍûÄÜ¹»·¢Õ¹³É»úÆ÷ÈË
-	chat_user_ios,										//ÒÆ¶¯iosÓÃ»§
-	chat_user_android,									//ÒÆ¶¯andoridÓÃ»§
-	chat_user_web,										//webÓÃ»§
-	chat_user_letao,									//pcÀÖÌÔ°æ±¾		
-	chat_user_iospad,									//ios pad°æ±¾	
-	chat_user_androidpad,								//°²×¿pad
+	chat_user_general,									//æ™®é€šç”¨æˆ·
+	chat_user_virtual,									//è™šæ‹Ÿç”¨æˆ·ï¼ŒåŽæœŸå¸Œæœ›èƒ½å¤Ÿå‘å±•æˆæœºå™¨äºº
+	chat_user_ios,										//ç§»åŠ¨iosç”¨æˆ·
+	chat_user_android,									//ç§»åŠ¨andoridç”¨æˆ·
+	chat_user_web,										//webç”¨æˆ·
+	chat_user_letao,									//pcç‰ˆæœ¬		
+	chat_user_iospad,									//ios padç‰ˆæœ¬	
+	chat_user_androidpad,								//å®‰å“pad
 };
 
 
 enum BeanstalkNotifyType
 {
-	//ÓÎÏ·
-	BNT_PPC_NEW				= 1,					//ÐÂÅöÅö³µÖÐ½±ÏûÏ¢¹ã²¥
-	BNT_PPC_FKCH,									//·è¿ñ³µÐÐÖÐ½±ÏûÏ¢¹ã²¥
-	BNT_PPC_FRUIT,									//ÐÒÔËË®¹û»úÖÐ½±ÏûÏ¢¹ã²¥
-	BNT_PPC_DIAMOND,								//×©Ê¯³µÐÐÖÐ½±ÏûÏ¢¹ã²¥
-	BNT_ZZ_LE,										//×ª×ªÀÖÖÐ½±ÏûÏ¢¹ã²¥
-	BNT_OPEN_BOX,									//·¿¼ä¿ª±¦ÏäÖÐ½±ÏûÏ¢¹ã²¥
-	BNT_DUG_TREASURE,								//·¿¼äÍÚ±¦ÖÐ½±ÏûÏ¢¹ã²¥
-	BNT_NN_CARD,									//Å£Å£ÖÐ½±ÏûÏ¢¹ã²¥
+	//æ¸¸æˆ
+	BNT_PPC_NEW				= 1,					//æ–°ç¢°ç¢°è½¦ä¸­å¥–æ¶ˆæ¯å¹¿æ’­
+	BNT_PPC_FKCH,									//ç–¯ç‹‚è½¦è¡Œä¸­å¥–æ¶ˆæ¯å¹¿æ’­
+	BNT_PPC_FRUIT,									//å¹¸è¿æ°´æžœæœºä¸­å¥–æ¶ˆæ¯å¹¿æ’­
+	BNT_PPC_DIAMOND,								//ç –çŸ³è½¦è¡Œä¸­å¥–æ¶ˆæ¯å¹¿æ’­
+	BNT_ZZ_LE,										//è½¬è½¬ä¹ä¸­å¥–æ¶ˆæ¯å¹¿æ’­
+	BNT_OPEN_BOX,									//æˆ¿é—´å¼€å®ç®±ä¸­å¥–æ¶ˆæ¯å¹¿æ’­
+	BNT_DUG_TREASURE,								//æˆ¿é—´æŒ–å®ä¸­å¥–æ¶ˆæ¯å¹¿æ’­
+	BNT_NN_CARD,									//ç‰›ç‰›ä¸­å¥–æ¶ˆæ¯å¹¿æ’­
 
-	//ÀñÎï
-	BNT_LUCKY_GIFT			= 101,					//ÐÒÔËÀñÎïÖÐ½±ÖÐ½±ÏûÏ¢
-	BNT_DUOBAO_WIN,									//Ò»Ôª¶á±¦ÖÐ½±ÏûÏ¢
-	BNT_ACTIVIT_PROMOTE,							//²¶ÓãÍÆ¹ã»î¶¯ÏûÏ¢
-	//Íæ¼Ò¹ã²¥ÏûÏ¢
-	BNT_NORMAL_USER_MSG			= 201,				//ÆÕÍ¨·¿¼äÍæ¼Ò·¢ËÍ¹ã²¥ÏûÏ¢
-	BNT_VIP_USRE_MSG,								//VIP·¿¼äÍæ¼Ò·¢ËÍ¹ã²¥ÏûÏ¢
+	//ç¤¼ç‰©
+	BNT_LUCKY_GIFT			= 101,					//å¹¸è¿ç¤¼ç‰©ä¸­å¥–ä¸­å¥–æ¶ˆæ¯
+	BNT_DUOBAO_WIN,									//ä¸€å…ƒå¤ºå®ä¸­å¥–æ¶ˆæ¯
+	BNT_ACTIVIT_PROMOTE,							//æ•é±¼æŽ¨å¹¿æ´»åŠ¨æ¶ˆæ¯
+	//çŽ©å®¶å¹¿æ’­æ¶ˆæ¯
+	BNT_NORMAL_USER_MSG			= 201,				//æ™®é€šæˆ¿é—´çŽ©å®¶å‘é€å¹¿æ’­æ¶ˆæ¯
+	BNT_VIP_USRE_MSG,								//VIPæˆ¿é—´çŽ©å®¶å‘é€å¹¿æ’­æ¶ˆæ¯
 };
 
 enum GiftDayRankFirstType
 {
-	GDRFT_SSEND_GIFT = 1,				//ËÍÀñµÚÒ»Ãû
-	GDRFT_RECIVE_GIFT = 2,				//ÊÕÀñµÚÒ»Ãû
+	GDRFT_SSEND_GIFT = 1,				//é€ç¤¼ç¬¬ä¸€å
+	GDRFT_RECIVE_GIFT = 2,				//æ”¶ç¤¼ç¬¬ä¸€å
 
 	GDRFT_LIMIT,
 };
@@ -1174,228 +1174,228 @@ enum GiftDayRankFirstType
 
 
 /************************************************************************/
-/* ·þÎñÆ÷ºÍ¿Í»§¶Ë¹²ÓÃÃüÁî×Ö¼¯ºÏ£¬ÆäËûµØ·½²»µÃÔÙ¶¨ÒåÃüÁî×Ö,ËùÓÐÒÔ´ËÎª×¼*/
+/* æœåŠ¡å™¨å’Œå®¢æˆ·ç«¯å…±ç”¨å‘½ä»¤å­—é›†åˆï¼Œå…¶ä»–åœ°æ–¹ä¸å¾—å†å®šä¹‰å‘½ä»¤å­—,æ‰€æœ‰ä»¥æ­¤ä¸ºå‡†*/
 /************************************************************************/
 typedef enum RoomCmdType
 {	
 	IM_CHAT_KEEP_ALIVE = 0x0001,
 	IM_CHAT_ACK,
-	IM_CHAT_PING,												//ÍøËÙ¼ì²â±¨ÎÄ
-	IM_CHAT_OBTAIN_IP,											//»ñµÃÓÃ»§£É£Ð
-	IM_CHAT_ANDROID_LOGON,										//»úÆ÷ÈËµÇÂ½
+	IM_CHAT_PING,												//ç½‘é€Ÿæ£€æµ‹æŠ¥æ–‡
+	IM_CHAT_OBTAIN_IP,											//èŽ·å¾—ç”¨æˆ·ï¼©ï¼°
+	IM_CHAT_ANDROID_LOGON,										//æœºå™¨äººç™»é™†
 	IM_CHAT_ANDROID_LOGON2,
 
-	IM_CHAT_LOGON_ROOM			= 0x0100,						//µÇÂ½·¿¼ä
-	IM_CHAT_LOGOUT_ROOM,										//ÍË³ö·¿¼ä
-	IM_CHAT_KICKOUT,											//Ìß³ö
-	IM_CHAT_VISITOR,											//»ñÈ¡·¿¼äµ±Ç°ÓÃ»§ÁÐ±í
-	IM_CHAT_FORBID_CHAT,                                        //½ûÑÔÄ³ÓÃ»§ 
-	IM_CHAT_EXTRA_MICTIME,										//ÑÓ³¤ÂóÊ±
-	IM_CHAT_MAC_PRESENTLIST,									//¿Í»§¶ËÇëÇó¿ÉÒÔÁìÈ¡µÄÉÏÂó½±ÀøÁÐ±í
-	IM_CHAT_PRIVATE_BIND,										//ÉÏË½Âó
-	IM_CHAT_PRIVATE_UNBIND,										//ÏÂË½Âó
-	IM_CHAT_PRIVATE_WATCH,										//¹Û¿´Ë½Âó
-	IM_CHAT_PRIVATE_UNWATCH,									//ÍË³ö¹Û¿´Ë½Âó
-	IM_CHAT_PRIVATE_WATCHLIST,									//ÇëÇóË½Âó¹Û¿´ÁÐ±í
-	IM_CHAT_PRIVATE_LIST_REQ,									//ÇëÇóË½ÂóÁÐ±í
-	IM_CHAT_KICKOUT_PRIVATE,									//±§ÏÂË½Âó	
-	IM_CHAT_PRIVATE_AVSTATE,									//Ë½ÂóÒôÊÓÆµ×´Ì¬ÐÞ¸Ä
-	IM_CHAT_FORBID_CHAT_BY_ANCHOR,                               //Ö÷²¥½ûÑÔ²Ù×÷
+	IM_CHAT_LOGON_ROOM			= 0x0100,						//ç™»é™†æˆ¿é—´
+	IM_CHAT_LOGOUT_ROOM,										//é€€å‡ºæˆ¿é—´
+	IM_CHAT_KICKOUT,											//è¸¢å‡º
+	IM_CHAT_VISITOR,											//èŽ·å–æˆ¿é—´å½“å‰ç”¨æˆ·åˆ—è¡¨
+	IM_CHAT_FORBID_CHAT,                                        //ç¦è¨€æŸç”¨æˆ· 
+	IM_CHAT_EXTRA_MICTIME,										//å»¶é•¿éº¦æ—¶
+	IM_CHAT_MAC_PRESENTLIST,									//å®¢æˆ·ç«¯è¯·æ±‚å¯ä»¥é¢†å–çš„ä¸Šéº¦å¥–åŠ±åˆ—è¡¨
+	IM_CHAT_PRIVATE_BIND,										//ä¸Šç§éº¦
+	IM_CHAT_PRIVATE_UNBIND,										//ä¸‹ç§éº¦
+	IM_CHAT_PRIVATE_WATCH,										//è§‚çœ‹ç§éº¦
+	IM_CHAT_PRIVATE_UNWATCH,									//é€€å‡ºè§‚çœ‹ç§éº¦
+	IM_CHAT_PRIVATE_WATCHLIST,									//è¯·æ±‚ç§éº¦è§‚çœ‹åˆ—è¡¨
+	IM_CHAT_PRIVATE_LIST_REQ,									//è¯·æ±‚ç§éº¦åˆ—è¡¨
+	IM_CHAT_KICKOUT_PRIVATE,									//æŠ±ä¸‹ç§éº¦	
+	IM_CHAT_PRIVATE_AVSTATE,									//ç§éº¦éŸ³è§†é¢‘çŠ¶æ€ä¿®æ”¹
+	IM_CHAT_FORBID_CHAT_BY_ANCHOR,                               //ä¸»æ’­ç¦è¨€æ“ä½œ
 	
-	IM_CHAT_MODIFY_INFO			= 0x0200,						//ÐÞ¸Ä·¿¼äÐÅÏ¢
-	IM_CHAT_GET_ROOMINFO,										//»ñÈ¡·¿¼äÐÅÏ¢
-	IM_CHAT_MODIFYPASS,											//ÐÞ¸Ä·¿¼äÃÜÂë
-	IM_CHAT_ROOM_OPEN,											//´ò¿ª·¿¼ä
-	IM_CHAT_ROOM_CLOSE,											//¹Ø±Õ·¿¼ä
+	IM_CHAT_MODIFY_INFO			= 0x0200,						//ä¿®æ”¹æˆ¿é—´ä¿¡æ¯
+	IM_CHAT_GET_ROOMINFO,										//èŽ·å–æˆ¿é—´ä¿¡æ¯
+	IM_CHAT_MODIFYPASS,											//ä¿®æ”¹æˆ¿é—´å¯†ç 
+	IM_CHAT_ROOM_OPEN,											//æ‰“å¼€æˆ¿é—´
+	IM_CHAT_ROOM_CLOSE,											//å…³é—­æˆ¿é—´
 
-	IM_CHAT_MODIFY_MANGER,										//ÐÞ¸Ä¹ÜÀíÔ±È¨ÏÞ
-	IM_CHAT_ROOM_MSG,											//·¢ËÍ·¿¼äÄÚ²¿¹ã²¥
-	IM_CHAT_MODIFY_ROOM_INFO_ITEM,								//ÖðÏîÐÞ¸Ä·¿¼äÐÅÏ¢
-	IM_CHAT_SUIBO_PAUSE,										//Ö÷²¥ÇÐ»»µ½ºóÌ¨
-	IM_CHAT_MGRLIMIT_CONFIRM,									//·¿¹Ü³¬¹ýÏÞÖÆÈ·ÈÏ¿òÍÆËÍ
+	IM_CHAT_MODIFY_MANGER,										//ä¿®æ”¹ç®¡ç†å‘˜æƒé™
+	IM_CHAT_ROOM_MSG,											//å‘é€æˆ¿é—´å†…éƒ¨å¹¿æ’­
+	IM_CHAT_MODIFY_ROOM_INFO_ITEM,								//é€é¡¹ä¿®æ”¹æˆ¿é—´ä¿¡æ¯
+	IM_CHAT_SUIBO_PAUSE,										//ä¸»æ’­åˆ‡æ¢åˆ°åŽå°
+	IM_CHAT_MGRLIMIT_CONFIRM,									//æˆ¿ç®¡è¶…è¿‡é™åˆ¶ç¡®è®¤æ¡†æŽ¨é€
 
-	IM_CHAT_CONF_JOIN			= 0x0250,						//ÄÃÂó
-	IM_CHAT_CONF_EXIT,											//Ö÷¶¯ÏÂÂó
-	IM_CHAT_CONF_KICKOUT,										//ÌßÏÂÂó			
-	IM_CHAT_CONF_DRAGIN,										//°ÑÈËÀ­½ø»áÒé
-	IM_CHAT_CANCEL_CFWAIT,										//È¡ÏûµÈ´ý»áÒé
-	IM_CHAT_GET_MIC_LIST,										//»ñÈ¡µ±Ç°ÔÚÂóÁÐ±í
-	IM_CHAT_CFWAITLIST,											//»ñÈ¡ÅÅÂóÁÐ±í
-	IM_CHAT_CHANGE_AUTOMIC,										//±ä¸ü×Ô¶¯ÅÅÂó×´Ì¬
-	IM_CHAT_ADJUST_MIC_QUEUE,									//µ÷ÕûÅÅÂóµÄ¶ÔÁÐ
-	IM_CHAT_DRAG_SETTING,										//ÉèÖÃ·À±§ÂóÑ¡Ïî
-	IM_CHAT_SHAKE,												//»Î¶¯¶Ô·½
-	IM_CHAT_STAMP,												//Ó¡ÕÂ
-	IM_CHAT_GET_USER_STAMP_INFO,								//»ñÈ¡¸ÇÕÂÁÐ±í
-	IM_CHAT_ERASESTAMP,											//²Á³ý¸ÇÕÂ
-	IM_CHAT_REQUEST_OPENBOX,									//Ôö¼ÓÃâ·Ñ¿ª±¦ÏäÇëÇó
-	IM_CHAT_VIEWSTATE,											//Ö±²¥×´Ì¬±ä¸ü
-	IM_CHAT_LAUDCOUNT,											//µãÔÞ
-	IM_CHAT_TAKEMIC,											//¶áÂó
-	IM_CHAT_MODIFYCARETAKER,									//ÐÞ¸ÄÁÙÊ±¹ÜÀí
-	IM_CHAT_FILLUPMICQUEUE,										//²¹ÂóÐò
-	IM_CHAT_MODIFYMICTIME,										//ÐÞ¸Ä×î´óÂóÊ±
-	IM_CHAT_CHANGE_MACLIMIT,									//ÏÞÂóÉèÖÃ
-	IM_CHAT_GET_VID,											//»ñÈ¡vid
-	IM_CHAT_OPEN_BOX,											//ÍÚ±¦ÇëÇó
-	IM_CHAT_MICINFO_REQ,										//ÇëÇóÂóÉÏÓÃ»§ÐÅÏ¢
-	IM_CHAT_INVITE_FRIENDS,                                     //ÑûÇëQQºÃÓÑ
-	IM_CHAT_REQ_REDLIST,										//ÇëÇóºì°üÁÐ±í
-
-
-	IM_CHAT_TEXT				= 0x0300,						//ÎÄ×ÖÐÅÏ¢
-	IM_CHAT_USEGIFT,											//ËÍÀñ
-	IM_CHAT_AUDIO,												//ÒôÆµ
-	IM_CHAT_VIDEO,												//ÊÓÆµ
-	IM_CHAT_GLOBLE_MSG,											//·¢ËÍÐ¡À®°ÈÐÅÏ¢
-	IM_CHAT_RTP,												//RTP±¨ÎÄ
-	IM_CHAT_RTP_ACK,											//RTP±¨ÎÄACK
-	IM_CHAT_RTP_REQ,											//RTPÖØÐÂÇëÇó¶ªÊ§±¨ÎÄ
-	IM_CHAT_RTP_REQ_DIRECT,										//Ö±½ÓÇëÇóÄ³±¨ÎÄ
-	IM_CHAT_USEGIFT_LIST,										//ÈºË¢¹¦ÄÜ£®
-	IM_CHAT_GAME,												//ÁÄÌìÓÎÏ·
-	IM_CHAT_GETPRESENT_MONEY,									//ÁìÈ¡ÉÏÂó½±Àø
-    IM_CHAT_TRANS_TAX_RATE,                                     //»ñÈ¡×ªÕËË°ÂÊºÍÈ¨ÏÞ // [JWJ]
-	IM_CHAT_ADDBLOCK,											//¼ÓÈëÈ«Õ¾·âËø
-	IM_CHAT_MODIFYOWNER,										//ÐÞ¸Ä¸±ÊÒÖ÷
-	IM_CHAT_GUARD_LIST,											//ÊØ»¤ÁÐ±í
-	IM_CHAT_GUARD_ACL,											//ÊØ»¤È¨ÏÞ½Ó¿Ú
-	IM_CHAT_FANS_LIST,											//·ÛË¿ÁÐ±í
-	IM_CHAT_SINGE_ORDER,										//µã¸èÁÐ±í
-	IM_CHAT_VOD,												//µã¸è
-	IM_CHAT_VID_GIFTORDER,										//Ö±²¥°ñµ¥
-	IM_CHAT_MONTH_GIFTORDER,									//ÔÂ°ñµ¥
-	IM_CHAT_SUIBO_REDUCEMONEY,									//Ëæ²¥¿ÛÇ®Ïû·ÑÍ¨ÓÃ½Ó¿Ú
-	IM_CHAT_ANYCAST_INFO,										//Ëæ²¥½øÈë·¿¼äÊý¾Ý»ñÈ¡½Ó¿Ú
-	IM_CHAT_REQ_MGRLIST,										//ÇëÇó·¿¼ä¹ÜÀíÁÐ±í
-	IM_CHAT_ANYCAST_BLOCK,										//Ëæ²¥À­ºÚ
-	IM_CHAT_ANYCAST_REDLIST,									//Ëæ²¥ºì°üÁÐ±í
+	IM_CHAT_CONF_JOIN			= 0x0250,						//æ‹¿éº¦
+	IM_CHAT_CONF_EXIT,											//ä¸»åŠ¨ä¸‹éº¦
+	IM_CHAT_CONF_KICKOUT,										//è¸¢ä¸‹éº¦			
+	IM_CHAT_CONF_DRAGIN,										//æŠŠäººæ‹‰è¿›ä¼šè®®
+	IM_CHAT_CANCEL_CFWAIT,										//å–æ¶ˆç­‰å¾…ä¼šè®®
+	IM_CHAT_GET_MIC_LIST,										//èŽ·å–å½“å‰åœ¨éº¦åˆ—è¡¨
+	IM_CHAT_CFWAITLIST,											//èŽ·å–æŽ’éº¦åˆ—è¡¨
+	IM_CHAT_CHANGE_AUTOMIC,										//å˜æ›´è‡ªåŠ¨æŽ’éº¦çŠ¶æ€
+	IM_CHAT_ADJUST_MIC_QUEUE,									//è°ƒæ•´æŽ’éº¦çš„å¯¹åˆ—
+	IM_CHAT_DRAG_SETTING,										//è®¾ç½®é˜²æŠ±éº¦é€‰é¡¹
+	IM_CHAT_SHAKE,												//æ™ƒåŠ¨å¯¹æ–¹
+	IM_CHAT_STAMP,												//å°ç« 
+	IM_CHAT_GET_USER_STAMP_INFO,								//èŽ·å–ç›–ç« åˆ—è¡¨
+	IM_CHAT_ERASESTAMP,											//æ“¦é™¤ç›–ç« 
+	IM_CHAT_REQUEST_OPENBOX,									//å¢žåŠ å…è´¹å¼€å®ç®±è¯·æ±‚
+	IM_CHAT_VIEWSTATE,											//ç›´æ’­çŠ¶æ€å˜æ›´
+	IM_CHAT_LAUDCOUNT,											//ç‚¹èµž
+	IM_CHAT_TAKEMIC,											//å¤ºéº¦
+	IM_CHAT_MODIFYCARETAKER,									//ä¿®æ”¹ä¸´æ—¶ç®¡ç†
+	IM_CHAT_FILLUPMICQUEUE,										//è¡¥éº¦åº
+	IM_CHAT_MODIFYMICTIME,										//ä¿®æ”¹æœ€å¤§éº¦æ—¶
+	IM_CHAT_CHANGE_MACLIMIT,									//é™éº¦è®¾ç½®
+	IM_CHAT_GET_VID,											//èŽ·å–vid
+	IM_CHAT_OPEN_BOX,											//æŒ–å®è¯·æ±‚
+	IM_CHAT_MICINFO_REQ,										//è¯·æ±‚éº¦ä¸Šç”¨æˆ·ä¿¡æ¯
+	IM_CHAT_INVITE_FRIENDS,                                     //é‚€è¯·QQå¥½å‹
+	IM_CHAT_REQ_REDLIST,										//è¯·æ±‚çº¢åŒ…åˆ—è¡¨
 
 
-	IM_CHAT_ZZ_BET					= 0x350,					//×ª×ªÏÂ×¢
-	IM_CHAT_RELAY_MSG,											//×ª·¢ÐÅÏ¢
+	IM_CHAT_TEXT				= 0x0300,						//æ–‡å­—ä¿¡æ¯
+	IM_CHAT_USEGIFT,											//é€ç¤¼
+	IM_CHAT_AUDIO,												//éŸ³é¢‘
+	IM_CHAT_VIDEO,												//è§†é¢‘
+	IM_CHAT_GLOBLE_MSG,											//å‘é€å°å–‡å­ä¿¡æ¯
+	IM_CHAT_RTP,												//RTPæŠ¥æ–‡
+	IM_CHAT_RTP_ACK,											//RTPæŠ¥æ–‡ACK
+	IM_CHAT_RTP_REQ,											//RTPé‡æ–°è¯·æ±‚ä¸¢å¤±æŠ¥æ–‡
+	IM_CHAT_RTP_REQ_DIRECT,										//ç›´æŽ¥è¯·æ±‚æŸæŠ¥æ–‡
+	IM_CHAT_USEGIFT_LIST,										//ç¾¤åˆ·åŠŸèƒ½ï¼Ž
+	IM_CHAT_GAME,												//èŠå¤©æ¸¸æˆ
+	IM_CHAT_GETPRESENT_MONEY,									//é¢†å–ä¸Šéº¦å¥–åŠ±
+    IM_CHAT_TRANS_TAX_RATE,                                     //èŽ·å–è½¬è´¦ç¨ŽçŽ‡å’Œæƒé™ // [JWJ]
+	IM_CHAT_ADDBLOCK,											//åŠ å…¥å…¨ç«™å°é”
+	IM_CHAT_MODIFYOWNER,										//ä¿®æ”¹å‰¯å®¤ä¸»
+	IM_CHAT_GUARD_LIST,											//å®ˆæŠ¤åˆ—è¡¨
+	IM_CHAT_GUARD_ACL,											//å®ˆæŠ¤æƒé™æŽ¥å£
+	IM_CHAT_FANS_LIST,											//ç²‰ä¸åˆ—è¡¨
+	IM_CHAT_SINGE_ORDER,										//ç‚¹æ­Œåˆ—è¡¨
+	IM_CHAT_VOD,												//ç‚¹æ­Œ
+	IM_CHAT_VID_GIFTORDER,										//ç›´æ’­æ¦œå•
+	IM_CHAT_MONTH_GIFTORDER,									//æœˆæ¦œå•
+	IM_CHAT_SUIBO_REDUCEMONEY,									//éšæ’­æ‰£é’±æ¶ˆè´¹é€šç”¨æŽ¥å£
+	IM_CHAT_ANYCAST_INFO,										//éšæ’­è¿›å…¥æˆ¿é—´æ•°æ®èŽ·å–æŽ¥å£
+	IM_CHAT_REQ_MGRLIST,										//è¯·æ±‚æˆ¿é—´ç®¡ç†åˆ—è¡¨
+	IM_CHAT_ANYCAST_BLOCK,										//éšæ’­æ‹‰é»‘
+	IM_CHAT_ANYCAST_REDLIST,									//éšæ’­çº¢åŒ…åˆ—è¡¨
 
 
-	IM_CHAT_SRV_USER_ONLINE		= 0x0400,						//ÓÃ»§½øÈë·¿¼ä
-	IM_CHAT_SRV_USER_OFFLINE,									//ÀëÏß
-	IM_CHAT_SRV_KICKOUT,										//Ç¿ÖÆÀëÏß
-	IM_CHAT_SRV_FORCE_OFFLINE,									//¶àµØµÇÂ¼Ç¿ÖÆÀëÏß
+	IM_CHAT_ZZ_BET					= 0x350,					//è½¬è½¬ä¸‹æ³¨
+	IM_CHAT_RELAY_MSG,											//è½¬å‘ä¿¡æ¯
+
+
+	IM_CHAT_SRV_USER_ONLINE		= 0x0400,						//ç”¨æˆ·è¿›å…¥æˆ¿é—´
+	IM_CHAT_SRV_USER_OFFLINE,									//ç¦»çº¿
+	IM_CHAT_SRV_KICKOUT,										//å¼ºåˆ¶ç¦»çº¿
+	IM_CHAT_SRV_FORCE_OFFLINE,									//å¤šåœ°ç™»å½•å¼ºåˆ¶ç¦»çº¿
 
 	IM_CHAT_SRV_MODIFY_MANGER,
-	IM_CHAT_SRV_FORBIDCHAT_NTY,									//½ûÑÔÍ¨Öª½Ó¿Ú
-	IM_CHAT_SRV_MODIFYCARETAKER,								//ÐÞ¸ÄÁÙ¹Ü
-	IM_CHAT_SRV_PRIVATE_LIST,									//ÏÂ·¢Ë½ÂóÁÐ±í
-	IM_CHAT_SRV_CONFIRM_ASK,									//Ë½ÂóÇëÇóÁ¬½ÓÍ¨Öª
-	IM_CHAT_SRV_CONFIRM_ANSWER,									//Ë½È·ÈÏÁ¬½Ó
-	IM_CHAT_SRV_WATCHLIST,										//ÏÂ·¢Ë½Âó¹Û¿´ÁÐ±í
-	IM_CHAT_SRV_PRIVATEJOIN,									//ÉÏË½ÂóÍ¨Öª
-	IM_CHAT_SRV_PRIVATEEXIT,									//ÏÂË½ÂóÍ¨Öª
-	IM_CHAT_SRV_GUARDWEEKLIST,									//ÖÜÊØ»¤ÁÐ±í
+	IM_CHAT_SRV_FORBIDCHAT_NTY,									//ç¦è¨€é€šçŸ¥æŽ¥å£
+	IM_CHAT_SRV_MODIFYCARETAKER,								//ä¿®æ”¹ä¸´ç®¡
+	IM_CHAT_SRV_PRIVATE_LIST,									//ä¸‹å‘ç§éº¦åˆ—è¡¨
+	IM_CHAT_SRV_CONFIRM_ASK,									//ç§éº¦è¯·æ±‚è¿žæŽ¥é€šçŸ¥
+	IM_CHAT_SRV_CONFIRM_ANSWER,									//ç§ç¡®è®¤è¿žæŽ¥
+	IM_CHAT_SRV_WATCHLIST,										//ä¸‹å‘ç§éº¦è§‚çœ‹åˆ—è¡¨
+	IM_CHAT_SRV_PRIVATEJOIN,									//ä¸Šç§éº¦é€šçŸ¥
+	IM_CHAT_SRV_PRIVATEEXIT,									//ä¸‹ç§éº¦é€šçŸ¥
+	IM_CHAT_SRV_GUARDWEEKLIST,									//å‘¨å®ˆæŠ¤åˆ—è¡¨
 	
 
 
-	IM_CHAT_SRV_CONF_JOIN		= 0x0500,						//ÉÏÂó
-	IM_CHAT_SRV_CONF_EXIT,										//ÏÂÂó
-	IM_CHAT_SRV_CONF_KICKOUT,									//±»ÏÂÂó
-	IM_CHAT_SRV_ADDCFWAIT,										//±»¼ÓÈë»áÒéµÈ´ý
-	IM_CHAT_SRV_REMOVECFWAIT,									//±»´Ó»áÒéµÈ´ýÖÐÇå³ý
-	IM_CHAT_SRV_AUTOMIC_STATUS_CHANGE,							//×Ô¶¯ÅÅÂó×´Ì¬±ä»¯
-	IM_CHAT_SRV_MICTIME_CHANGE,									//Í¨ÖªÊ£ÓàÐÂÂóÊ±
-	IM_CHAT_SRV_MICPRESENT,										//Í¨ÖªÁìÈ¡ÉÏÂó½±Àø
-	IM_CHAT_SRV_LAUDCOUNT,										//¸üÐÂµãÔÞ
-	IM_CHAT_SRV_SHARE,											//·ÖÏí
-	IM_CHAT_SVR_FIREWORKS,										//Àñ»¨Í¨Öª
-	IM_CHAT_SVR_TOTALRECV,										//Ëæ²¥Ö÷²¥×ÜÊÕÒæ¹ã²¥
+	IM_CHAT_SRV_CONF_JOIN		= 0x0500,						//ä¸Šéº¦
+	IM_CHAT_SRV_CONF_EXIT,										//ä¸‹éº¦
+	IM_CHAT_SRV_CONF_KICKOUT,									//è¢«ä¸‹éº¦
+	IM_CHAT_SRV_ADDCFWAIT,										//è¢«åŠ å…¥ä¼šè®®ç­‰å¾…
+	IM_CHAT_SRV_REMOVECFWAIT,									//è¢«ä»Žä¼šè®®ç­‰å¾…ä¸­æ¸…é™¤
+	IM_CHAT_SRV_AUTOMIC_STATUS_CHANGE,							//è‡ªåŠ¨æŽ’éº¦çŠ¶æ€å˜åŒ–
+	IM_CHAT_SRV_MICTIME_CHANGE,									//é€šçŸ¥å‰©ä½™æ–°éº¦æ—¶
+	IM_CHAT_SRV_MICPRESENT,										//é€šçŸ¥é¢†å–ä¸Šéº¦å¥–åŠ±
+	IM_CHAT_SRV_LAUDCOUNT,										//æ›´æ–°ç‚¹èµž
+	IM_CHAT_SRV_SHARE,											//åˆ†äº«
+	IM_CHAT_SVR_FIREWORKS,										//ç¤¼èŠ±é€šçŸ¥
+	IM_CHAT_SVR_TOTALRECV,										//éšæ’­ä¸»æ’­æ€»æ”¶ç›Šå¹¿æ’­
 
 
 
-	IM_CHAT_SRV_ROOMINFO		= 0x0600,						//¸üÐÂ·¿¼äÐÅÏ¢, ÓÃÓÚ¹ÜÀíÔ±ÐÞ¸Ä·¿¼äÐÅÏ¢ºó
-	IM_CHAT_SRV_ROOM_BROADCAST,									//·¢ËÍ·¿¼ä¹ã²¥
-	IM_CHAT_SRV_ROOM_OPEN,										//·¿¼ä±»´ò¿ª
-	IM_CHAT_SRV_ROOM_CLOSE,										//·¿¼ä±»¹Ø±Õ
+	IM_CHAT_SRV_ROOMINFO		= 0x0600,						//æ›´æ–°æˆ¿é—´ä¿¡æ¯, ç”¨äºŽç®¡ç†å‘˜ä¿®æ”¹æˆ¿é—´ä¿¡æ¯åŽ
+	IM_CHAT_SRV_ROOM_BROADCAST,									//å‘é€æˆ¿é—´å¹¿æ’­
+	IM_CHAT_SRV_ROOM_OPEN,										//æˆ¿é—´è¢«æ‰“å¼€
+	IM_CHAT_SRV_ROOM_CLOSE,										//æˆ¿é—´è¢«å…³é—­
 
-	IM_CHAT_SRV_USEGIFT			= 0x0700,						//ËÍÀñ
-	IM_CHAT_SRV_NTY_MSG,										//Í¨ÖªÏûÏ¢
-	IM_CHAT_SRV_GLOBLE_MSG,										//Ð¡ËÔ°ÈÏûÏ¢
-	IM_CHAT_SRV_PRIZE,											//ÖÐ½±ÏûÏ¢
-	IM_CHAT_SRV_GREAT_GIFT,										//´óÀñÏûÏ¢
-	IM_CHAT_SRV_IP_INFO,										//ÓÃ»§µÄIPÏûÏ¢
-	IM_CHAT_SRV_MARQUEE_MSG,									//·¿¼äÆ®ÎÄ×ÖÏûÏ¢,Ö»ÏÂ·¢ÎÄ×Ö
-	IM_CHAT_SRV_GENERAL_MSG,									//·¿¼ä´ó½±ÏûÏ¢¹ã²¥ÐÅÏ¢
-	IM_CHAT_SRV_STAMP,											//Ó¡ÕÂ
-	IM_CHAT_SRV_ERASESTAMP,										//²Á³ýÓ¡ÕÂ
-	IM_CHAT_SRV_GET_USER_STAMP_INFO,							//»ñÈ¡·¿¼äÄÚÓÃ»§¸ÇÕÂÁÐ±í
-	IM_CHAT_SRV_REQUEST_OPENBOX,								//´¦ÀíÍêÃâ·Ñ¿ªÏä
-	IM_CHAT_SRV_ROOMINFO_CHANGE,								//Í¨Öª·¿¼äÊôÐÔ±»ÐÞ¸Ä
-	IM_CHAT_SRV_GET_REDPAPER,									//ÇÀµ½ºì°üÍ¨ÖªÏûÏ¢	//---sqh
-	IM_CHAT_SRV_SEND_REDPAPER,									//·¢·Åºì°üÍ¨ÖªÏûÏ¢	//---sqh
-    IM_CHAT_SRV_TRANS_TAX_RATE,                                 //×ªÕËË°ÂÊ // [JWJ]
-	IM_CHAT_SRV_USEGIFTNEW,										//ËÍÀñºÍÖÐ½±ÏûÏ¢
-	IM_CHAT_SRV_NTY_MSGEX,										//À©Õ¹Í¨ÖªÏûÏ¢
-	IM_CHAT_SRV_BOX_NOTIFY,										//±¦ÏäÍ¨ÖªÏûÏ¢
-	IM_CHAT_SRV_OPENBOX_NOTIFY,									//ÍÚ±¦Í¨Öª
-	IM_CHAT_SRV_ONMIC_INFO,										//Í¨ÖªÂóÉÏÓÃ»§ÐÅÏ¢
-	IM_CHAT_SRV_ROOM_INVITE,                                     //·¿¼äÑûÇëÏûÏ¢
-	IM_CHAT_SRV_WEEKSTAR_CHANGE,								//ÖÜÐÇ±ä¸üÍ¨ÖªÏûÏ¢
-	IM_CHAT_SRV_DIAMOND_GIFT,									//×êÊ¯ÀñÎïÍ¨Öª
-	IM_CHAT_SRV_WEEKSTAR_LIST,									//È«Á¿ÖÜÐÇÁÐ±í
-	IM_CHAT_SRV_REDLIST,										//ÍÆËÍºì°üÁÐ±í
-	IM_CHAT_SRV_SIEGEGIFT,										//¸üÐÂ¹¥³ÇÀñÎï
-	IM_CHAT_SRV_UPDATEDAY_GIFTRANK,								//¸üÐÂÈÕÅÅÐÐÊÕËÍÀñµÚÒ»Ãû
+	IM_CHAT_SRV_USEGIFT			= 0x0700,						//é€ç¤¼
+	IM_CHAT_SRV_NTY_MSG,										//é€šçŸ¥æ¶ˆæ¯
+	IM_CHAT_SRV_GLOBLE_MSG,										//å°å—½å­æ¶ˆæ¯
+	IM_CHAT_SRV_PRIZE,											//ä¸­å¥–æ¶ˆæ¯
+	IM_CHAT_SRV_GREAT_GIFT,										//å¤§ç¤¼æ¶ˆæ¯
+	IM_CHAT_SRV_IP_INFO,										//ç”¨æˆ·çš„IPæ¶ˆæ¯
+	IM_CHAT_SRV_MARQUEE_MSG,									//æˆ¿é—´é£˜æ–‡å­—æ¶ˆæ¯,åªä¸‹å‘æ–‡å­—
+	IM_CHAT_SRV_GENERAL_MSG,									//æˆ¿é—´å¤§å¥–æ¶ˆæ¯å¹¿æ’­ä¿¡æ¯
+	IM_CHAT_SRV_STAMP,											//å°ç« 
+	IM_CHAT_SRV_ERASESTAMP,										//æ“¦é™¤å°ç« 
+	IM_CHAT_SRV_GET_USER_STAMP_INFO,							//èŽ·å–æˆ¿é—´å†…ç”¨æˆ·ç›–ç« åˆ—è¡¨
+	IM_CHAT_SRV_REQUEST_OPENBOX,								//å¤„ç†å®Œå…è´¹å¼€ç®±
+	IM_CHAT_SRV_ROOMINFO_CHANGE,								//é€šçŸ¥æˆ¿é—´å±žæ€§è¢«ä¿®æ”¹
+	IM_CHAT_SRV_GET_REDPAPER,									//æŠ¢åˆ°çº¢åŒ…é€šçŸ¥æ¶ˆæ¯	//---sqh
+	IM_CHAT_SRV_SEND_REDPAPER,									//å‘æ”¾çº¢åŒ…é€šçŸ¥æ¶ˆæ¯	//---sqh
+    IM_CHAT_SRV_TRANS_TAX_RATE,                                 //è½¬è´¦ç¨ŽçŽ‡ // [JWJ]
+	IM_CHAT_SRV_USEGIFTNEW,										//é€ç¤¼å’Œä¸­å¥–æ¶ˆæ¯
+	IM_CHAT_SRV_NTY_MSGEX,										//æ‰©å±•é€šçŸ¥æ¶ˆæ¯
+	IM_CHAT_SRV_BOX_NOTIFY,										//å®ç®±é€šçŸ¥æ¶ˆæ¯
+	IM_CHAT_SRV_OPENBOX_NOTIFY,									//æŒ–å®é€šçŸ¥
+	IM_CHAT_SRV_ONMIC_INFO,										//é€šçŸ¥éº¦ä¸Šç”¨æˆ·ä¿¡æ¯
+	IM_CHAT_SRV_ROOM_INVITE,                                     //æˆ¿é—´é‚€è¯·æ¶ˆæ¯
+	IM_CHAT_SRV_WEEKSTAR_CHANGE,								//å‘¨æ˜Ÿå˜æ›´é€šçŸ¥æ¶ˆæ¯
+	IM_CHAT_SRV_DIAMOND_GIFT,									//é’»çŸ³ç¤¼ç‰©é€šçŸ¥
+	IM_CHAT_SRV_WEEKSTAR_LIST,									//å…¨é‡å‘¨æ˜Ÿåˆ—è¡¨
+	IM_CHAT_SRV_REDLIST,										//æŽ¨é€çº¢åŒ…åˆ—è¡¨
+	IM_CHAT_SRV_SIEGEGIFT,										//æ›´æ–°æ”»åŸŽç¤¼ç‰©
+	IM_CHAT_SRV_UPDATEDAY_GIFTRANK,								//æ›´æ–°æ—¥æŽ’è¡Œæ”¶é€ç¤¼ç¬¬ä¸€å
 
-	IM_CHAT_SRV_ZZ_BET_START	= 0x0750,						//×ª×ªÐÂÒ»ÂÖ¿ªÊ¼Í¶×¢£¬ÏÂ·¢Í¶×¢Ê±¼ä
-	IM_CHAT_SRV_ZZ_BETMSG,										//×ª×ªÄ³ÈËÏÂ×¢ÏûÏ¢
-	IM_CHAT_SRV_ZZ_WAITING,										//È·ÈÏÏÂ×¢£¬µÈ´ý¿ª½±¹ý³Ì
-	IM_CHAT_SRV_ZZ_AWARDING,									//×ª×ª¿ªÊ¼¿ª½±
-	IM_CHAT_SRV_ZZ_AWARDED,										//×ª×ª¿ª½±ÐÅÏ¢£¬¿ªÊ¼ÏÂ·¢ÏÂÒ»ÂÖÍ¶×¢¿ªÊ¼
-	IM_CHAT_SRV_ZZ_AWARDMSG,									//×ª·¢Ä³ÈËÖÐ½±ÐÅÏ¢
-	IM_CHAT_SRV_ZZ_STOP,										//Í£Ö¹¿ª½±
-	IM_CHAT_SRV_ZZ_AWARD_TODAY,									//µ±Ìì¿ª½±ÐÅÏ¢
-
-
-	IM_CHAT_SRV2SRV_RTP			= 0x800,						//·þÎñÆ÷Ö®¼ä´«ËÍRTP±¨ÎÄ
-	IM_CHAT_SRV2SRV_RTP_REQ,									//·þÎñÆ÷Ö®¼ä¶ª°üÖØ·¢ÇëÇó
-
-	IM_CHAT_PPC_BET				= 0x900,						//ÓÃ»§PPCÑº×¢
-	IM_CHAT_PPC_BANKER_REQ,										//ÓÃ»§×¯¼Ò²Ù×÷
-	IM_CHAT_SVR_PPC_HISTORY,									//¿ª½±ÀúÊ·ÏÂ·¢
-	IM_CHAT_SVR_PPC_BETSTART,									//ÐÂÒ»ÂÖ¿ªÊ¼
-	IM_CHAT_SVR_PPC_SCENE,										//µ±Ç°³¡¾°ÏÂ·¢
-	IM_CHAT_SVR_PPC_AWARD_ITEM,									//¿ª½±½á¹û
-	IM_CHAT_SVR_PPC_BET_ACTION,									//ÏÂ×¢¶¯×÷Í¨Öª
-	IM_CHAT_SVR_PPC_BET_RESULT,									//ÓÃ»§ÏÂ×¢½á¹û·µ»Ø,²¢Í¨ÖªÐÂµÄ½ð±ÒÊýÁ¿
-	IM_CHAT_SVR_PPC_AWARD_RESULT,								//ÓÃ»§ÖÐ½±ºó½á¹ûÍ¨Öª.
-	IM_CHAT_SVR_PPC_BANKER_CHANGE,								//PPC×¯¼ÒÐÅÏ¢±ä¸ü
-	IM_CAHT_SVR_PPC_STOP,										//Í£Ö¹¿ª½±
-	IM_CAHT_SVR_PPC_FREE,										//µÈ´ý´¦Àí½á¹û
-	IM_CHAT_SVR_PPC_GAMEEND,									//ÓÎÏ·½áÊøÍ¨Öª
-	IM_CHAT_PPC_SYNC_SCENE,										//Í¬²½³¡¾°ÇëÇó
-	IM_CHAT_PPC_SYNC_USERINFO,									//¸üÐÂÓÃ»§ÁÐ±íÊý¾Ý
-	IM_CHAT_PPC_GAMELIMIT,										//Ìí¼Ó³µÐÐÏÞÖÆ(·À¹Ò»ú)
+	IM_CHAT_SRV_ZZ_BET_START	= 0x0750,						//è½¬è½¬æ–°ä¸€è½®å¼€å§‹æŠ•æ³¨ï¼Œä¸‹å‘æŠ•æ³¨æ—¶é—´
+	IM_CHAT_SRV_ZZ_BETMSG,										//è½¬è½¬æŸäººä¸‹æ³¨æ¶ˆæ¯
+	IM_CHAT_SRV_ZZ_WAITING,										//ç¡®è®¤ä¸‹æ³¨ï¼Œç­‰å¾…å¼€å¥–è¿‡ç¨‹
+	IM_CHAT_SRV_ZZ_AWARDING,									//è½¬è½¬å¼€å§‹å¼€å¥–
+	IM_CHAT_SRV_ZZ_AWARDED,										//è½¬è½¬å¼€å¥–ä¿¡æ¯ï¼Œå¼€å§‹ä¸‹å‘ä¸‹ä¸€è½®æŠ•æ³¨å¼€å§‹
+	IM_CHAT_SRV_ZZ_AWARDMSG,									//è½¬å‘æŸäººä¸­å¥–ä¿¡æ¯
+	IM_CHAT_SRV_ZZ_STOP,										//åœæ­¢å¼€å¥–
+	IM_CHAT_SRV_ZZ_AWARD_TODAY,									//å½“å¤©å¼€å¥–ä¿¡æ¯
 
 
-	REDPACKETS_GAME_START		= 0x1000,						//ÐÂÒ»ÂÖÓÎÏ·¿ªÊ¼									
-	REDPACKETS_SEND_REDPACKETS,									//·¢ËÍºì°ü
-	REDPACKETS_SEND_REDPACKETS_NTY,								//·¢ºì°üÍ¨Öª
-	REDPACKETS_ROB_REDPACKETS,									//ÇÀºì°ü
-	REDPACKETS_ROB_REDPACKETS_NTY,								//ÇÀºì°üÍ¨Öª
-	REDPACKETS_SENCE_STATE,										//ÓÎÏ·³¡¾°×´Ì¬£¨ÕýÔÚÓÎÏ·ÖÐ ÐÂÓÃ»§¼ÓÈëÍÆËÍ´ËÏûÏ¢£©
-	REDPACKETS_GAME_END,										//ÓÎÏ·½áÊøÏÂ·¢ÇÀµÄ×î¶àºÍ×îÉÙµÄÓÃ»§
+	IM_CHAT_SRV2SRV_RTP			= 0x800,						//æœåŠ¡å™¨ä¹‹é—´ä¼ é€RTPæŠ¥æ–‡
+	IM_CHAT_SRV2SRV_RTP_REQ,									//æœåŠ¡å™¨ä¹‹é—´ä¸¢åŒ…é‡å‘è¯·æ±‚
+
+	IM_CHAT_PPC_BET				= 0x900,						//ç”¨æˆ·PPCæŠ¼æ³¨
+	IM_CHAT_PPC_BANKER_REQ,										//ç”¨æˆ·åº„å®¶æ“ä½œ
+	IM_CHAT_SVR_PPC_HISTORY,									//å¼€å¥–åŽ†å²ä¸‹å‘
+	IM_CHAT_SVR_PPC_BETSTART,									//æ–°ä¸€è½®å¼€å§‹
+	IM_CHAT_SVR_PPC_SCENE,										//å½“å‰åœºæ™¯ä¸‹å‘
+	IM_CHAT_SVR_PPC_AWARD_ITEM,									//å¼€å¥–ç»“æžœ
+	IM_CHAT_SVR_PPC_BET_ACTION,									//ä¸‹æ³¨åŠ¨ä½œé€šçŸ¥
+	IM_CHAT_SVR_PPC_BET_RESULT,									//ç”¨æˆ·ä¸‹æ³¨ç»“æžœè¿”å›ž,å¹¶é€šçŸ¥æ–°çš„é‡‘å¸æ•°é‡
+	IM_CHAT_SVR_PPC_AWARD_RESULT,								//ç”¨æˆ·ä¸­å¥–åŽç»“æžœé€šçŸ¥.
+	IM_CHAT_SVR_PPC_BANKER_CHANGE,								//PPCåº„å®¶ä¿¡æ¯å˜æ›´
+	IM_CAHT_SVR_PPC_STOP,										//åœæ­¢å¼€å¥–
+	IM_CAHT_SVR_PPC_FREE,										//ç­‰å¾…å¤„ç†ç»“æžœ
+	IM_CHAT_SVR_PPC_GAMEEND,									//æ¸¸æˆç»“æŸé€šçŸ¥
+	IM_CHAT_PPC_SYNC_SCENE,										//åŒæ­¥åœºæ™¯è¯·æ±‚
+	IM_CHAT_PPC_SYNC_USERINFO,									//æ›´æ–°ç”¨æˆ·åˆ—è¡¨æ•°æ®
+	IM_CHAT_PPC_GAMELIMIT,										//æ·»åŠ è½¦è¡Œé™åˆ¶(é˜²æŒ‚æœº)
+
+
+	REDPACKETS_GAME_START		= 0x1000,						//æ–°ä¸€è½®æ¸¸æˆå¼€å§‹									
+	REDPACKETS_SEND_REDPACKETS,									//å‘é€çº¢åŒ…
+	REDPACKETS_SEND_REDPACKETS_NTY,								//å‘çº¢åŒ…é€šçŸ¥
+	REDPACKETS_ROB_REDPACKETS,									//æŠ¢çº¢åŒ…
+	REDPACKETS_ROB_REDPACKETS_NTY,								//æŠ¢çº¢åŒ…é€šçŸ¥
+	REDPACKETS_SENCE_STATE,										//æ¸¸æˆåœºæ™¯çŠ¶æ€ï¼ˆæ­£åœ¨æ¸¸æˆä¸­ æ–°ç”¨æˆ·åŠ å…¥æŽ¨é€æ­¤æ¶ˆæ¯ï¼‰
+	REDPACKETS_GAME_END,										//æ¸¸æˆç»“æŸä¸‹å‘æŠ¢çš„æœ€å¤šå’Œæœ€å°‘çš„ç”¨æˆ·
 								
 
 
 	
-	IM_CHAT_WEB_USERINFO	= 0x2000,							//webÓÃ»§ÉÏÏÂÏßÏûÏ¢
-	IM_CHAT_WEB_CHATTEXT,										//ÁÄÌìÏûÏ¢
-	IM_CHAT_WEB_VIEWSTATE,										//Ö±²¥×´Ì¬
+	IM_CHAT_WEB_USERINFO	= 0x2000,							//webç”¨æˆ·ä¸Šä¸‹çº¿æ¶ˆæ¯
+	IM_CHAT_WEB_CHATTEXT,										//èŠå¤©æ¶ˆæ¯
+	IM_CHAT_WEB_VIEWSTATE,										//ç›´æ’­çŠ¶æ€
 
-	DIS_SERVER_REGIST			= 0x3000,						//Ìí¼Ó·þÎñ
-	DIS_SERVER_ADD_DELETE_ROOM,									//Ìí¼Ó»òÉ¾³ý·¿¼ä
-	DIS_SERVERINFO				,						//·þÎñÊý¾ÝÉÏ±¨
-	DIS_SERVER_ROOMINFO			,						//ÉÏ±¨·¿¼äÊý¾Ý
+	DIS_SERVER_REGIST			= 0x3000,						//æ·»åŠ æœåŠ¡
+	DIS_SERVER_ADD_DELETE_ROOM,									//æ·»åŠ æˆ–åˆ é™¤æˆ¿é—´
+	DIS_SERVERINFO				,						//æœåŠ¡æ•°æ®ä¸ŠæŠ¥
+	DIS_SERVER_ROOMINFO			,						//ä¸ŠæŠ¥æˆ¿é—´æ•°æ®
 
-	//¿Í»§¶ËÓëµ÷¶È·þÎñ
-	DIS_CLIENT_GETSERVER,										//¿Í»§¶Ë»ñÈ¡ÐèÒªµÇÂ¼µÄ·þÎñÐÅÏ¢
+	//å®¢æˆ·ç«¯ä¸Žè°ƒåº¦æœåŠ¡
+	DIS_CLIENT_GETSERVER,										//å®¢æˆ·ç«¯èŽ·å–éœ€è¦ç™»å½•çš„æœåŠ¡ä¿¡æ¯
 
 	IM_CHAT_CMD_LIMIT
 
@@ -1403,19 +1403,19 @@ typedef enum RoomCmdType
 
 typedef enum Language
 {
-	TL_ZH_CN,	//¼òÌåÖÐÎÄ
-	TL_ZH_TW,	//·±ÌåÖÐÎÄÌ¨Íå
-	TL_ZH_HK,	//·±ÌåÖÐÎÄÏã¸Û
-	TL_EN,		//Ó¢ÎÄ
+	TL_ZH_CN,	//ç®€ä½“ä¸­æ–‡
+	TL_ZH_TW,	//ç¹ä½“ä¸­æ–‡å°æ¹¾
+	TL_ZH_HK,	//ç¹ä½“ä¸­æ–‡é¦™æ¸¯
+	TL_EN,		//è‹±æ–‡
 
-	TL_LANGUAGE_LIMIT	//ÓïÑÔÏÞÖÆ
+	TL_LANGUAGE_LIMIT	//è¯­è¨€é™åˆ¶
 }Language;
 
-//ÏµÍ³ÏûÏ¢ÀàÐÍ
+//ç³»ç»Ÿæ¶ˆæ¯ç±»åž‹
 typedef enum SystemMsgType
 {
-	TL_CHAT_MSG,	//·¿¼äÄÚÏÔÊ¾µÄÏûÏ¢
-	TL_BOX_MSG,		//µ¯¿òÏûÏ¢
+	TL_CHAT_MSG,	//æˆ¿é—´å†…æ˜¾ç¤ºçš„æ¶ˆæ¯
+	TL_BOX_MSG,		//å¼¹æ¡†æ¶ˆæ¯
 };
 
 typedef enum RoomMsgType
@@ -1424,168 +1424,168 @@ typedef enum RoomMsgType
 
 	IM_SVR_MSG_NO_PRIVILEGE = 0x1000,
 
-	IM_SVR_MSG_CONF_IS_FULL,									//»áÒéÒÑÂúÔ±
-	IM_SVR_MSG_CONF_NOT_IN,										//Äã²»ÔÚ»áÒéÖÐ
-	IM_SVR_MSG_CONF_HAS_IN,										//ÄãÒÑÔÚ»áÒéÖÐ	
-	IM_SVR_MSG_CONF_HAS_MIC,									//ÄãÒÑÓÐÂó¿Ë
-	IM_SVR_MSG_CONF_NO_MIC,										//ÄãÃ»ÓÐÂó¿Ë
-	IM_SVR_MSG_CONF_NO_MIC_REMAIN,								//Ã»ÓÐ¶àÓàÂó¿Ë
-	IM_SVR_MSG_CONF_BE_CLOSE,									//»áÒéÊÒÊÇ¹Ø±ÕµÄ
-	IM_SVR_MSG_CONF_NEED_PASS,									//ÐèÒªÃÜÂë
-	IM_SVR_MSG_CONF_ERR_PASS,									//´íÎóÃÜÂë
-	IM_SVR_MSG_CONF_ERR_OLDPASS,								//´íÎó¾ÉÃÜÂë
-	IM_SVR_MSG_MEMBER_HAS_IN,									//ÄãÒÑÊÇ³ÉÔ±
-	IM_SVR_MSG_MEMBER_NOT_IN,									//Äã²»ÊÇ³ÉÔ±
-	IM_SVR_MSG_CONF_HAS_OPEN,									//»áÒéÒÑ¾­ÊÇ´ò¿ªµÄ
-	IM_SVR_MSG_CONF_HAS_CLOSE,									//»áÒéÒÑ¾­ÊÇ¹Ø±ÕµÄ
-	IM_SVR_MSG_CONF_HAS_FROZEN,									//»áÒéÒÑ¾­ÊÇ¶³½áµÄ
-	IM_SVR_MSG_CONF_HAS_UNFROZEN,								//»áÒéÒÑ¾­ÊÇ·Ç¶³½áµÄ
-	IM_SVR_MSG_NOT_ONLINE,										//Äã²»ÊÇÔÚÏß£¬ÎÞ·¨½øÐÐ±¾²Ù×÷
-	IM_SVR_MSG_HAS_OPEN,										//·¿¼äÒÑ¾­ÊÇ´ò¿ªµÄ
-	IM_SVR_MSG_HAS_CLOSE,										//·¿¼äÒÑ¾­ÊÇ¹Ø±ÕµÄ
-	IM_SVR_MSG_ERR_OLDPASS,										//´íÎó¾ÉÃÜÂë
-	IM_SVR_MSG_CFWAIT_HAS_IN,									//ÄãÒÑÔÚÂóÐòÖÐ
-	IM_SVR_MSG_CFWAIT_IS_FULL,									//ÂóÐòÒÑÂú
-	IM_SVR_MSG_CFWAIT_NOT_IN,									//¶Ô·½ÂóÐòÒÑÂú
+	IM_SVR_MSG_CONF_IS_FULL,									//ä¼šè®®å·²æ»¡å‘˜
+	IM_SVR_MSG_CONF_NOT_IN,										//ä½ ä¸åœ¨ä¼šè®®ä¸­
+	IM_SVR_MSG_CONF_HAS_IN,										//ä½ å·²åœ¨ä¼šè®®ä¸­	
+	IM_SVR_MSG_CONF_HAS_MIC,									//ä½ å·²æœ‰éº¦å…‹
+	IM_SVR_MSG_CONF_NO_MIC,										//ä½ æ²¡æœ‰éº¦å…‹
+	IM_SVR_MSG_CONF_NO_MIC_REMAIN,								//æ²¡æœ‰å¤šä½™éº¦å…‹
+	IM_SVR_MSG_CONF_BE_CLOSE,									//ä¼šè®®å®¤æ˜¯å…³é—­çš„
+	IM_SVR_MSG_CONF_NEED_PASS,									//éœ€è¦å¯†ç 
+	IM_SVR_MSG_CONF_ERR_PASS,									//é”™è¯¯å¯†ç 
+	IM_SVR_MSG_CONF_ERR_OLDPASS,								//é”™è¯¯æ—§å¯†ç 
+	IM_SVR_MSG_MEMBER_HAS_IN,									//ä½ å·²æ˜¯æˆå‘˜
+	IM_SVR_MSG_MEMBER_NOT_IN,									//ä½ ä¸æ˜¯æˆå‘˜
+	IM_SVR_MSG_CONF_HAS_OPEN,									//ä¼šè®®å·²ç»æ˜¯æ‰“å¼€çš„
+	IM_SVR_MSG_CONF_HAS_CLOSE,									//ä¼šè®®å·²ç»æ˜¯å…³é—­çš„
+	IM_SVR_MSG_CONF_HAS_FROZEN,									//ä¼šè®®å·²ç»æ˜¯å†»ç»“çš„
+	IM_SVR_MSG_CONF_HAS_UNFROZEN,								//ä¼šè®®å·²ç»æ˜¯éžå†»ç»“çš„
+	IM_SVR_MSG_NOT_ONLINE,										//ä½ ä¸æ˜¯åœ¨çº¿ï¼Œæ— æ³•è¿›è¡Œæœ¬æ“ä½œ
+	IM_SVR_MSG_HAS_OPEN,										//æˆ¿é—´å·²ç»æ˜¯æ‰“å¼€çš„
+	IM_SVR_MSG_HAS_CLOSE,										//æˆ¿é—´å·²ç»æ˜¯å…³é—­çš„
+	IM_SVR_MSG_ERR_OLDPASS,										//é”™è¯¯æ—§å¯†ç 
+	IM_SVR_MSG_CFWAIT_HAS_IN,									//ä½ å·²åœ¨éº¦åºä¸­
+	IM_SVR_MSG_CFWAIT_IS_FULL,									//éº¦åºå·²æ»¡
+	IM_SVR_MSG_CFWAIT_NOT_IN,									//å¯¹æ–¹éº¦åºå·²æ»¡
 
-	IM_SVR_MSG_OPP_CONF_NOT_IN = 0x1100,						//¶Ô·½²»ÔÚ»áÒé
-	IM_SVR_MSG_OPP_CONF_HAS_IN,									//¶Ô·½ÒÑÔÚ»áÒé
-	IM_SVR_MSG_OPP_CONF_HAS_MIC,								//¶Ô·½ÒÑÓÐÂó¿Ë
-	IM_SVR_MSG_OPP_CONF_NO_MIC,									//¶Ô·½Ã»ÓÐÂó¿Ë
-	IM_SVR_MSG_OPP_HAS_BE_MEMBER,								//¶Ô·½ÒÑÊÇ³ÉÔ±
-	IM_SVR_MSG_OPP_NOT_BE_MEMBER,								//¶Ô·½²»ÊÇ³ÉÔ±
-	IM_SVR_MSG_OPP_HAS_BE_MANAGER,								//¶Ô·½ÒÑÊÇ¹ÜÀíÔ±			
-	IM_SVR_MSG_OPP_NOT_BE_MANAGER,								//¶Ô·½²»ÊÇ¹ÜÀíÔ±
-	IM_SVR_MSG_OPP_NOT_ONLINE,									//¶Ô·½²»ÔÚÏß
-	IM_SVR_MSG_OPP_HAS_INBLACKLIST,								//¶Ô·½ÒÑÔÚºÚÃûµ¥ÖÐ
-	IM_SVR_MSG_OPP_NOT_INBLACKLIST,								//¶Ô·½²»ÔÚºÚÃûµ¥ÖÐ
-	IM_SVR_MSG_OPP_CFWAIT_NOT_IN,								//¶Ô·½²»ÔÚÂóÐòÖÐ
+	IM_SVR_MSG_OPP_CONF_NOT_IN = 0x1100,						//å¯¹æ–¹ä¸åœ¨ä¼šè®®
+	IM_SVR_MSG_OPP_CONF_HAS_IN,									//å¯¹æ–¹å·²åœ¨ä¼šè®®
+	IM_SVR_MSG_OPP_CONF_HAS_MIC,								//å¯¹æ–¹å·²æœ‰éº¦å…‹
+	IM_SVR_MSG_OPP_CONF_NO_MIC,									//å¯¹æ–¹æ²¡æœ‰éº¦å…‹
+	IM_SVR_MSG_OPP_HAS_BE_MEMBER,								//å¯¹æ–¹å·²æ˜¯æˆå‘˜
+	IM_SVR_MSG_OPP_NOT_BE_MEMBER,								//å¯¹æ–¹ä¸æ˜¯æˆå‘˜
+	IM_SVR_MSG_OPP_HAS_BE_MANAGER,								//å¯¹æ–¹å·²æ˜¯ç®¡ç†å‘˜			
+	IM_SVR_MSG_OPP_NOT_BE_MANAGER,								//å¯¹æ–¹ä¸æ˜¯ç®¡ç†å‘˜
+	IM_SVR_MSG_OPP_NOT_ONLINE,									//å¯¹æ–¹ä¸åœ¨çº¿
+	IM_SVR_MSG_OPP_HAS_INBLACKLIST,								//å¯¹æ–¹å·²åœ¨é»‘åå•ä¸­
+	IM_SVR_MSG_OPP_NOT_INBLACKLIST,								//å¯¹æ–¹ä¸åœ¨é»‘åå•ä¸­
+	IM_SVR_MSG_OPP_CFWAIT_NOT_IN,								//å¯¹æ–¹ä¸åœ¨éº¦åºä¸­
 
-	IM_SVR_MSG_NOT_IN,											//Äã²»ÔÚÈ¦ÖÐ
-	IM_SVR_MSG_OPP_NOT_IN,										//¶Ô·½²»ÔÚÈ¦ÖÐ
-	IM_SVR_MSG_CANNOT_KICKOUT_NOVISITOR,						//²»ÄÜ½«³ÉÔ±Ìß³öÈ¦
+	IM_SVR_MSG_NOT_IN,											//ä½ ä¸åœ¨åœˆä¸­
+	IM_SVR_MSG_OPP_NOT_IN,										//å¯¹æ–¹ä¸åœ¨åœˆä¸­
+	IM_SVR_MSG_CANNOT_KICKOUT_NOVISITOR,						//ä¸èƒ½å°†æˆå‘˜è¸¢å‡ºåœˆ
 
-	IM_SVR_MSG_GIFT_NOMONEY,									//×Ê½ðÓà¶î²»×ã
-	IM_SVR_MSG_GIFT_FAILED,										//ËÍÀñÊ§°Ü
+	IM_SVR_MSG_GIFT_NOMONEY,									//èµ„é‡‘ä½™é¢ä¸è¶³
+	IM_SVR_MSG_GIFT_FAILED,										//é€ç¤¼å¤±è´¥
 
-	IM_SVR_MSG_OVER_MEMBER_LIMIT = 0x1200,						//³¬¹ý³ÉÔ±¸öÊýÏÞÖÆ£¬ÎÞ·¨Ìí¼Ó³ÉÔ±
-	IM_SVR_MSG_OVER_MANAGER_LIMIT,								//³¬¹ý¹ÜÀíÔ±¸öÊýÏÞÖÆ£¬ÎÞ·¨ÔÙ¼Ó¹ÜÀíÔ±
-	IM_SVR_MSG_OVER_IMPMES_LIMIT,								//³¬¹ýµ±ÌìÖØ´óÏûÏ¢×î´óÌõÊýÏÞÖÆ
-	IM_SVR_MSG_OVER_PIC_LIMIT,									//³¬¹ýµ±ÌìÍ¼Æ¬×î´óÌõÊýÏÞÖÆ
-	IM_SVR_MSG_OVER_BLACKLIST_LIMIT,							//ºÚÃûµ¥ÒÑ³¬¹ý×î´óÏÞÖÆ
+	IM_SVR_MSG_OVER_MEMBER_LIMIT = 0x1200,						//è¶…è¿‡æˆå‘˜ä¸ªæ•°é™åˆ¶ï¼Œæ— æ³•æ·»åŠ æˆå‘˜
+	IM_SVR_MSG_OVER_MANAGER_LIMIT,								//è¶…è¿‡ç®¡ç†å‘˜ä¸ªæ•°é™åˆ¶ï¼Œæ— æ³•å†åŠ ç®¡ç†å‘˜
+	IM_SVR_MSG_OVER_IMPMES_LIMIT,								//è¶…è¿‡å½“å¤©é‡å¤§æ¶ˆæ¯æœ€å¤§æ¡æ•°é™åˆ¶
+	IM_SVR_MSG_OVER_PIC_LIMIT,									//è¶…è¿‡å½“å¤©å›¾ç‰‡æœ€å¤§æ¡æ•°é™åˆ¶
+	IM_SVR_MSG_OVER_BLACKLIST_LIMIT,							//é»‘åå•å·²è¶…è¿‡æœ€å¤§é™åˆ¶
 	
-	IM_SVR_MSG_NOT_IN_SYS_ALLOW_TIME,							//²»ÔÚÏµÍ³ÉèÖÃÔÊÐíÊ±¼ä·¶Î§ÄÚ
+	IM_SVR_MSG_NOT_IN_SYS_ALLOW_TIME,							//ä¸åœ¨ç³»ç»Ÿè®¾ç½®å…è®¸æ—¶é—´èŒƒå›´å†…
 
 
 
-	ANYCAST_ACL_NOT_ENOUGH	 = 0x1300,							//È¨ÏÞ²»×ã
-	ANYCAST_USER_NUM_LIMIT,										//³¬¹ýÈËÊýÏÞÖÆ
-	ANYCAST_DB_ERROR,											//db½Ó¿Ú´íÎó
+	ANYCAST_ACL_NOT_ENOUGH	 = 0x1300,							//æƒé™ä¸è¶³
+	ANYCAST_USER_NUM_LIMIT,										//è¶…è¿‡äººæ•°é™åˆ¶
+	ANYCAST_DB_ERROR,											//dbæŽ¥å£é”™è¯¯
 
 }RoomMsgType;
 
 
 
-//Í¨ÖªÂë
+//é€šçŸ¥ç 
 typedef enum RoomCmdStateType
 {
-	LOGON_SUCCESS = 0x0001,										//µÇÂ½³É¹¦
-	LOGON_ROOM_FAILED,											//¶ÔÓÚ²»Ã÷È·´íÎó,Í³Ò»ÒÔ´Ë·µ»Ø
-	LOGON_INVALID_UIN,											//uin²»´æÔÚ
-	LOGON_WRONG_PASSWD,											//ÃÜÂë´íÎó
-	LOGIN_NO_ROOM_MEMBER,										//²»ÊÇ·¿¼ä³ÉÔ±
-	LOGON_ROOM_IS_BUSY,											//·¿¼äÕý·±Ã¦,ÌáÊ¾¿Í»§¶ËÉÔºóÔÙÁ¬
-	LOGON_NO_THIS_ROOM,  										//¸Ã·¿¼ä²»´æÔÚ(¿ÉÄÜÒÑ½âÉ¢,»ò±»ÁÙÊ±¶³½á)
-	LOGON_REJECT,												//±»¾Ü¾øµÇÂ¼
-	LOGON_REQ,													//ÕýÔÚÇëÇóµÇÂ½ÖÐ
-	LOGON_VISITOR_ISFULL,										//·¿¼äÒÑÂú
-	LOGON_ROOM_CLOSE,											//·¿¼äÊÇ¹Ø±ÕµÄ
-	LOGON_WRONG_ROOM_PASSWD,									//·¿¼äÃÜÂë´íÎó
-	LOGON_ROOM_ISFULL,											//ÓÎ¿ÍÒÑÂú
-	LOGON_BLACKLIST_UIN,										//ÓÃ»§ÔÚºÚÃûµ¥ÖÐ
-	LOGON_BLACKLIST_IP,											//IPÔÚºÚÃûµ¥ÖÐ
-	LOGON_FORBID_JOIN,											//¸Ã·¿¼ä²»ÔÊÐíÄú½øÈë
-	LOGON_REQUEST_DATA,											//µÇÂ¼³É¹¦ºó£¬ÇëÇóÊý¾ÝÖÐ¹Ê//½èÓÃÏÂ whg 20090604
-	LOGON_REQUEST_SUCESS,										//µÇÂ¼³É¹¦ºó£¬ÇëÇóÊý¾ÝÖÐÈ«²¿·µ»Ø//½èÓÃÏÂ whg 20090604
-	LOGON_ROOM_ONLY_SUBSCRIBER,									//Ö»ÔÊÐí¶©ÔÄÕß½øÈë
-	LOGON_ROOM_ONLY_VIP,										//ÊÕ·Ñ·¿¼ä£¬Ö»ÔÊÐí½É·ÑÓÃ»§½øÈë£¨°üÀ¨ÒÑ¾­¶©ÔÄÕß£©
-	LOGON_ROOM_PAY_ERROR,										//¿Û·Ñ²»Ê§°Ü£¨ÏµÍ³´íÎó»òÓà¶î²»×ã)
-	LOGON_ROOM_INGAME,											//ÕýÔÚÓÎÏ··¿¼ä
-	LOGON_BLACKLIST_MAC,										//»úÆ÷ÂëÔÚºÚÃûµ¥ÖÐ
-	LOGON_MAX_LIMIT,											//µ¥¸ömacµÇÂ¼³¬¹ý×î´óÏÞÖÆ
-	LOGON_ENTIRY_LIMIT,											//µ¥¸öÉí·Ý³¬¹ý×î´óµÇÂ¼ÏÞÖÆ
+	LOGON_SUCCESS = 0x0001,										//ç™»é™†æˆåŠŸ
+	LOGON_ROOM_FAILED,											//å¯¹äºŽä¸æ˜Žç¡®é”™è¯¯,ç»Ÿä¸€ä»¥æ­¤è¿”å›ž
+	LOGON_INVALID_UIN,											//uinä¸å­˜åœ¨
+	LOGON_WRONG_PASSWD,											//å¯†ç é”™è¯¯
+	LOGIN_NO_ROOM_MEMBER,										//ä¸æ˜¯æˆ¿é—´æˆå‘˜
+	LOGON_ROOM_IS_BUSY,											//æˆ¿é—´æ­£ç¹å¿™,æç¤ºå®¢æˆ·ç«¯ç¨åŽå†è¿ž
+	LOGON_NO_THIS_ROOM,  										//è¯¥æˆ¿é—´ä¸å­˜åœ¨(å¯èƒ½å·²è§£æ•£,æˆ–è¢«ä¸´æ—¶å†»ç»“)
+	LOGON_REJECT,												//è¢«æ‹’ç»ç™»å½•
+	LOGON_REQ,													//æ­£åœ¨è¯·æ±‚ç™»é™†ä¸­
+	LOGON_VISITOR_ISFULL,										//æˆ¿é—´å·²æ»¡
+	LOGON_ROOM_CLOSE,											//æˆ¿é—´æ˜¯å…³é—­çš„
+	LOGON_WRONG_ROOM_PASSWD,									//æˆ¿é—´å¯†ç é”™è¯¯
+	LOGON_ROOM_ISFULL,											//æ¸¸å®¢å·²æ»¡
+	LOGON_BLACKLIST_UIN,										//ç”¨æˆ·åœ¨é»‘åå•ä¸­
+	LOGON_BLACKLIST_IP,											//IPåœ¨é»‘åå•ä¸­
+	LOGON_FORBID_JOIN,											//è¯¥æˆ¿é—´ä¸å…è®¸æ‚¨è¿›å…¥
+	LOGON_REQUEST_DATA,											//ç™»å½•æˆåŠŸåŽï¼Œè¯·æ±‚æ•°æ®ä¸­æ•…//å€Ÿç”¨ä¸‹ whg 20090604
+	LOGON_REQUEST_SUCESS,										//ç™»å½•æˆåŠŸåŽï¼Œè¯·æ±‚æ•°æ®ä¸­å…¨éƒ¨è¿”å›ž//å€Ÿç”¨ä¸‹ whg 20090604
+	LOGON_ROOM_ONLY_SUBSCRIBER,									//åªå…è®¸è®¢é˜…è€…è¿›å…¥
+	LOGON_ROOM_ONLY_VIP,										//æ”¶è´¹æˆ¿é—´ï¼Œåªå…è®¸ç¼´è´¹ç”¨æˆ·è¿›å…¥ï¼ˆåŒ…æ‹¬å·²ç»è®¢é˜…è€…ï¼‰
+	LOGON_ROOM_PAY_ERROR,										//æ‰£è´¹ä¸å¤±è´¥ï¼ˆç³»ç»Ÿé”™è¯¯æˆ–ä½™é¢ä¸è¶³)
+	LOGON_ROOM_INGAME,											//æ­£åœ¨æ¸¸æˆæˆ¿é—´
+	LOGON_BLACKLIST_MAC,										//æœºå™¨ç åœ¨é»‘åå•ä¸­
+	LOGON_MAX_LIMIT,											//å•ä¸ªmacç™»å½•è¶…è¿‡æœ€å¤§é™åˆ¶
+	LOGON_ENTIRY_LIMIT,											//å•ä¸ªèº«ä»½è¶…è¿‡æœ€å¤§ç™»å½•é™åˆ¶
 	LOGON_SUIBO_END,
 	LOGIN_SUIBO_VIDERROR,
-	LOGIN_TABLE_ERROR,											//×ÀºÅ²»´æÔÚ
-	LOGIN_TABLE_LOCKED,											//´Ë×ÀÒÑËø¶¨
-	LOGIN_TABLE_MONEY_LOCKED,									//ÐéÄâ±Ò±»ÓÎÏ·¶³½á
-	LOGIN_NOENOUGH_MONEY,										//Ã»ÓÐ×ã¹»µÄÐéÄâ±Ò
-	LOGIN_KICK_LIMITTIMES,                                      //³¬¹ýµ±ÌìÃ»Ñº×¢±»Ìß×î´ó´ÎÊý
+	LOGIN_TABLE_ERROR,											//æ¡Œå·ä¸å­˜åœ¨
+	LOGIN_TABLE_LOCKED,											//æ­¤æ¡Œå·²é”å®š
+	LOGIN_TABLE_MONEY_LOCKED,									//è™šæ‹Ÿå¸è¢«æ¸¸æˆå†»ç»“
+	LOGIN_NOENOUGH_MONEY,										//æ²¡æœ‰è¶³å¤Ÿçš„è™šæ‹Ÿå¸
+	LOGIN_KICK_LIMITTIMES,                                      //è¶…è¿‡å½“å¤©æ²¡æŠ¼æ³¨è¢«è¸¢æœ€å¤§æ¬¡æ•°
 }RoomCmdStateType;
 
 
-//Í¨ÖªÂë
+//é€šçŸ¥ç 
 typedef enum TableState
 {
-	TABLE_SUCCESS = 0x0001,										//³É¹¦
-	TABLE_NOENOUTH_MONEY,										//Óà¶î²»×ã
-	TABLE_API_ERROR,											//½Ó¿Ú´íÎó
-	TABLE_ID_EXIST,												//´Ëid×ÀÒÑ¾­´æÔÚ
-	TABLE_MONEY_LOCKED,											//ÐéÄâ±Ò±»ÓÎÏ·Ëø¶¨
+	TABLE_SUCCESS = 0x0001,										//æˆåŠŸ
+	TABLE_NOENOUTH_MONEY,										//ä½™é¢ä¸è¶³
+	TABLE_API_ERROR,											//æŽ¥å£é”™è¯¯
+	TABLE_ID_EXIST,												//æ­¤idæ¡Œå·²ç»å­˜åœ¨
+	TABLE_MONEY_LOCKED,											//è™šæ‹Ÿå¸è¢«æ¸¸æˆé”å®š
 
 }TableState;
 
 typedef enum OpenBoxState
 {
-	OPENBOX_SUCCESS,			//ÍÚ±¦³É¹¦
-	OPENBOX_NOT_FREETIME,		//·ÇÃâ·ÑÊ±¼ä
-	OPENBOX_NO_FREECOUNT,		//Ãâ·Ñ´ÎÊýÓÃÍê
-	OPENBOX_FAILED,				//½Ó¿Ú´íÎó
-	OPENBOX_NO_ENOUGHMONEY,		//Ã»ÓÐ×ã¹»µÄÇ®
-	OPENBOX_MONEYLOCK			//½ð±Ò±»ÓÎÏ·Ëø¶¨
+	OPENBOX_SUCCESS,			//æŒ–å®æˆåŠŸ
+	OPENBOX_NOT_FREETIME,		//éžå…è´¹æ—¶é—´
+	OPENBOX_NO_FREECOUNT,		//å…è´¹æ¬¡æ•°ç”¨å®Œ
+	OPENBOX_FAILED,				//æŽ¥å£é”™è¯¯
+	OPENBOX_NO_ENOUGHMONEY,		//æ²¡æœ‰è¶³å¤Ÿçš„é’±
+	OPENBOX_MONEYLOCK			//é‡‘å¸è¢«æ¸¸æˆé”å®š
 };
 
 typedef enum RoomUserRankType
 {
 	USER_RANK_GENERAL		= 0x0000,							//None
-	USER_RANK_VISITOR		= 0x0001,							//ÓÎ¿Í
-	USER_RANK_MEMBER		= 0x0002,							//ÆÕÍ¨³ÉÔ±
-	USER_RANK_ROOMMAN		= 0x0004,							//¹ÜÀíÔ±
-	USER_RANK_ROOMOWNER		= 0x0008,							//ÊÒ³¤
-	USER_RANK_SUPERMAN		= 0x0010,							//Ò»¼¶³¬¹Ü
-	USER_RANK_AREA_MASTER	= 0x0020,							//Çø¹Ü
-	USER_RANK_AREA_ASSISTANT= 0x0040,							//ÖúÀíÇø¹Ü
-	USER_RANK_ANCHOR		= 0x0080,							//Ö÷²¥
-	USER_RANK_GUARD			= 0x0100,							//ÊØ»¤
-	USER_RANK_CARETAKER		= 0x0200,							//ÁÙ¹Ü
-	USER_RANK_CASTELLAN		= 0x0400,							//³ÇÖ÷
-	USER_RANK_CASTELLAN_MRS = 0x0800,							//³ÇÖ÷·òÈË
+	USER_RANK_VISITOR		= 0x0001,							//æ¸¸å®¢
+	USER_RANK_MEMBER		= 0x0002,							//æ™®é€šæˆå‘˜
+	USER_RANK_ROOMMAN		= 0x0004,							//ç®¡ç†å‘˜
+	USER_RANK_ROOMOWNER		= 0x0008,							//å®¤é•¿
+	USER_RANK_SUPERMAN		= 0x0010,							//ä¸€çº§è¶…ç®¡
+	USER_RANK_AREA_MASTER	= 0x0020,							//åŒºç®¡
+	USER_RANK_AREA_ASSISTANT= 0x0040,							//åŠ©ç†åŒºç®¡
+	USER_RANK_ANCHOR		= 0x0080,							//ä¸»æ’­
+	USER_RANK_GUARD			= 0x0100,							//å®ˆæŠ¤
+	USER_RANK_CARETAKER		= 0x0200,							//ä¸´ç®¡
+	USER_RANK_CASTELLAN		= 0x0400,							//åŸŽä¸»
+	USER_RANK_CASTELLAN_MRS = 0x0800,							//åŸŽä¸»å¤«äºº
 	USER_RANK_LIMIT,
 }RoomUserRankType;
 
 typedef enum ViewRuningAction
 {
-	RUN_FRONT		= 0,							//Ç°¶ËÕý³£ÔËÐÐ
-	RUN_BACK,										//ºóÌ¨¹ÒÆð																
+	RUN_FRONT		= 0,							//å‰ç«¯æ­£å¸¸è¿è¡Œ
+	RUN_BACK,										//åŽå°æŒ‚èµ·																
 }ViewRuningAction;
 //typedef enum GlobleUserType
 //{
-//	USER_GLOBLE_TYPE_SINGER			= 1,					//¹«Ë¾Ç©Ô¼¸èÊÖ
-//	USER_GLOBLE_TYPE_AGENT			= 2,					//¹«Ë¾Ç©Ô¼´úÀí
-//	USER_GLOBLE_TYPE_CONTACT_STAFF	= 4,					//¹«Ë¾¿Í·þ
-//	USER_GLOBLE_TYPE_SALES			= 8,					//¹«Ë¾ÏúÊÛ
-//	USER_GLOBLE_TYPE_PRIVILEGES		= 16,					//ÌØÈ¨±êÖ¾
-//	USER_GLOBLE_TYPE_COO			= 32,					//Õ¾³¤±êÖ¾
+//	USER_GLOBLE_TYPE_SINGER			= 1,					//å…¬å¸ç­¾çº¦æ­Œæ‰‹
+//	USER_GLOBLE_TYPE_AGENT			= 2,					//å…¬å¸ç­¾çº¦ä»£ç†
+//	USER_GLOBLE_TYPE_CONTACT_STAFF	= 4,					//å…¬å¸å®¢æœ
+//	USER_GLOBLE_TYPE_SALES			= 8,					//å…¬å¸é”€å”®
+//	USER_GLOBLE_TYPE_PRIVILEGES		= 16,					//ç‰¹æƒæ ‡å¿—
+//	USER_GLOBLE_TYPE_COO			= 32,					//ç«™é•¿æ ‡å¿—
 //}GlobleUserType;
 
 
 
 typedef enum USER_RIGHT_FLAG
 {
-	USER_FLAG_MIC		= 0x0001,								//ÊÇ·ñ´øÂó¿Ë£¬Ö¸ÓÃ»§ÖÕ¶Ë²åÓÐÂó¿Ë£¬²»ÊÇËµÆäÓµÓÐËµ»°È¨ÏÞ
-	USER_FLAG_CAMERA	= 0x0002,								//ÊÇ·ñÓÐÉãÏñÍ·£¬Ö¸ÓÃ»§ÖÕ¶Ë²åÓÐÉãÏñÍ·£¬²»ÊÇËµÆäÓµÓÐÊÓÆµÈ¨ÏÞ
-	USER_FLAG_INCONF	= 0x0004,								//ÊÇ·ñÔÚ»áÒéÖÐ
-	USER_FLAG_ROOM_VIP	= 0x0008,								//ÊÇ·ñÊÇ·¿¼äÒÑÊÕ·ÑÓÃ»§
+	USER_FLAG_MIC		= 0x0001,								//æ˜¯å¦å¸¦éº¦å…‹ï¼ŒæŒ‡ç”¨æˆ·ç»ˆç«¯æ’æœ‰éº¦å…‹ï¼Œä¸æ˜¯è¯´å…¶æ‹¥æœ‰è¯´è¯æƒé™
+	USER_FLAG_CAMERA	= 0x0002,								//æ˜¯å¦æœ‰æ‘„åƒå¤´ï¼ŒæŒ‡ç”¨æˆ·ç»ˆç«¯æ’æœ‰æ‘„åƒå¤´ï¼Œä¸æ˜¯è¯´å…¶æ‹¥æœ‰è§†é¢‘æƒé™
+	USER_FLAG_INCONF	= 0x0004,								//æ˜¯å¦åœ¨ä¼šè®®ä¸­
+	USER_FLAG_ROOM_VIP	= 0x0008,								//æ˜¯å¦æ˜¯æˆ¿é—´å·²æ”¶è´¹ç”¨æˆ·
 }USER_RIGHT_FLAG;
 
 
@@ -1599,25 +1599,25 @@ enum
 
 enum
 {
-	RES_CONF_INVITE_ACCEPT,										//½ÓÊÜÑûÇë
-	RES_CONF_INVITE_REFUSE,										//¾Ü¾øÑûÇë
-	RES_CONF_INVITE_CANT_ACCEPT,								//ÎÞ·¨½ÓÊÜÑûÇë,ËùÓÐµÄÎÞ·¨Ã÷È·¹éÀàµÄÎÞ·¨½ÓÊÜÑûÇë
-	RES_CONF_INVITE_BUSY,										//ÓÃ»§Ã¦ÂµÎÞ·¨½ÓÊÜÑûÇë
-	RES_CONF_INVITE_AV_BUSY,									//ÒôÊÓÆµÕ¼ÓÃ,ÎÞ·¨½ÓÊÜÑûÇë
-	RES_CONF_INVITE_A_BUSY,										//ÒôÆµÕ¼ÓÃ,ÎÞ·¨½ÓÊÜÑûÇë
-	RES_CONF_INVITE_V_BUSY,										//ÊÓÆµÕ¼ÓÃ,ÎÞ·¨½ÓÊÜÑûÇë
+	RES_CONF_INVITE_ACCEPT,										//æŽ¥å—é‚€è¯·
+	RES_CONF_INVITE_REFUSE,										//æ‹’ç»é‚€è¯·
+	RES_CONF_INVITE_CANT_ACCEPT,								//æ— æ³•æŽ¥å—é‚€è¯·,æ‰€æœ‰çš„æ— æ³•æ˜Žç¡®å½’ç±»çš„æ— æ³•æŽ¥å—é‚€è¯·
+	RES_CONF_INVITE_BUSY,										//ç”¨æˆ·å¿™ç¢Œæ— æ³•æŽ¥å—é‚€è¯·
+	RES_CONF_INVITE_AV_BUSY,									//éŸ³è§†é¢‘å ç”¨,æ— æ³•æŽ¥å—é‚€è¯·
+	RES_CONF_INVITE_A_BUSY,										//éŸ³é¢‘å ç”¨,æ— æ³•æŽ¥å—é‚€è¯·
+	RES_CONF_INVITE_V_BUSY,										//è§†é¢‘å ç”¨,æ— æ³•æŽ¥å—é‚€è¯·
 };
 
 #ifndef MAX_MIC_USER_NUM
-#	define MAX_MIC_USER_NUM				4						//×î´óÂóÊý
+#	define MAX_MIC_USER_NUM				4						//æœ€å¤§éº¦æ•°
 #endif
 
-class StampUserItem           //ÓÃ»§¸ÇÕÂµÄÐÅÏ¢
+class StampUserItem           //ç”¨æˆ·ç›–ç« çš„ä¿¡æ¯
 {
 public:
 	enum
 	{
-		MAX_STAMP_TEXT = 12,									//×î´ó¸ÇÕÂÎÄ×ÖÐÅÏ¢Êý		
+		MAX_STAMP_TEXT = 12,									//æœ€å¤§ç›–ç« æ–‡å­—ä¿¡æ¯æ•°		
 	};
 public:
 	StampUserItem()
@@ -1644,8 +1644,8 @@ public:
 		*this = smpItem;
 	}
 public:
-	uint32 src;				//±íÊ¾ËÍ³ö¸ÇÕÂÇëÇóµÄÈË
-	uint32 dst;				//±íÊ¾±»¸ÇÕÂµÄÈË
+	uint32 src;				//è¡¨ç¤ºé€å‡ºç›–ç« è¯·æ±‚çš„äºº
+	uint32 dst;				//è¡¨ç¤ºè¢«ç›–ç« çš„äºº
 	uint16 stampID;
 	uint32 stampTime;
 	char   stampMsg[MAX_STAMP_TEXT+1];
