@@ -21,7 +21,7 @@
 #include "include/udppacket.h"
 
 #ifndef MAX_ASSIST_USER_NUM
-#	define MAX_ASSIST_USER_NUM				100					//×î´ó¸±ÊÒÊı
+#	define MAX_ASSIST_USER_NUM				100					//æœ€å¤§å‰¯å®¤æ•°
 #endif
 
 #ifndef MAX_AWARD_ITEM_NUM
@@ -61,7 +61,7 @@ public:
 };
 
 
-//ÓÃ»§»áÔ±¼¶±ğ¼°¾ôÎ»µÈ¼¶
+//ç”¨æˆ·ä¼šå‘˜çº§åˆ«åŠçˆµä½ç­‰çº§
 #pragma pack(1)
 typedef union UserLevel
 {
@@ -101,19 +101,19 @@ typedef union PpcViewInfo
 }PpcViewInfo;
 
 
-//·¿¼äÏà¹Ø¿ª¹Ø,ºóÃæ¿ª¹ØÈ«²¿Ê¹ÓÃ´ËÊı¾İ´úÌæ
+//æˆ¿é—´ç›¸å…³å¼€å…³,åé¢å¼€å…³å…¨éƒ¨ä½¿ç”¨æ­¤æ•°æ®ä»£æ›¿
 typedef union RoomCtrl
 {
 	struct
 	{
-		uint64 disablePrivateMic:1;			//Ë½Âó¿ª¹Ø
-		uint64 disableOpenBox:1;			//ÍÚ±¦¿ª¹Ø
-		uint64 disableColorBal:1;			//²ÊÌõ¿ª¹Ø
-		uint64 disableRedpaper:1;			//Ëæ²¥ºì°ü¿ª¹Ø
-		uint64 disableAutoLetao:1;			//ÀÖÌÔ×Ô¶¯ÁìÈ¡¿ª¹Ø
-		uint64 disableAutoGernal:1;			//ÉÌ¼Ò×Ô¶¯ÁìÈ¡¿ª¹Ø
-		uint64 disableDiamonGift:1;			//×êÊ¯ÀñÎï¿ª¹Ø
-		uint64 disableDuoBao:1;				//Ò»Ôª¶á±¦¿ª¹Ø
+		uint64 disablePrivateMic:1;			//ç§éº¦å¼€å…³
+		uint64 disableOpenBox:1;			//æŒ–å®å¼€å…³
+		uint64 disableColorBal:1;			//å½©æ¡å¼€å…³
+		uint64 disableRedpaper:1;			//çº¢åŒ…å¼€å…³
+		uint64 disableAutoLetao:1;			//è‡ªåŠ¨é¢†å–å¼€å…³
+		uint64 disableAutoGernal:1;			//å•†å®¶è‡ªåŠ¨é¢†å–å¼€å…³
+		uint64 disableDiamonGift:1;			//é’»çŸ³ç¤¼ç‰©å¼€å…³
+		uint64 disableDuoBao:1;				//ä¸€å…ƒå¤ºå®å¼€å…³
 	};
 	uint64 value;
 }RoomCtrl;
@@ -134,12 +134,12 @@ typedef union SystempMsgInfo
 {
 	struct
 	{
-		uint16 bEchoPublic:1;	//ÊÇ·ñ¹«ÆÁÏÔÊ¾
-		uint16 bEchoPrive:1;	//ÊÇ·ñË½ÆÁÏÔÊ¾
-		uint16 bWithLink:1;		//ÊÇ·ñĞèÒª¿Í»§¶Ë¸½¼Ó³¬Á´½Ó
-		uint16 bRoomShareInfo:1; //ÊÒÖ÷²éÑ¯·¿¼ä·ÖÏíÈËÊı
-		uint16 bNotEnoughIp:1;//·¿¼äÈËÊı²»×ã£¬ÎŞ·¨ÁìÈ¡ÉÏÂó½±Àø
-		//À©Õ¹
+		uint16 bEchoPublic:1;	//æ˜¯å¦å…¬å±æ˜¾ç¤º
+		uint16 bEchoPrive:1;	//æ˜¯å¦ç§å±æ˜¾ç¤º
+		uint16 bWithLink:1;		//æ˜¯å¦éœ€è¦å®¢æˆ·ç«¯é™„åŠ è¶…é“¾æ¥
+		uint16 bRoomShareInfo:1; //å®¤ä¸»æŸ¥è¯¢æˆ¿é—´åˆ†äº«äººæ•°
+		uint16 bNotEnoughIp:1;//æˆ¿é—´äººæ•°ä¸è¶³ï¼Œæ— æ³•é¢†å–ä¸Šéº¦å¥–åŠ±
+		//æ‰©å±•
 	};
 	SystempMsgInfo()
 	{
@@ -157,7 +157,7 @@ union MicInfo
 {
 	struct
 	{
-		uint16 micIndex:2;		//ÊÇ·ñÓĞÂó,0±íÊ¾Ã»ÓĞ£¬1±íÊ¾ÔÚ1ºÅÂóÉÏ£¬2±íÊ¾ÔÚ2ºÅÂóÉÏ
+		uint16 micIndex:2;		//æ˜¯å¦æœ‰éº¦,0è¡¨ç¤ºæ²¡æœ‰ï¼Œ1è¡¨ç¤ºåœ¨1å·éº¦ä¸Šï¼Œ2è¡¨ç¤ºåœ¨2å·éº¦ä¸Š
 		uint16 maxMicTime:14;
 	};
 	uint16 micInfo;
@@ -174,17 +174,17 @@ public:
 	string nick;
 	uint16 face;
 	uint32 rank;
-	uint8 g_userType;		//È«²¿ÓÃ»§ÀàĞÍ£¨´úÀí¡¢ÏúÊÛ¡¢¿Í·şµÈ£©
-	uint8 flag;		//flagÖ¸Ê¾¸ÃÓÃ»§ÊÇÓĞÂó¿Ë,ÊÇ·ñÓĞÉãÏñÍ·,ÊÇ·ñÔÚ»áÒéÖĞ
+	uint8 g_userType;		//å…¨éƒ¨ç”¨æˆ·ç±»å‹ï¼ˆä»£ç†ã€é”€å”®ã€å®¢æœç­‰ï¼‰
+	uint8 flag;		//flagæŒ‡ç¤ºè¯¥ç”¨æˆ·æ˜¯æœ‰éº¦å…‹,æ˜¯å¦æœ‰æ‘„åƒå¤´,æ˜¯å¦åœ¨ä¼šè®®ä¸­
 	uint8 devType;
-	uint16 forBidTime;			//½ûÑÔÊ£ÓàÊ±¼ä 
-	uint64 money;		//ÓÃ»§×Ê½ğ
-	UserLevel level;		//ÊÇ·ñ»áÔ±
+	uint16 forBidTime;			//ç¦è¨€å‰©ä½™æ—¶é—´ 
+	uint64 money;		//ç”¨æˆ·èµ„é‡‘
+	UserLevel level;		//æ˜¯å¦ä¼šå‘˜
 	uint64 received;
 	MicInfo micInfo;
 
-	Customface customface;//×Ô¶¨ÒåÍ·Ïñ°æ±¾
-	uint8 richerOrder;  //¸»ÎÌÅÅĞĞ, Î´½øÈëÅÅĞĞÔòÎª0, ·ñÔòÎªÏàÓ¦ÅÅĞĞÖµ
+	Customface customface;//è‡ªå®šä¹‰å¤´åƒç‰ˆæœ¬
+	uint8 richerOrder;  //å¯Œç¿æ’è¡Œ, æœªè¿›å…¥æ’è¡Œåˆ™ä¸º0, å¦åˆ™ä¸ºç›¸åº”æ’è¡Œå€¼
 	MemberUnit()
 	{
 		uin = 0;
@@ -241,15 +241,15 @@ struct USER_INFO
 	uint64 money;
 	UserLevel  level;
 	uint64 received;
-	Customface customface;//×Ô¶¨ÒåÍ·Ïñ°æ±¾
-	uint8 richerOrder;  //¸»ÎÌÅÅĞĞ, Î´½øÈëÅÅĞĞÔòÎª0, ·ñÔòÎªÏàÓ¦ÅÅĞĞÖµ
+	Customface customface;//è‡ªå®šä¹‰å¤´åƒç‰ˆæœ¬
+	uint8 richerOrder;  //å¯Œç¿æ’è¡Œ, æœªè¿›å…¥æ’è¡Œåˆ™ä¸º0, å¦åˆ™ä¸ºç›¸åº”æ’è¡Œå€¼
 };
 
-//ÁÄÌìÇøÓÎÏ·
+//èŠå¤©åŒºæ¸¸æˆ
 struct ChatGame
 {
-	uint8 randNum1;	//ÖÀ÷»×ÓËæ»úÊı1
-	uint8 randNum2;	//ÖÀ÷»×ÓËæ»úÊı2
+	uint8 randNum1;	//æ·éª°å­éšæœºæ•°1
+	uint8 randNum2;	//æ·éª°å­éšæœºæ•°2
 	ChatGame()
 	{
 		memset(this, 0, sizeof(ChatGame));
@@ -258,7 +258,7 @@ struct ChatGame
 
 
 
-//ÊÕ·Ñ±íÇé
+//æ”¶è´¹è¡¨æƒ…
 struct ExpressionInfo
 {
 	unsigned int packetid;
@@ -390,14 +390,14 @@ public:
 	{
 		m_bankerMoney = m_iBankerWinScore = uin  = m_wBankerTimes = 0;
 	}
-	uint32		uin;									//×¯¼ÒÕÊºÅ
-	uint8		m_wBankerTimes;							//×ö×¯´ÎÊı
-	int64		m_iBankerWinScore;						//ÀÛ¼Æ³É¼¨
-	uint64		m_bankerMoney;							//µ±Ç°×¯¼Ò±¾½ğ(ÓÃ»§»òÏµÍ³×¯¼Ò)
+	uint32		uin;									//åº„å®¶å¸å·
+	uint8		m_wBankerTimes;							//åšåº„æ¬¡æ•°
+	int64		m_iBankerWinScore;						//ç´¯è®¡æˆç»©
+	uint64		m_bankerMoney;							//å½“å‰åº„å®¶æœ¬é‡‘(ç”¨æˆ·æˆ–ç³»ç»Ÿåº„å®¶)
 };
 
 
-//ÓÎÏ·½áÊø
+//æ¸¸æˆç»“æŸ
 class ppcGameEndInfo
 {
 public:
@@ -419,25 +419,25 @@ public:
 	}
 	bool							m_bSucess;
 	bool							m_bWin;
-	uint8							nBankerTime;						//×ö×¯´ÎÊı
-	uint16							cbGoalAnimal;						//±¾´ÎÍ£Ö¹µÄÎ»ÖÃ
+	uint8							nBankerTime;						//åšåº„æ¬¡æ•°
+	uint16							cbGoalAnimal;						//æœ¬æ¬¡åœæ­¢çš„ä½ç½®
 	uint32							m_lExperience;
 	uint32							m_rounds;
-	uint64							iBankerScore;						//×¯¼Ò³É¼¨
-	uint64							iBankerTotallScore;					//×¯¼Ò³É¼¨
-	uint64							iUserScore;							//Íæ¼Ò³É¼¨
-	uint64							iRevenue;							//ÓÎÏ·Ë°ÊÕ
+	uint64							iBankerScore;						//åº„å®¶æˆç»©
+	uint64							iBankerTotallScore;					//åº„å®¶æˆç»©
+	uint64							iUserScore;							//ç©å®¶æˆç»©
+	uint64							iRevenue;							//æ¸¸æˆç¨æ”¶
 	uint64							m_money;
 
 	
 };
 /*
-*	ÒÔÏÂÊÇ¶¨Òå½«À´Í³Ò»´¦ÀíÓÃ, ½øĞĞ·¿¼äÕûÀí
+*	ä»¥ä¸‹æ˜¯å®šä¹‰å°†æ¥ç»Ÿä¸€å¤„ç†ç”¨, è¿›è¡Œæˆ¿é—´æ•´ç†
 */
 
 
 
-//Èº³ÉÔ±Àà
+//ç¾¤æˆå‘˜ç±»
 class RMUin 
 {
 public:
@@ -545,46 +545,46 @@ public:
 		memset(regionAssistant, 0, sizeof(regionAssistant));
 		micMode			= CRoomMicMode::GENERAL_MODE;
 	}
-	const uint32 fid;											//·¿¼äºÅ
-	uint32 ownuin;												//ÊÒÖ÷£É£Ä
-	uint32 assistant[MAX_ASSIST_USER_NUM];						//¸±ÊÒÖ÷
+	const uint32 fid;											//æˆ¿é—´å·
+	uint32 ownuin;												//å®¤ä¸»ï¼©ï¼¤
+	uint32 assistant[MAX_ASSIST_USER_NUM];						//å‰¯å®¤ä¸»
 
-	uint32 kindid;												//·¿¼äËùÊô·ÖÀàID
+	uint32 kindid;												//æˆ¿é—´æ‰€å±åˆ†ç±»ID
 
 
-	uint8 roomtax;												//Ë°ÊÕĞÔÖÊ
+	uint8 roomtax;												//ç¨æ”¶æ€§è´¨
 	uint16 roomtype;											//
-	string roomName;											//·¿¼äÃû
-	string descript;											//·¿¼äÃèÊö
+	string roomName;											//æˆ¿é—´å
+	string descript;											//æˆ¿é—´æè¿°
 	string broadcast;
-	uint8 ispublic;												//ÊÇ·ñÊÇ¹«¿ª·¿¼ä
-	uint8 openstatus;											//·¿¼ä×´Ì¬
-	uint8 chatStatus;											//·¿¼äÎÄ×ÖÁÄÌì×´Ì¬
+	uint8 ispublic;												//æ˜¯å¦æ˜¯å…¬å¼€æˆ¿é—´
+	uint8 openstatus;											//æˆ¿é—´çŠ¶æ€
+	uint8 chatStatus;											//æˆ¿é—´æ–‡å­—èŠå¤©çŠ¶æ€
 
-	uint8 auth;													//·¿¼ä½øÈëÏŞÖÆ
-	uint16 maxmic;												//ÂóÊı
-	uint16 roomsize;											//·¿¼ä×î´óÈËÊı
-	uint16 maxMicQueue;											//×î´óÅÅÂó¶ÔÁĞ
-	uint8 maxMicQPerUser;										//×î´ó¸öÈËÅÅÂóÊı
-	uint16 maxManager;											//×î´ó¹ÜÀíÔ±ÈËÊı
-	UinMap roomMgr;												//·¿¼ä¹ÜÀíÔ±
+	uint8 auth;													//æˆ¿é—´è¿›å…¥é™åˆ¶
+	uint16 maxmic;												//éº¦æ•°
+	uint16 roomsize;											//æˆ¿é—´æœ€å¤§äººæ•°
+	uint16 maxMicQueue;											//æœ€å¤§æ’éº¦å¯¹åˆ—
+	uint8 maxMicQPerUser;										//æœ€å¤§ä¸ªäººæ’éº¦æ•°
+	uint16 maxManager;											//æœ€å¤§ç®¡ç†å‘˜äººæ•°
+	UinMap roomMgr;												//æˆ¿é—´ç®¡ç†å‘˜
 
-	uint8	idctype;											//·¿¼äÍ¨Ñ¶ÀàĞÍ
-	uint8	uSupportGts;										//ÊÇ·ñÖ§³ÖÊÓÆµ×ª·¢
-	MediaSvrList mediaSvrs;										//ÒôÊÓÆµ×ª·¢·şÎñÆ÷
+	uint8	idctype;											//æˆ¿é—´é€šè®¯ç±»å‹
+	uint8	uSupportGts;										//æ˜¯å¦æ”¯æŒè§†é¢‘è½¬å‘
+	MediaSvrList mediaSvrs;										//éŸ³è§†é¢‘è½¬å‘æœåŠ¡å™¨
 	uint8	pubText;
 
-	string  password;											//½ø·¿¼äÃÜÂë
-	uint16	micMaxTime;											//×î´óÂóÊ±Ê±¼ä
-	uint8	autoMgrForRicher;									//¸»ÎÌ×Ô¶¯Îª´¦ÀíÔ±
-	uint32	regionMaster;										//Çø¹Ü
-	uint32	regionAssistant[MAX_ASSIST_USER_NUM];				//¸±Çø¹Ü
-	uint8	enableColorBar;										//ÊÇ·ñÔÊĞí·¿¼ä²ÊÌõ
-	uint8 showEnterPic;											//ÏÔÊ¾½ø·¿¼äĞÅÏ¢
+	string  password;											//è¿›æˆ¿é—´å¯†ç 
+	uint16	micMaxTime;											//æœ€å¤§éº¦æ—¶æ—¶é—´
+	uint8	autoMgrForRicher;									//å¯Œç¿è‡ªåŠ¨ä¸ºå¤„ç†å‘˜
+	uint32	regionMaster;										//åŒºç®¡
+	uint32	regionAssistant[MAX_ASSIST_USER_NUM];				//å‰¯åŒºç®¡
+	uint8	enableColorBar;										//æ˜¯å¦å…è®¸æˆ¿é—´å½©æ¡
+	uint8 showEnterPic;											//æ˜¾ç¤ºè¿›æˆ¿é—´ä¿¡æ¯
 
-	uint32 serverid;											//·şÎñ£É£Ä
-	string prgName;												//¿Í»§¶Ë³ÌĞòÃû
-	uint8	micMode;											//ÊÇ·ñÔÊĞí·¿¼ä²ÊÌõ
+	uint32 serverid;											//æœåŠ¡ï¼©ï¼¤
+	string prgName;												//å®¢æˆ·ç«¯ç¨‹åºå
+	uint8	micMode;											//æ˜¯å¦å…è®¸æˆ¿é—´å½©æ¡
 
 	std::string BuildXml()
 	{
@@ -757,7 +757,7 @@ struct ROOM_INFO
 	uint8 member;
 	uint32	manager;
 	uint16	flag;
-	uint32	validcode;						//·¿¼äÑéÖ¤Âë
+	uint32	validcode;						//æˆ¿é—´éªŒè¯ç 
 	uint32  ownuin;
 	uint8	permitknock;
 	uint8	idauth;
@@ -774,9 +774,9 @@ struct ROOM_STATUS
 	uint16 videoPort;
 	uint16 flag;
 	uint8  mediaflag ;
-	uint8  audioquality ;						//ÒôÆµÖÊÁ¿
-	uint8  videoquality ;						//ÊÓÆµÖÊÁ¿
-	uint8  estatus;                             //i-space×´Ì¬ÍØÕ¹ add by xnh 20050307
+	uint8  audioquality ;						//éŸ³é¢‘è´¨é‡
+	uint8  videoquality ;						//è§†é¢‘è´¨é‡
+	uint8  estatus;                             //i-spaceçŠ¶æ€æ‹“å±• add by xnh 20050307
 	uint16 max_manager_num;
 	uint16 max_member_num;
 	uint16 max_deny_num;
@@ -791,7 +791,7 @@ public:
 	uint32 mediaSvrIP;
 	uint32 sendLostPacketCount;
 
-	uint8 localrecvlost;//±¾µØ½ÓÊÕÕßÊÕ°üÂÊ
+	uint8 localrecvlost;//æœ¬åœ°æ¥æ”¶è€…æ”¶åŒ…ç‡
 	MicerMediaStatusItem()
 	{
 		this->lost = 0;
@@ -833,7 +833,7 @@ public:
 		memset(itemCount, 0, sizeof(itemCount));
 	}
 
-	uint32 lastRoundID;											//×îºóÒ»¾ÖºÅ
+	uint32 lastRoundID;											//æœ€åä¸€å±€å·
 
 	uint16 itemCount[MAX_AWARD_ITEM_NUM];
 
@@ -1072,16 +1072,16 @@ typedef enum
 	STAFF_INDEX,
 	SINGER_INDEX,
 	AGENT_INDEX,
-	COMPERE_INDEX,									//³¬¼¶Ö÷³Ö
-	COMPEREMAN_INDEX,				//MCÄĞÖ÷³Ö
-	PATROL_INDEX,					//Ñ²²é
-	OPERATION_INDEX,					//ÔËÓª
-	BABY1_INDEX,						//±¦±´1
-	BABY2_INDEX,						//±¦±´2
-	BABY3_INDEX,						//±¦±´3
-	BABY4_INDEX,						//±¦±´4
-	BABY5_INDEX,						//±¦±´5
-	BABY6_INDEX,						//±¦±´6
+	COMPERE_INDEX,									//è¶…çº§ä¸»æŒ
+	COMPEREMAN_INDEX,				//MCç”·ä¸»æŒ
+	PATROL_INDEX,					//å·¡æŸ¥
+	OPERATION_INDEX,					//è¿è¥
+	BABY1_INDEX,						//å®è´1
+	BABY2_INDEX,						//å®è´2
+	BABY3_INDEX,						//å®è´3
+	BABY4_INDEX,						//å®è´4
+	BABY5_INDEX,						//å®è´5
+	BABY6_INDEX,						//å®è´6
 	INDEX_LIMIT,
 }EnterIndex;
 
@@ -1417,8 +1417,8 @@ public:
 			return "";
 	}
 private:
-	uint8 beenManager[CChatRankList::RANK_ROOM_LIMIT];										//ÊÇ·ñ¾ß±¸¹ÜÀí×Ê¸ñ
-	uint8 ranksetting[CChatRankList::RANK_ROOM_LIMIT][CChatRankList::RANK_ROOM_LIMIT];		//ÏàÓ¦µÄ¹ÜÀíÈ¨ÏŞ
+	uint8 beenManager[CChatRankList::RANK_ROOM_LIMIT];										//æ˜¯å¦å…·å¤‡ç®¡ç†èµ„æ ¼
+	uint8 ranksetting[CChatRankList::RANK_ROOM_LIMIT][CChatRankList::RANK_ROOM_LIMIT];		//ç›¸åº”çš„ç®¡ç†æƒé™
 	string srcAclStr[CChatRankList::RANK_ROOM_LIMIT];
 	GlobalMsgInfo globalMsg[CChatRankList::RANK_ROOM_LIMIT];
 	uint32 maxTimes[CChatRankList::RANK_ROOM_LIMIT];
@@ -1603,7 +1603,7 @@ private:
 				return;
 			}
 		}
-		//ÆÕÍ¨ÓÃ»§
+		//æ™®é€šç”¨æˆ·
 		srcRank[CChatRankList::RANK_GENERAL] = 1;
 
 	}
@@ -1732,8 +1732,8 @@ public:
 			return "";
 	}
 private:
-	uint8 beenManager[CChatRankListVip::RANK_ROOM_LIMIT];										//ÊÇ·ñ¾ß±¸¹ÜÀí×Ê¸ñ
-	uint8 ranksetting[CChatRankListVip::RANK_ROOM_LIMIT][CChatRankListVip::RANK_ROOM_LIMIT];		//ÏàÓ¦µÄ¹ÜÀíÈ¨ÏŞ
+	uint8 beenManager[CChatRankListVip::RANK_ROOM_LIMIT];										//æ˜¯å¦å…·å¤‡ç®¡ç†èµ„æ ¼
+	uint8 ranksetting[CChatRankListVip::RANK_ROOM_LIMIT][CChatRankListVip::RANK_ROOM_LIMIT];		//ç›¸åº”çš„ç®¡ç†æƒé™
 	string srcAclStr[CChatRankListVip::RANK_ROOM_LIMIT];
 	GlobalMsgInfo globalMsg[CChatRankList::RANK_ROOM_LIMIT];
 
@@ -1884,7 +1884,7 @@ private:
 				return;
 			}
 		}
-		//ÆÕÍ¨ÓÃ»§
+		//æ™®é€šç”¨æˆ·
 		srcRank[CChatRankListVip::RANK_GENERAL] = 1;
 
 	}
@@ -1895,8 +1895,8 @@ private:
 
 typedef struct PrizeItem
 {
-	uint32 upValue;												//ÖĞ½±±¶Êı
-	uint32 num;													//ÖĞ½±±¶Êı¶ÔÓ¦ÊıÁ¿
+	uint32 upValue;												//ä¸­å¥–å€æ•°
+	uint32 num;													//ä¸­å¥–å€æ•°å¯¹åº”æ•°é‡
 }PrizeItem;
 
 
@@ -1917,7 +1917,7 @@ public:
 		srand((unsigned int)time(NULL) * (unsigned int)time(NULL));
 	}
 
-	//ÉèÖÃÖĞ½±±¶Êı(½ğ¶î)¼°¸öÊı
+	//è®¾ç½®ä¸­å¥–å€æ•°(é‡‘é¢)åŠä¸ªæ•°
 	void SetNewSeed(uint32 upValue, uint16 number)
 	{
 		UinMap32::iterator it = prizeSeed.find(upValue);
@@ -1960,7 +1960,7 @@ public:
 		if (seedValue == 0)
 			return 0;
 
-		if (upSeed > 400)//µ÷ÕûÔö´óÉÏÏŞ
+		if (upSeed > 400)//è°ƒæ•´å¢å¤§ä¸Šé™
 			upSeed = 400;
 
 		InitRatioList();
@@ -2036,9 +2036,9 @@ private:
 
 struct GiftItemBase
 {
-	uint32	giftID;												//ÀñÎïid
-	uint64	price;												//¼Û¸ñ
-	uint8	giftKind;											//ÊÇ·ñÊÇĞÒÔËÀñÎï,0ÆÕÍ¨ÀñÎï,1ĞÒÔËÀñÎï,2µã¸èÀñÎï
+	uint32	giftID;												//ç¤¼ç‰©id
+	uint64	price;												//ä»·æ ¼
+	uint8	giftKind;											//æ˜¯å¦æ˜¯å¹¸è¿ç¤¼ç‰©,0æ™®é€šç¤¼ç‰©,1å¹¸è¿ç¤¼ç‰©,2ç‚¹æ­Œç¤¼ç‰©
 	uint8	status;
 };
 
@@ -2064,38 +2064,38 @@ public:
 			|| giftUrl != u.giftUrl || status != u.status || giftRate != u.giftRate|| 
 			compRate != u.compRate ||hostRate!=u.hostRate || sendExp != u.sendExp || recvExp != u.recvExp);
 	}
-	uint32	giftID;												//ÀñÎïid
-	uint64	price;												//¼Û¸ñ
-	uint8	giftKind;											//ÊÇ·ñÊÇĞÒÔËÀñÎï,0ÆÕÍ¨ÀñÎï,1ĞÒÔËÀñÎï,2µã¸èÀñÎï
-	string	giftName;											//ÀñÎïÃû³Æ
-	string	giftUrl;											//ÀñÎïÍ¼Æ¬µØÖ·
-	uint8	status;												//ÊÇ·ñÆôÓÃ
-	uint32	giftRate;											//ÊÕÀñËùµÃ±ÈÀı
-	uint32  hostRate;											//ÊÒÖ÷±ÈÀı
-	uint32  compRate;											//¹«Ë¾±ÈÀı
-	uint32  sendExp;											//ËÍÀñ¾­Ñé
-	uint32	recvExp;											//ÊÕÀñ¾­Ñé
+	uint32	giftID;												//ç¤¼ç‰©id
+	uint64	price;												//ä»·æ ¼
+	uint8	giftKind;											//æ˜¯å¦æ˜¯å¹¸è¿ç¤¼ç‰©,0æ™®é€šç¤¼ç‰©,1å¹¸è¿ç¤¼ç‰©,2ç‚¹æ­Œç¤¼ç‰©
+	string	giftName;											//ç¤¼ç‰©åç§°
+	string	giftUrl;											//ç¤¼ç‰©å›¾ç‰‡åœ°å€
+	uint8	status;												//æ˜¯å¦å¯ç”¨
+	uint32	giftRate;											//æ”¶ç¤¼æ‰€å¾—æ¯”ä¾‹
+	uint32  hostRate;											//å®¤ä¸»æ¯”ä¾‹
+	uint32  compRate;											//å…¬å¸æ¯”ä¾‹
+	uint32  sendExp;											//é€ç¤¼ç»éªŒ
+	uint32	recvExp;											//æ”¶ç¤¼ç»éªŒ
 };
 class RedPaperInfo
 {
 public:
 	RedPaperInfo()
 	{
-		redPaperId	= 0;												//ºì°üID
-		uin			= 0;														//ºì°ü·¢·ÅÕß	
-		money		= 0;													//×ÜÇ®Êı
-		totalNum	= 0;												//ºì°ü×ÜÊı
-		endTime		= 0;												//·¢·ÅÊ±¼ä
+		redPaperId	= 0;												//çº¢åŒ…ID
+		uin			= 0;														//çº¢åŒ…å‘æ”¾è€…	
+		money		= 0;													//æ€»é’±æ•°
+		totalNum	= 0;												//çº¢åŒ…æ€»æ•°
+		endTime		= 0;												//å‘æ”¾æ—¶é—´
 		msg			= "";
 		srcNick		= "";
 		srcFace		= 0;
 	}	
-	uint32 redPaperId;												//ºì°üID
-	uint32 uin;														//ºì°ü·¢·ÅÕß	
-	uint64 money;													//×ÜÇ®Êı
-	int  totalNum;												//ºì°ü×ÜÊı
-	time_t endTime;												//·¢·ÅÊ±¼ä
-	string msg;														//ÎÊºòÓï
+	uint32 redPaperId;												//çº¢åŒ…ID
+	uint32 uin;														//çº¢åŒ…å‘æ”¾è€…	
+	uint64 money;													//æ€»é’±æ•°
+	int  totalNum;												//çº¢åŒ…æ€»æ•°
+	time_t endTime;												//å‘æ”¾æ—¶é—´
+	string msg;														//é—®å€™è¯­
 	string srcNick;
 	uint16 srcFace;
 };
@@ -2107,7 +2107,7 @@ public:
 		stamp_price = p;
 	}
 	uint32 stamp_id;	
-	uint32 stamp_time;											//¸ÇÕÂµÄÓĞĞ§Ê±¼ä£¬µ¥Î»·ÖÖÓ
+	uint32 stamp_time;											//ç›–ç« çš„æœ‰æ•ˆæ—¶é—´ï¼Œå•ä½åˆ†é’Ÿ
 	uint32 stamp_price;
 	string stampMsg;
 	uint32 srcuin;
@@ -2199,10 +2199,10 @@ union Rebate
 	}
 	struct
 	{
-		uint8	m_normal_rebateRatio;									//ÆÕÍ¨ÀñÎïÕ¾ÄÚ·µµã
-		uint8	m_prize_rebate_ratio;									//ĞÒÔËÀñÎïÕ¾ÄÚ·µµã
+		uint8	m_normal_rebateRatio;									//æ™®é€šç¤¼ç‰©ç«™å†…è¿”ç‚¹
+		uint8	m_prize_rebate_ratio;									//å¹¸è¿ç¤¼ç‰©ç«™å†…è¿”ç‚¹
 	};
-	uint16 m_rebate;													//Õ¾ÄÚ·µµã
+	uint16 m_rebate;													//ç«™å†…è¿”ç‚¹
 };
 #pragma pack()
 
